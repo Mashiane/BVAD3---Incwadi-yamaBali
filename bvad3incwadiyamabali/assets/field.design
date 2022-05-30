@@ -1,7 +1,7 @@
 #DesignerProperty: Key: ProjectName, DisplayName: Project Name, FieldType: String, DefaultValue: , Description: Project Name
 #DesignerProperty: Key: ModelName, DisplayName: Model Name, FieldType: String, DefaultValue: , Description: Model Name
 #DesignerProperty: Key: Title, DisplayName: Title / Caption, FieldType: String, DefaultValue: , Description: Title / Label
-#DesignerProperty: Key: DataType, DisplayName: Data Type, FieldType: String, DefaultValue: string, Description: Data Type, List: blob|double|integer|string|lookup
+#DesignerProperty: Key: DataType, DisplayName: Data Type, FieldType: String, DefaultValue: string, Description: Data Type, List: blob|double|integer|string
 #DesignerProperty: Key: MaxLen, DisplayName: Length, FieldType: Int, DefaultValue: 0, Description: Counter / Length
 #DesignerProperty: Key: DefaultValue1, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: What is the default value for this field
 #DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key, FieldType: Boolean, DefaultValue: False, Description: This field is a primary key
