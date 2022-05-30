@@ -22,11 +22,13 @@
 #DesignerProperty: Key: NameField, DisplayName: Avatar Field Name*, FieldType: String, DefaultValue: , Description: Secondary Field Name on the database table to source the name of this avatar name field
 #DesignerProperty: Key: ColorField, DisplayName: Color Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table to source the color of this field
 #DesignerProperty: Key: Placeholder, DisplayName: Place Holder, FieldType: String, DefaultValue: , Description: Place holder
+#DesignerProperty: Key: LookUp, DisplayName: LookUp, FieldType: Boolean, DefaultValue: False, Description: The content on this field is looked up from another table
 #DesignerProperty: Key: DataSource, DisplayName: Foreign Table Name, FieldType: String, DefaultValue: , Description: Foreign Table to relate field to
 #DesignerProperty: Key: DataSourceAlias, DisplayName: Foreign Table Alias, FieldType: String, DefaultValue: , Description: Foreign Table alias to relate field to
 #DesignerProperty: Key: DataKey, DisplayName: Foreign (Key) Field, FieldType: String, DefaultValue: , Description: Foreign Key Field (Underlyng key)
 #DesignerProperty: Key: DataValue, DisplayName: Foreign (Value) Field, FieldType: String, DefaultValue: , Description: Foreign Value Field (Display)
 #DesignerProperty: Key: DataColor, DisplayName: Foreign (Color) Field, FieldType: String, DefaultValue: , Description: Foreign Color Field (Display)
+#DesignerProperty: Key: DataAvatar, DisplayName: Foreign (Avatar) Field, FieldType: String, DefaultValue: , Description: Foreign Avatar Field (Display)
 #DesignerProperty: Key: DisplayAs, DisplayName: Alias As*, FieldType: String, DefaultValue: , Description: Field Name to use from SQL statement from a JOIN on Foreign Table
 #DesignerProperty: Key: JoinType, DisplayName: Join Type*, FieldType: String, DefaultValue: none, Description: The type of join to execute, List: none|inner|left|right|full
 #DesignerProperty: Key: ItemValue, DisplayName: Item Value (Auto/Combo/Select), FieldType: String, DefaultValue: id, Description: Item Value for Drop Downs

@@ -1523,6 +1523,9 @@ function SQLiteImportBulk($dbname,$data) {
 	function BuildApp ($path) { 
 		echo shell_exec($path." 2>&1"); 
 	} 
+	function openFile ($path) { 
+		echo shell_exec(realpath($path)); 
+	} 
 	 
 	function RunJar ($path) { 
 	    echo shell_exec($path." 2>&1"); 
