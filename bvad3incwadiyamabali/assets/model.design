@@ -1,0 +1,51 @@
+#DesignerProperty: Key: ProjectName, DisplayName: Project Name*, FieldType: String, DefaultValue: project1, Description: The name of the project this model belongs to
+#DesignerProperty: Key: Alias, DisplayName: Alias*, FieldType: String, DefaultValue: , Description: Alias of the table for SQL statement
+#DesignerProperty: Key: Singular, DisplayName: Singular*, FieldType: String, DefaultValue: , Description: Singular Name of single Record in the table e.g. category
+#DesignerProperty: Key: Plural, DisplayName: Plural*, FieldType: String, DefaultValue: , Description: Plural Name of many Records in the table e.g. categories
+#DesignerProperty: Key: StartPage, DisplayName: Start Page, FieldType: Boolean, DefaultValue: False, Description: This page is the start page
+#DesignerProperty: Key: LoadOnMount, DisplayName: Load On Mount, FieldType: Boolean, DefaultValue: True, Description: Records should be loaded on mounted
+#DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key Field*, FieldType: String, DefaultValue: , Description: The name of the primary key field in the table
+#DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment Field, FieldType: String, DefaultValue: , Description: The name of the auto increment field in the table
+#DesignerProperty: Key: DisplayField, DisplayName: Delete Display Field*, FieldType: String, DefaultValue: , Description: The name of the field to display to confirm deletes
+#DesignerProperty: Key: BindState, DisplayName: Bind State, FieldType: Boolean, DefaultValue: False, Description: Execute Bind State on form
+#DesignerProperty: Key: BindDataSource, DisplayName: Bind Data Source, FieldType: Boolean, DefaultValue: False, Description: Execute Bind Data Source
+#DesignerProperty: Key: BindDataTable, DisplayName: Bind Data Table, FieldType: Boolean, DefaultValue: False, Description: Execute Bind Data Table
+#DesignerProperty: Key: UseForLogin, DisplayName: Use For Login, FieldType: Boolean, DefaultValue: False, Description: This model will be used for login purposes
+#DesignerProperty: Key: UserNameField, DisplayName: User Name Field, FieldType: String, DefaultValue: username, Description: The name of the user name field
+#DesignerProperty: Key: PasswordField, DisplayName: Password Field, FieldType: String, DefaultValue: password, Description: The name of the password field
+#DesignerProperty: Key: Clearable, DisplayName: Elements Clearable, FieldType: Boolean, DefaultValue: False, Description: Controls should be clearable
+#DesignerProperty: Key: Dense, DisplayName: Elements Dense, FieldType: Boolean, DefaultValue: False, Description: Controls should be dense
+#DesignerProperty: Key: HideDetails, DisplayName: Elements Hide Details, FieldType: Boolean, DefaultValue: False, Description: Controls should hide details
+#DesignerProperty: Key: Filled, DisplayName: Elements Filled, FieldType: Boolean, DefaultValue: False, Description: Controls should be filled
+#DesignerProperty: Key: Outlined, DisplayName: Elements Outlined, FieldType: Boolean, DefaultValue: False, Description: Controls should be outlined
+#DesignerProperty: Key: Rounded, DisplayName: Elements Rounded, FieldType: Boolean, DefaultValue: False, Description: Controls should be rounded
+#DesignerProperty: Key: Shaped, DisplayName: Elements Shaped, FieldType: Boolean, DefaultValue: False, Description: Controls should be shaped
+#DesignerProperty: Key: ButtonsOutlined, DisplayName: Buttons / Chip Outlined, FieldType: Boolean, DefaultValue:  False, Description: Buttons on toolbar and action buttons should be outlined
+#DesignerProperty: Key: ButtonElevation, DisplayName: Button / Chip Elevation, FieldType: String, DefaultValue:  4, Description: Button & Chip Elevation
+#DesignerProperty: Key: ButtonSize, DisplayName: Button/Chip Size, FieldType: String, DefaultValue: small, Description: Button Size, List: large|normal|small|x-large|x-small
+#DesignerProperty: Key: HasSpacer, DisplayName: Spacer after Title, FieldType: Boolean, DefaultValue:  True, Description: Add spacer after title
+#DesignerProperty: Key: HasSearch, DisplayName: Search Text Box, FieldType: Boolean, DefaultValue:  True, Description: Has a search input box
+#DesignerProperty: Key: SearchSolo, DisplayName: Search Solo, FieldType: Boolean, DefaultValue:  True, Description: Search box is Solo
+#DesignerProperty: Key: SearchRounded, DisplayName: Search Rounded, FieldType: Boolean, DefaultValue:  True, Description: Search box is Rounded
+#DesignerProperty: Key: SearchDense, DisplayName: Search Dense, FieldType: Boolean, DefaultValue:  True, Description: Search box is Dense
+#DesignerProperty: Key: SearchShrink, DisplayName: Search Shrink, FieldType: Boolean, DefaultValue:  True, Description: Search box is shrinked (small)
+#DesignerProperty: Key: HasAddnew, DisplayName: Add New (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show Add new on toolbar. Fired event is 'add_click'
+#DesignerProperty: Key: HasClearSort, DisplayName: Clear Sort (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show clear sort on toolbar. Fired event is 'clearsort_click'
+#DesignerProperty: Key: ClearFilterButton, DisplayName: Clear Filter (ToolBar) , FieldType: Boolean, DefaultValue: False, Description: Show the clear filter for columns. Fired event is 'clearfilter_click' to apply filters and 'filter_click' to apply filters
+#DesignerProperty: Key: HasFilter, DisplayName: Has Filter, FieldType: Boolean, DefaultValue: False, Description: Add filter for columns. Fired event is 'clearfilter_click' to clear filters and 'filter_click' to apply filters
+#DesignerProperty: Key: FilterVisible, DisplayName: Filter Visible, FieldType: Boolean, DefaultValue: False, Description: Show filter for columns
+#DesignerProperty: Key: HasGroupBy, DisplayName: Has Group By, FieldType: Boolean, DefaultValue:  False, Description: Has group by functionality
+#DesignerProperty: Key: GroupByVisible, DisplayName: Group By Visible, FieldType: Boolean, DefaultValue:  False, Description: Group by visibility
+#DesignerProperty: Key: HasPdf, DisplayName: Pdf Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show pdf button on toolbar. Raised event is 'pdf_click' also use 'pdfdownload'
+#DesignerProperty: Key: HasExcel, DisplayName: Excel Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show excel on toolbar. Raised event is 'excel_click' and also use 'exceldownload'
+#DesignerProperty: Key: HasCSV, DisplayName: CSV Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show csv on toolbar. Raised event is 'csv_click'.
+#DesignerProperty: Key: HasRefresh, DisplayName: Refresh (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show refresh on toolbar. Raised event is 'refresh_click'
+#DesignerProperty: Key: HasBack, DisplayName: Back (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show back button on toolbar. Raised event is 'back_click'
+#DesignerProperty: Key: HasEdit, DisplayName: Edit Action, FieldType: Boolean, DefaultValue: True, Description: Has Edit Column. Raised event is 'edit(item As Map)'
+#DesignerProperty: Key: HasDelete, DisplayName: Delete Action, FieldType: Boolean, DefaultValue: True, Description: Has Delete Column. Raised event is 'delete(item As Map)'
+#DesignerProperty: Key: HasMenu, DisplayName: Menu Action, FieldType: Boolean, DefaultValue: False, Description: Has Menu Column. Raised event is 'menu(item As Map)'
+#DesignerProperty: Key: MenuColor, DisplayName: Menu Color, FieldType: String, DefaultValue: indigo, Description: The color of the button on the column, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: MenuKeys, DisplayName: Menu Keys (;), FieldType: String, DefaultValue:  edit; delete; clone; print; save; cancel; download, Description: Menu Keys. The event is [Menu]
+#DesignerProperty: Key: MenuIcons, DisplayName: Menu Icons (;), FieldType: String, DefaultValue:  mdi-pencil; mdi-delete; mdi-content-copy; mdi-printer; mdi-content-save; mdi-cancel; mdi-download, Description: Menu Icons
+#DesignerProperty: Key: MenuColors, DisplayName: Menu Colors (;), FieldType: String, DefaultValue:  green; red; amber; blue; blue-grey; brown; cyan, Description: Menu Colors
+#DesignerProperty: Key: MenuTitles, DisplayName: Menu Titles (;), FieldType: String, DefaultValue:  Edit; Delete; Clone; Print; Save; Cancel; Download, Description: Menu Titles

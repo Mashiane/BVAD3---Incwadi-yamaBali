@@ -1,0 +1,18 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Size, DisplayName: Transition, FieldType: String, DefaultValue: v-slide-x-transition, Description: Transition, List: transition|transition-group|v-expand-transition|v-fab-transition|v-fade-transition|v-scale-transition|v-scroll-x-reverse-transition|v-scroll-x-transition|v-scroll-y-reverse-transition|v-scroll-y-transition|v-slide-x-reverse-transition|v-slide-x-transition|v-slide-y-reverse-transition|v-slide-y-transition
+#DesignerProperty: Key: TransitionName, DisplayName: Transition Name, FieldType: String, DefaultValue: , Description: Transition Name
+#DesignerProperty: Key: Appear, DisplayName: Appear, FieldType: Boolean, DefaultValue: false, Description: Appear
+#DesignerProperty: Key: Group, DisplayName: Group, FieldType: Boolean, DefaultValue: false, Description: Group
+#DesignerProperty: Key: HideOnLeave, DisplayName: HideOnLeave, FieldType: Boolean, DefaultValue: false, Description: HideOnLeave
+#DesignerProperty: Key: LeaveAbsolute, DisplayName: LeaveAbsolute, FieldType: Boolean, DefaultValue: false, Description: LeaveAbsolute
+#DesignerProperty: Key: Mode, DisplayName: Mode, FieldType: String, DefaultValue: , Description: Mode, List: in-out|none|out-in
+#DesignerProperty: Key: Origin, DisplayName: Origin, FieldType: String, DefaultValue: , Description: Origin
+#DesignerProperty: Key: EnterActiveClass, DisplayName: Enter Active Class, FieldType: String, DefaultValue: , Description: Enteractiveclass
+#DesignerProperty: Key: EnterClass, DisplayName: Enter Class, FieldType: String, DefaultValue: , Description: Enterclass
+#DesignerProperty: Key: EnterToClass, DisplayName: Enter To Class, FieldType: String, DefaultValue: , Description: Entertoclass
+#DesignerProperty: Key: LeaveActiveClass, DisplayName: Leave Active Class, FieldType: String, DefaultValue: , Description: Leaveactiveclass
+#DesignerProperty: Key: LeaveClass, DisplayName: Leave Class, FieldType: String, DefaultValue: , Description: Leaveclass
+#DesignerProperty: Key: LeaveToClass, DisplayName: Leave To Class, FieldType: String, DefaultValue: , Description: Leavetoclass
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =

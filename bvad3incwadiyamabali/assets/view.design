@@ -1,0 +1,8 @@
+#DesignerProperty: Key: ProjectName, DisplayName: Project Name, FieldType: String, DefaultValue: , Description: The name of the project this page belongs to
+#DesignerProperty: Key: PageTitle, DisplayName: Page Title, FieldType: String, DefaultValue: This page does ABC, Description: The title of this page
+#DesignerProperty: Key: PageIcon, DisplayName: Page Icon Name, FieldType: String, DefaultValue: , Description: The icon associated with this page
+#DesignerProperty: Key: PageIconColor, DisplayName: Page Icon Color, FieldType: String, DefaultValue: , Description: The icon color associated with this page, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: StartPage, DisplayName: Start Page, FieldType: Boolean, DefaultValue: False, Description: This page is the start page
+#DesignerProperty: Key: TableName, DisplayName: Table Name, FieldType: String, DefaultValue: , Description: The name of the table for items on table
+#DesignerProperty: Key: LoadOnMount, DisplayName: Load Records On Mount, FieldType: Boolean, DefaultValue: True, Description: Records should be loaded on mounted
+#DesignerProperty: Key: ParentPage, DisplayName: Parent Page, FieldType: String, DefaultValue: , Description: The parent page for this page for drawer tree, List: parentpage

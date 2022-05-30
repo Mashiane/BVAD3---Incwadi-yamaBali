@@ -1,0 +1,15 @@
+#DesignerProperty: Key: ProjectTitle, DisplayName: Project Title, FieldType: String, DefaultValue: This project does ABC, Description: The title of this project
+#DesignerProperty: Key: UsesAuthentication, DisplayName: UsesAuthentication, FieldType: Boolean, DefaultValue: false, Description: Uses Authentication and has login page
+#DesignerProperty: Key: UsesEncryption, DisplayName: Uses Encrytion, FieldType: Boolean, DefaultValue: False, Description: Set this to True if encrypting to or from server
+#DesignerProperty: Key: EncryptTo, DisplayName: Encrypt To, FieldType: Boolean, DefaultValue: False, Description: Encrypt content to Server
+#DesignerProperty: Key: EncryptFrom, DisplayName: Encrypt From, FieldType: Boolean, DefaultValue: False, Description: Encrypt content from Server
+#DesignerProperty: Key: ShowLog, DisplayName: Show Logs, FieldType: Boolean, DefaultValue: False, Description: Show Logs
+#DesignerProperty: Key: UsePDF, DisplayName: Use PDF, FieldType: Boolean, DefaultValue: True, Description: Use PDF to export to PDF
+#DesignerProperty: Key: DatabaseType, DisplayName: Database Type*, FieldType: String, DefaultValue: mysql, Description: Database Type, List: indexeddb|jrdc|mssql|mysql|sqlite|firestore|mongodb|direct_sqlite|direct_mysql|direct_mssql|direct_msaccess|json|couchdb|direct_mongodb|postgres|direct_postgres|msaccess
+#DesignerProperty: Key: HostName, DisplayName: Host Name*, FieldType: String, DefaultValue: 127.0.0.1, Description: Host Name
+#DesignerProperty: Key: Port, DisplayName: Port*, FieldType: String, DefaultValue: 3306, Description: Port Number
+#DesignerProperty: Key: DatabaseName, DisplayName: Database Name*, FieldType: String, DefaultValue: , Description: Database Name
+#DesignerProperty: Key: UserName, DisplayName: User Name, FieldType: String, DefaultValue: root, Description: User Name
+#DesignerProperty: Key: Password, DisplayName: Password, FieldType: String, DefaultValue: , Description: Password
+#DesignerProperty: Key: Salt, DisplayName: Salt, FieldType: String, DefaultValue: , Description: Salt for MD5Hashing
+#DesignerProperty: Key: AppLogo, DisplayName: App Logo, FieldType: String, DefaultValue: , Description: Path for App Logo

@@ -1,0 +1,68 @@
+#DesignerProperty: Key: ProjectName, DisplayName: Project Name, FieldType: String, DefaultValue: , Description: Project Name
+#DesignerProperty: Key: ModelName, DisplayName: Model Name, FieldType: String, DefaultValue: , Description: Model Name
+#DesignerProperty: Key: Title, DisplayName: Title / Caption, FieldType: String, DefaultValue: , Description: Title / Label
+#DesignerProperty: Key: DataType, DisplayName: Data Type, FieldType: String, DefaultValue: string, Description: Data Type, List: blob|double|integer|string|lookup
+#DesignerProperty: Key: MaxLen, DisplayName: Length, FieldType: Int, DefaultValue: 0, Description: Counter / Length
+#DesignerProperty: Key: DefaultValue1, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: What is the default value for this field
+#DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key, FieldType: Boolean, DefaultValue: False, Description: This field is a primary key
+#DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment, FieldType: Boolean, DefaultValue: False, Description: This field is an auto increment field
+#DesignerProperty: Key: DbSort, DisplayName: Order ASC on SQL Query, FieldType: Boolean, DefaultValue: False, Description: This field is sortable ASC on SQL query
+#DesignerProperty: Key: DbSortDesc, DisplayName: Order DESC on SQL Query, FieldType: Boolean, DefaultValue: False, Description: This field is sortable DESC on SQL query
+#DesignerProperty: Key: Sortable, DisplayName: Sortable on VDT, FieldType: Boolean, DefaultValue: True, Description: Is Sortable on Data Table
+#DesignerProperty: Key: Filterable, DisplayName: Filterable on VDT, FieldType: Boolean, DefaultValue: True, Description: This field should be filterable on the V-Data-Table
+#DesignerProperty: Key: AutoFocus, DisplayName: Auto Focus, FieldType: Boolean, DefaultValue: False, Description: This component should receive auto focus
+#DesignerProperty: Key: Required, DisplayName: Required, FieldType: Boolean, DefaultValue: False, Description: This field is required and rules should be added
+#DesignerProperty: Key: RowPos, DisplayName: Row Pos, FieldType: Int, DefaultValue: 1, Description: Row Position on Grid
+#DesignerProperty: Key: ColPos, DisplayName: Col Pos, FieldType: Int, DefaultValue: 1, Description: Column Position on Grid
+#DesignerProperty: Key: ColSpan, DisplayName: Col Span, FieldType: Int, DefaultValue: 12, Description: Column Span on the row
+#DesignerProperty: Key: Visible, DisplayName: Show On Form, FieldType: Boolean, DefaultValue: True, Description: Visibility On Form
+#DesignerProperty: Key: OnTable, DisplayName: Show On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be shown on the V-Data-Table
+#DesignerProperty: Key: ComponentType, DisplayName: Component Type (Form)*, FieldType: String, DefaultValue: TextField, Description: Component Type and if its a date you need to set a watch to make it a nice date. For PC/PL specify the Size & Width, List: AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|DatePicker|DateTimePicker|Email|FAB|FileInput|FileInputImage|GenderList|H1|H2|H3|H4|H5|H6|Icon|Image|Money|P|Password|PersonList|PhoneList|ProgressCircular|ProgressLinear|RadioGroup|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Slider|Switch|Telephone|TextArea|TextField|Thousands|TimePicker|Website|div|span|MinusPlus
+#DesignerProperty: Key: ColumnType, DisplayName: Column Type*, FieldType: String, DefaultValue: Normal, Description: Data Table Column Type, List: Action|AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|Chips|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|Date|DateTime|Email|FileSize|GenderList|Icon|Image|Link|LinkText|Money|Normal|Number|PersonList|PhoneList|ProgressCircular|ProgressLinear|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Switch|TextArea|TextField|Thousands|Time|MinusPlus
+#DesignerProperty: Key: NameField, DisplayName: Avatar Field Name*, FieldType: String, DefaultValue: , Description: Secondary Field Name on the database table to source the name of this avatar name field
+#DesignerProperty: Key: ColorField, DisplayName: Color Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table to source the color of this field
+#DesignerProperty: Key: Placeholder, DisplayName: Place Holder, FieldType: String, DefaultValue: , Description: Place holder
+#DesignerProperty: Key: DataSource, DisplayName: Foreign Table Name, FieldType: String, DefaultValue: , Description: Foreign Table to relate field to
+#DesignerProperty: Key: DataSourceAlias, DisplayName: Foreign Table Alias, FieldType: String, DefaultValue: , Description: Foreign Table alias to relate field to
+#DesignerProperty: Key: DataKey, DisplayName: Foreign (Key) Field, FieldType: String, DefaultValue: , Description: Foreign Key Field (Underlyng key)
+#DesignerProperty: Key: DataValue, DisplayName: Foreign (Value) Field, FieldType: String, DefaultValue: , Description: Foreign Value Field (Display)
+#DesignerProperty: Key: DataColor, DisplayName: Foreign (Color) Field, FieldType: String, DefaultValue: , Description: Foreign Color Field (Display)
+#DesignerProperty: Key: DisplayAs, DisplayName: Alias As*, FieldType: String, DefaultValue: , Description: Field Name to use from SQL statement from a JOIN on Foreign Table
+#DesignerProperty: Key: JoinType, DisplayName: Join Type*, FieldType: String, DefaultValue: none, Description: The type of join to execute, List: none|inner|left|right|full
+#DesignerProperty: Key: ItemValue, DisplayName: Item Value (Auto/Combo/Select), FieldType: String, DefaultValue: id, Description: Item Value for Drop Downs
+#DesignerProperty: Key: ItemText, DisplayName: Item Text, (Auto/Combo/Select), FieldType: String, DefaultValue: text, Description: Item Text for Drop Downs
+#DesignerProperty: Key: ItemColor, DisplayName: Item Color, (Auto/Combo/Select), FieldType: String, DefaultValue: color, Description: Item Color for Drop Downs
+#DesignerProperty: Key: ItemAvatar, DisplayName: Item Avatar, (Auto), FieldType: String, DefaultValue: avatar, Description: Item Avatar for Drop Downs
+#DesignerProperty: Key: UseItems, DisplayName: Use These Items (Auto/Combo/Select/Check/Radio), FieldType: Boolean, DefaultValue: False, Description: Use These Items
+#DesignerProperty: Key: ItemKeys, DisplayName: Item Values (Key)(;), FieldType: String, DefaultValue: , Description: Item Values to use
+#DesignerProperty: Key: ItemValues, DisplayName: Item Texts (Value) (;), FieldType: String, DefaultValue: , Description: Item Texts to use
+#DesignerProperty: Key: ItemColors, DisplayName: Item Colors (;), FieldType: String, DefaultValue: , Description: Item Colors to use
+#DesignerProperty: Key: Multiple, DisplayName: Multiple, FieldType: Boolean, DefaultValue: False, Description: Multiple selection for combo/checkbox/radio group
+#DesignerProperty: Key: Chips, DisplayName: Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Chips
+#DesignerProperty: Key: ColoredChips, DisplayName: Colored Chips, FieldType: Boolean, DefaultValue: False, Description: Changes display of selections to chips with colors
+#DesignerProperty: Key: Totals, DisplayName: Show as Total on VDT, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: This component should be hidden. If you want to toggle visibility at runtime, check this property.
+#DesignerProperty: Key: Hint, DisplayName: Hint, FieldType: String, DefaultValue: , Description: Hint
+#DesignerProperty: Key: PersistentHint, DisplayName: Persistent Hint, FieldType: Boolean, DefaultValue: False, Description: Show hint as persistent
+#DesignerProperty: Key: ReadOnly, DisplayName: ReadOnly on Form, FieldType: Boolean, DefaultValue: False, Description: This component is read-only on form
+#DesignerProperty: Key: Disabled, DisplayName: Disabled on Form, FieldType: Boolean, DefaultValue: False, Description: This component is disabled on form
+#DesignerProperty: Key: MinValue, DisplayName: Min Value (Slider), FieldType: Int, DefaultValue: 0, Description: Min Value e.g. Slider
+#DesignerProperty: Key: MaxValue, DisplayName: Max Value (Slider), FieldType: Int, DefaultValue: 100, Description: Max Value e.g. Slider
+#DesignerProperty: Key: Inset, DisplayName: Switch Inset?, FieldType: Boolean, DefaultValue: False, Description: Switch should be Inset
+#DesignerProperty: Key: RowDisplay, DisplayName: Radio Row/Column Display, FieldType: Boolean, DefaultValue: False, Description: Radio Row Display
+#DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: none, Description: Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: ColorIntensity, DisplayName: Color Intensity, FieldType: String, DefaultValue: normal, Description: Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+'#DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: none, Description: Text Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+'#DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: Text Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: PrependIcon, DisplayName: PrependIcon, FieldType: String, DefaultValue: , Description: Prepend Icon Name
+#DesignerProperty: Key: PrependInnerIcon, DisplayName: PrependInnerIcon, FieldType: String, DefaultValue: , Description: Prepend Inner Icon Name
+#DesignerProperty: Key: AppendIcon, DisplayName: AppendIcon, FieldType: String, DefaultValue: , Description: Append Icon Name
+#DesignerProperty: Key: AppendOuterIcon, DisplayName: AppendOuterIcon, FieldType: String, DefaultValue: , Description: Append Outer Icon Name
+#DesignerProperty: Key: ComputeValue, DisplayName: Compute Value, FieldType: Boolean, DefaultValue: False, Description: Sub to run before displaying the value, you can use () here
+#DesignerProperty: Key: ComputeClass, DisplayName: Compute Class, FieldType: Boolean, DefaultValue: False, Sub to run on the class, DO NOT include ()
+#DesignerProperty: Key: ComputeStyle, DisplayName: Compute Style, FieldType: Boolean, DefaultValue: False, Description: Sub to run on the style, DO NOT include ()
+#DesignerProperty: Key: ComputeColor, DisplayName: Compute Color, FieldType: Boolean, DefaultValue: False, Description: Sub to run on the color, DO NOT include ()
+#DesignerProperty: Key: ComputeSave, DisplayName: Compute B4U Save, FieldType: Boolean, DefaultValue: False, Description: Sub to run to compute value before saving, DO NOT include ()
+#DesignerProperty: Key: ComputeVisibility, DisplayName: Compute Visibility, FieldType: Boolean, DefaultValue: False, Description: Sub to run on v-show, DO NOT include ()
+#DesignerProperty: Key: ComputeIcon, DisplayName: Compute Icon, FieldType: Boolean, DefaultValue: False, Description: For each field specified apply the v-icon from the callback dont use () here (use the field names you specified in the fields property)
+#DesignerProperty: Key: ComputeOutlined, DisplayName: Compute Outlined, FieldType: Boolean, DefaultValue: False, Description: For each field specified apply the outlined from the callback dont use () here (use the field names you specified in the fields property)

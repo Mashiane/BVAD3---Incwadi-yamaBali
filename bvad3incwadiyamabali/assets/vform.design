@@ -1,0 +1,74 @@
+#Event: Input (B As Boolean)
+#Event: Submit (e As BANanoEvent)
+#Event: SubmitPrevent (e As BANanoEvent)
+#DesignerProperty: Key: ReadMe, DisplayName: ReadMe*, FieldType: String, DefaultValue: The VForm is used when creating forms. When used with VField it becomes the recommended choice to create your forms. The VForm can be linked to both the VDataTable and DataSource. You can also use your own tag e.g div or v-container , Description: The id of the element to place this into
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into. If inside a dialog type in the dialog name and [cardtext]
+#DesignerProperty: Key: OwnTag, DisplayName: Tag, FieldType: String, DefaultValue: v-form, Description: Tag, you can also specify your own e.g v-container or div
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Form is Hidden
+#DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
+#DesignerProperty: Key: PlaceAtBottom, DisplayName: Place At Bottom, FieldType: Boolean, DefaultValue: False, Description: Force Place At Bottom
+#DesignerProperty: Key: AutoComplete, DisplayName: Auto Complete, FieldType: Boolean, DefaultValue: False, Description: Form should be Auto Complete
+#DesignerProperty: Key: LazyValidation, DisplayName: LazyValidation, FieldType: Boolean, DefaultValue: True, Description: If enabled. value will always be _true_ unless there are visible validation errors
+#DesignerProperty: Key: SubmitPrevent, DisplayName: SubmitPrevent, FieldType: Boolean, DefaultValue: True, Description: Submit Prevent to prevent reload
+#DesignerProperty: Key: TableName, DisplayName: Table Name*, FieldType: String, DefaultValue: tb1, Description: The name of the database table for CRUD
+#DesignerProperty: Key: RecordSource, DisplayName: Record Source*, FieldType: String, DefaultValue: rs1, Description: The name of the Record Source. This is used for data binding e.g. category
+#DesignerProperty: Key: Singular, DisplayName: Singular*, FieldType: String, DefaultValue: , Description: Singular Name of single Record in the table e.g. category
+#DesignerProperty: Key: Plural, DisplayName: Plural*, FieldType: String, DefaultValue: , Description: Plural Name of many Records in the table e.g. categories
+#DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key Field*, FieldType: String, DefaultValue: , Description: The name of the primary key field in the table
+#DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment Field, FieldType: String, DefaultValue: , Description: The name of the auto increment field in the table
+#DesignerProperty: Key: DisplayField, DisplayName: Delete Display Field*, FieldType: String, DefaultValue: , Description: The name of the field to display to confirm deletes
+#DesignerProperty: Key: FocusOn, DisplayName: FocusOn, FieldType: String, DefaultValue: , Description: The name of the component to focus on when the dialog is opened
+#DesignerProperty: Key: Clearable, DisplayName: Elements Clearable, FieldType: Boolean, DefaultValue: False, Description: Controls should be clearable
+#DesignerProperty: Key: Dense, DisplayName: Elements Dense, FieldType: Boolean, DefaultValue: False, Description: Controls should be dense
+#DesignerProperty: Key: HideDetails, DisplayName: Elements Hide Details, FieldType: Boolean, DefaultValue: False, Description: Controls should hide details
+#DesignerProperty: Key: Filled, DisplayName: Elements Filled, FieldType: Boolean, DefaultValue: False, Description: Controls should be filled
+#DesignerProperty: Key: Outlined, DisplayName: Elements Outlined, FieldType: Boolean, DefaultValue: False, Description: Controls should be outlined
+#DesignerProperty: Key: Rounded, DisplayName: Elements Rounded, FieldType: Boolean, DefaultValue: False, Description: Controls should be rounded
+#DesignerProperty: Key: Shaped, DisplayName: Elements Shaped, FieldType: Boolean, DefaultValue: False, Description: Controls should be shaped
+#DesignerProperty: Key: Disabled, DisplayName: Disabled Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a disabled state
+#DesignerProperty: Key: Readonly, DisplayName: Readonly Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a readonly state
+#DesignerProperty: Key: ShowGridDesign, DisplayName: Show Grid Design, FieldType: Boolean, DefaultValue: False, Description: Show Grid Design Border
+#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Vertical Align content, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify content, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Fluid, DisplayName: Fluid (V-Container), FieldType: Boolean, DefaultValue: false, Description: The v-container should be fluid
+#DesignerProperty: Key: DFlex, DisplayName: DFlex (V-Container), FieldType: Boolean, DefaultValue: false, Description: DFlex
+#DesignerProperty: Key: TextCenter, DisplayName: Text Center, FieldType: Boolean, DefaultValue: false, Description: Text Center Content
+#DesignerProperty: Key: FillHeight, DisplayName: Fill Height, FieldType: Boolean, DefaultValue: false, Description: Fill Height
+#DesignerProperty: Key: BackgroundImage, DisplayName: BackgroundImage, FieldType: String, DefaultValue:  , Description: Background Image for this component
+#DesignerProperty: Key: FitScreen, DisplayName: Fit Screen VH, FieldType: Boolean, DefaultValue: False, Description: Fit Screen Vertical Horizontal
+#DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: , Description: Background Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: ColorIntensity, DisplayName: Color Intensity, FieldType: String, DefaultValue: normal, Description: Background Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: NoGutters, DisplayName: No Gutters (V-Container), FieldType: Boolean, DefaultValue: False, Description: No Gutters
+#DesignerProperty: Key: BorderPosition, DisplayName: BorderPosition, FieldType: String, DefaultValue: none, Description: Border, List: bottom|left|none|right|top|all
+#DesignerProperty: Key: BorderColor, DisplayName: Border Color, FieldType: String, DefaultValue: , Description: Border Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: BorderRadius, DisplayName: Border Radius, FieldType: String, DefaultValue:  , Description: Border Radius
+#DesignerProperty: Key: BorderStyle, DisplayName: Border Style, FieldType: String, DefaultValue: , Description: Border Style, List: dashed|dotted|double|groove|hidden|inherit|initial|inset|none|outset|remove|ridge|solid
+#DesignerProperty: Key: BorderWidth, DisplayName: Border Width, FieldType: String, DefaultValue:  , Description: Border Width
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf
+#DesignerProperty: Key: VOn, DisplayName: VOn, FieldType: String, DefaultValue: , Description: VOn
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: GradientActive, DisplayName: GradientActive, FieldType: Boolean, DefaultValue: false, Description: Gradient should be set
+#DesignerProperty: Key: Gradient, DisplayName: Gradient, FieldType: String, DefaultValue: , Description: Gradient, List: bl_tr|bottom_top|br_tl|left_right|right_left|tl_br|top_bottom|tr_bl
+#DesignerProperty: Key: GradientColor1, DisplayName: GradientColor1, FieldType: Color, DefaultValue: 0xFFCFDCDC, Gradient Color 1.
+#DesignerProperty: Key: GradientColor2, DisplayName: GradientColor2, FieldType: Color, DefaultValue: 0xFFCFDCDC, Gradient Color 2.
+#DesignerProperty: Key: States, DisplayName: States, FieldType: String, DefaultValue: , Description: Initial Binding States. Must be a json String.
+#DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: False, Description: Absolute
+#DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH
+#DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
+#DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
+#DesignerProperty: Key: FormRounded, DisplayName: Rounded, FieldType: String, DefaultValue: none, Description: Designates the border-radius applied to the component, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: Height
+#DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: MinHeight
+#DesignerProperty: Key: MaxHeight, DisplayName: MaxHeight, FieldType: String, DefaultValue: , Description: MaxHeight
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Width
+#DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: MinWidth
+#DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: MaxWidth
+#DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: False, Description: Tile
+#DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: False, Description: Shrink
+#DesignerProperty: Key: Grow, DisplayName: Grow, FieldType: Boolean, DefaultValue: false, Description: Grow
+#DesignerProperty: Key: Flat, DisplayName: Flat, FieldType: Boolean, DefaultValue: False, Description: Flat
