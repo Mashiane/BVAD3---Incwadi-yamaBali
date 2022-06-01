@@ -121,7 +121,7 @@
 #DesignerProperty: Key: Href, DisplayName: Href, FieldType: String, DefaultValue: #, Description: The URL for this link
 #DesignerProperty: Key: Target, DisplayName: Target, FieldType: String, DefaultValue: _blank, Description: The target for the link, List: _blank|_parent|_self|_top|none
 #DesignerProperty: Key: ColumnPosition, DisplayName: Column Pos VDT, FieldType: Int, DefaultValue: 0, Description: Data Table Column Position
-#DesignerProperty: Key: Totals, DisplayName: Show as Total on VDT, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
+#DesignerProperty: Key: Totals, DisplayName: DT Compute Total, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
 #DesignerProperty: Key: ValueMethod, DisplayName: DT Compute Value, FieldType: String, DefaultValue: , Description: Sub to run before displaying the value, you can use () here
 #DesignerProperty: Key: ClassMethod, DisplayName: DT Compute Class, FieldType: String, DefaultValue: , Sub to run on the class, DO NOT include ()
 #DesignerProperty: Key: StyleMethod, DisplayName: DT Compute Style, FieldType: String, DefaultValue: , Description: Sub to run on the style, DO NOT include ()

@@ -4,11 +4,11 @@
 #Event: Visible
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: True, Description: The MsgBox is not visible
+#DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
+#DesignerProperty: Key: AppDialog, DisplayName: App Dialog, FieldType: Boolean, DefaultValue: false, Description: App Dialog
 #DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: fab-transition, Description: Transition, List: dialog-bottom-transition|dialog-top-transition|expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
-#DesignerProperty: Key: DialogType, DisplayName: Dialog Type, FieldType: String, DefaultValue: message, Description: Dialog Type whether to show a message or expect input, List: input|message|none
+#DesignerProperty: Key: DialogType, DisplayName: Dialog Type, FieldType: String, DefaultValue: message, Description: Dialog Type whether to show a message or expect input, List: input|message|prompt|none
 #DesignerProperty: Key: FormName, DisplayName: FormName, FieldType: String, DefaultValue: , Description: The name of the form to link to this dialog.
-#DesignerProperty: Key: DataSource, DisplayName: Data Source, FieldType: String, DefaultValue: , Description: The data-source to use on this dialog
-#DesignerProperty: Key: TableName, DisplayName: Table Name, FieldType: String, DefaultValue: , Description: The name of the table for items on table
 #DesignerProperty: Key: ToolbarCaption, DisplayName: Title, FieldType: String, DefaultValue: Title, Description: Title of the msgbox
 #DesignerProperty: Key: ToolBarColor, DisplayName: Tool Bar Color, FieldType: String, DefaultValue: none, Description: Tool Bar Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ToolBarColorIntensity, DisplayName: Tool Bar Color Intensity, FieldType: String, DefaultValue: normal, Description: ToolBarColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
@@ -31,7 +31,6 @@
 #DesignerProperty: Key: OkRounded, DisplayName: Ok Rounded, FieldType: Boolean, DefaultValue: False, Description: The Ok button is rounded
 #DesignerProperty: Key: OkWidth, DisplayName: Ok Width, FieldType: String, DefaultValue: 200, Description: The Ok button width
 #DesignerProperty: Key: OkSize, DisplayName: Ok Size, FieldType: String, DefaultValue: normal, Description: Size, List: large|normal|small|x-large|x-small
-#DesignerProperty: Key: OkAction, DisplayName: Ok Action, FieldType: String, DefaultValue: , Description: The action to undertake when the Ok button is clicked
 '
 #DesignerProperty: Key: CancelCaption, DisplayName: Cancel Label, FieldType: String, DefaultValue: Cancel, Description: The label of the Cancel button
 #DesignerProperty: Key: CancelVisible, DisplayName: Cancel Visible, FieldType: Boolean, DefaultValue: True, Description: The Cancel button is visible
@@ -43,7 +42,6 @@
 #DesignerProperty: Key: CancelRounded, DisplayName: Cancel Rounded, FieldType: Boolean, DefaultValue: False, Description: The Cancel button is rounded
 #DesignerProperty: Key: CancelWidth, DisplayName: Cancel Width, FieldType: String, DefaultValue: 200, Description: The Cancel button width
 #DesignerProperty: Key: CancelSize, DisplayName: Cancel Size, FieldType: String, DefaultValue: normal, Description: Size, List: large|normal|small|x-large|x-small
-#DesignerProperty: Key: CancelAction, DisplayName: Cancel Action, FieldType: String, DefaultValue: , Description: The action to undertake when the Cancel button is clicked
 #DesignerProperty: Key: Rounded, DisplayName: Dialog Rounded, FieldType: String, DefaultValue: none, Description: The MsgBox is Rounded, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
 #DesignerProperty: Key: Width, DisplayName: Dialog Width, FieldType: String, DefaultValue: 700, Description: The width of the MsgBox
 #DesignerProperty: Key: MinWidth, DisplayName: Min Width, FieldType: String, DefaultValue: , Description: The min width of the MsgBox
@@ -51,7 +49,7 @@
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: The height of the MsgBox
 #DesignerProperty: Key: MinHeight, DisplayName: Min Height, FieldType: String, DefaultValue: , Description: The min height of the MsgBox
 #DesignerProperty: Key: MaxHeight, DisplayName: Max Height, FieldType: String, DefaultValue: , Description: The max height of the MsgBox
-#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=700; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
+'
 #DesignerProperty: Key: CloseDelay, DisplayName: Close Delay, FieldType: String, DefaultValue: , Description: Close Delay
 #DesignerProperty: Key: ContentClass, DisplayName: Content Class, FieldType: String, DefaultValue: , Description: Content Class
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: false, Description: Dark

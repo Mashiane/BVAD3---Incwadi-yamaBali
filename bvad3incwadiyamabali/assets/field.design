@@ -15,6 +15,9 @@
 #DesignerProperty: Key: RowPos, DisplayName: Row Pos, FieldType: Int, DefaultValue: 1, Description: Row Position on Grid
 #DesignerProperty: Key: ColPos, DisplayName: Col Pos, FieldType: Int, DefaultValue: 1, Description: Column Position on Grid
 #DesignerProperty: Key: ColSpan, DisplayName: Col Span, FieldType: Int, DefaultValue: 12, Description: Column Span on the row
+#DesignerProperty: Key: Offsets, DisplayName: Offsets SMLX, FieldType: String, DefaultValue: s=?; m=?; l=?; x=?, Description: Offsets SMLX
+#DesignerProperty: Key: Sizes, DisplayName: Sizes SMLX, FieldType: String, DefaultValue: s=?; m=?; l=?; x=?, Description: Sizes SMLX
+#DesignerProperty: Key: DialogSize, DisplayName: Edit Dialog Size, FieldType: String, DefaultValue: normal, Description: The dialog size on data-table for inline edit, List:normal|large
 #DesignerProperty: Key: Visible, DisplayName: Show On Form, FieldType: Boolean, DefaultValue: True, Description: Visibility On Form
 #DesignerProperty: Key: OnTable, DisplayName: Show On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be shown on the V-Data-Table
 #DesignerProperty: Key: ComponentType, DisplayName: Component Type (Form)*, FieldType: String, DefaultValue: TextField, Description: Component Type and if its a date you need to set a watch to make it a nice date. For PC/PL specify the Size & Width, List: AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|DatePicker|DateTimePicker|Email|FAB|FileInput|FileInputImage|GenderList|H1|H2|H3|H4|H5|H6|Icon|Image|Money|P|Password|PersonList|PhoneList|ProgressCircular|ProgressLinear|RadioGroup|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Slider|Switch|Telephone|TextArea|TextField|Thousands|TimePicker|Website|div|span|MinusPlus
@@ -42,7 +45,6 @@
 #DesignerProperty: Key: Multiple, DisplayName: Multiple, FieldType: Boolean, DefaultValue: False, Description: Multiple selection for combo/checkbox/radio group
 #DesignerProperty: Key: Chips, DisplayName: Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Chips
 #DesignerProperty: Key: ColoredChips, DisplayName: Colored Chips, FieldType: Boolean, DefaultValue: False, Description: Changes display of selections to chips with colors
-#DesignerProperty: Key: Totals, DisplayName: Show as Total on VDT, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: This component should be hidden. If you want to toggle visibility at runtime, check this property.
 #DesignerProperty: Key: Hint, DisplayName: Hint, FieldType: String, DefaultValue: , Description: Hint
 #DesignerProperty: Key: PersistentHint, DisplayName: Persistent Hint, FieldType: Boolean, DefaultValue: False, Description: Show hint as persistent
@@ -60,6 +62,7 @@
 #DesignerProperty: Key: PrependInnerIcon, DisplayName: PrependInnerIcon, FieldType: String, DefaultValue: , Description: Prepend Inner Icon Name
 #DesignerProperty: Key: AppendIcon, DisplayName: AppendIcon, FieldType: String, DefaultValue: , Description: Append Icon Name
 #DesignerProperty: Key: AppendOuterIcon, DisplayName: AppendOuterIcon, FieldType: String, DefaultValue: , Description: Append Outer Icon Name
+#DesignerProperty: Key: Totals, DisplayName: Compute Totals, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
 #DesignerProperty: Key: ComputeValue, DisplayName: Compute Value, FieldType: Boolean, DefaultValue: False, Description: Sub to run before displaying the value, you can use () here
 #DesignerProperty: Key: ComputeClass, DisplayName: Compute Class, FieldType: Boolean, DefaultValue: False, Sub to run on the class, DO NOT include ()
 #DesignerProperty: Key: ComputeStyle, DisplayName: Compute Style, FieldType: Boolean, DefaultValue: False, Description: Sub to run on the style, DO NOT include ()
