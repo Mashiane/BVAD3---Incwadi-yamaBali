@@ -1,5 +1,5 @@
-#Event: CustomToolBarKey_Click (e As BANanoEvent)
-#Event: CustomKey (item As Map)
+#Event: OwnButton_Click (e As BANanoEvent)
+#Event: OwnColumn (item As Map)
 '
 #Event: OpenItem (item As Map)
 #Event: CancelItem (item As Map)
@@ -22,6 +22,7 @@
 #Event: ColumnName (item As Map)
 #Event: ColumnName_Minus (item As Map)
 #Event: ColumnName_Plus (item As Map)
+#Event: DrillDown (item As Map)
 #Event: ClickRow (item As Map, other As Map)
 #Event: ContextMenuRow(e As BANanoEvent, other As Map)
 #Event: ContextMenuRowPrevent(e As BANanoEvent, other As Map)
@@ -52,8 +53,8 @@
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue:  False, Description: Hidden enables hiding/showing table at runtime
 #DesignerProperty: Key: Guide, DisplayName: Provide Guide, FieldType: Boolean, DefaultValue: False, Description: Show Guide Logs
 #DesignerProperty: Key: ShowInsideCard, DisplayName: Inside VCard, FieldType: Boolean, DefaultValue:  True, Description: Show table inside the v-card
-#DesignerProperty: Key: HideToolBarOnSM, DisplayName: Hide Tool Bar On SM, FieldType: Boolean, DefaultValue:  True, Description: Hide toolbar on small devices
-#DesignerProperty: Key: MobileBreakpoint, DisplayName: Mobile BreakPoint, FieldType: String, DefaultValue:  0, Description: MobileBreakpoint - set to 0 to appear on same line or 600 for Small devices
+#DesignerProperty: Key: HideToolBarOnSM, DisplayName: Hide Tool Bar On SM, FieldType: Boolean, DefaultValue:  False, Description: Hide toolbar on small devices
+#DesignerProperty: Key: MobileBreakpoint, DisplayName: Mobile BreakPoint, FieldType: String, DefaultValue:  600, Description: MobileBreakpoint - set to 0 to appear on same line or 600 for Small devices
 #DesignerProperty: Key: Title, DisplayName: Table Title , FieldType: String, DefaultValue:  Table, Description: The title on the table
 #DesignerProperty: Key: ExcelTitle, DisplayName: Export Title , FieldType: String, DefaultValue:  Table, Description: Title for Excel Reports
 #DesignerProperty: Key: PageSize, DisplayName: PDF Page Size, FieldType: String, DefaultValue: a4, Description: Page Size for pdf printing, List: a0|a1|a10|a10|a2|a3|a4|a5|a6|a7|a8|a9|b0|b1|b10|b10|b2|b3|b4|b5|b6|b7|b8|b9|c0|c1|c10|c10|c2|c3|c4|c5|c6|c7|c8|c9|credit-card|dl|government-letter|junior-legal|ledger|legal|letter|tabloid
@@ -158,7 +159,7 @@
 '
 #DesignerProperty: Key: ReadMe2, DisplayName: ReadMe*, FieldType: String, DefaultValue: Here you can add additional buttons to the toolbar. Raised event is '_ownbutton_click' and rename 'ownbutton' with the key used here. You add add additional buttons manually also by calling AddToolBarIcon
 '#DesignerProperty: Key: ToolbarKeysAsButton, DisplayName: Additional Toolbar (Show as button), FieldType: Boolean, DefaultValue: False, Description: Show the additional toolbar buttons as actual buttons and not as icons
-#DesignerProperty: Key: ToolbarKeys, DisplayName: Additional Toolbar Keys (;), FieldType: String, DefaultValue:  , Description: Additional Toolbar Buttons keys. The event is [OwnButton_Click] (rename event to your key)
+#DesignerProperty: Key: ToolbarKeys, DisplayName: Additional Toolbar Keys (;), FieldType: String, DefaultValue:  , Description: Additional Toolbar Buttons keys. The event is [OwnButton_Click] (rename OwnButton with your key)
 '#DesignerProperty: Key: ToolbarTitles, DisplayName: Additional Toolbar Titles (;), FieldType: String, DefaultValue:  , Description: Additional Toolbar Button Titles
 #DesignerProperty: Key: ToolbarIcons, DisplayName: Additional Toolbar Icons (;), FieldType: String, DefaultValue:  , Description: Additional Toolbar Button Icons
 #DesignerProperty: Key: ToolbarColors, DisplayName: Additional Toolbar Colors (;), FieldType: String, DefaultValue:  , Description: Additional Toolbar Button Colors
@@ -185,16 +186,18 @@
 #DesignerProperty: Key: HasDownload, DisplayName: Download Action, FieldType: Boolean, DefaultValue: False, Description: Has Download Column. Raised event is 'download(item As Map)'
 #DesignerProperty: Key: DownloadColor, DisplayName: Download Color, FieldType: String, DefaultValue: cyan, Description: The color of the button on the column, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: DownloadCaption, DisplayName: Download Caption, FieldType: String, DefaultValue: Download, Description: Caption of the download column
-#DesignerProperty: Key: HasMenu, DisplayName: Menu Action, FieldType: Boolean, DefaultValue: False, Description: Has Menu Column. Raised event is 'menu(item As Map)'
+#DesignerProperty: Key: HasDrillDown, DisplayName: DrillDown Action, FieldType: Boolean, DefaultValue: False, Description: Has DrillDown Column. Raised event is 'drilldown(item As Map)'
+#DesignerProperty: Key: DrillDownColor, DisplayName: DrillDown Color, FieldType: String, DefaultValue: orange, Description: The color of the button on the column, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: DrillDownCaption, DisplayName: DrillDown Caption, FieldType: String, DefaultValue: DrillDown, Description: Caption of the DrillDown column
+#DesignerProperty: Key: HasMenu, DisplayName: Menu Action, FieldType: Boolean, DefaultValue: False, Description: Has Menu Column. Raised event is 'menu(MenuID As String, item As Map)'
 #DesignerProperty: Key: MenuColor, DisplayName: Menu Color, FieldType: String, DefaultValue: indigo, Description: The color of the button on the column, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: MenuCaption, DisplayName: Menu Caption, FieldType: String, DefaultValue: Menu, Description: Caption of the menu column
-#DesignerProperty: Key: MenuKeys, DisplayName: Menu Keys (;), FieldType: String, DefaultValue:  edit; delete; clone; print; save; cancel; download, Description: Menu Keys. The event is [Menu]
-#DesignerProperty: Key: MenuIcons, DisplayName: Menu Icons (;), FieldType: String, DefaultValue:  mdi-pencil; mdi-delete; mdi-content-copy; mdi-printer; mdi-content-save; mdi-cancel; mdi-download, Description: Menu Icons
-#DesignerProperty: Key: MenuColors, DisplayName: Menu Colors (;), FieldType: String, DefaultValue:  green; red; amber; blue; blue-grey; brown; cyan, Description: Menu Colors
-#DesignerProperty: Key: MenuTitles, DisplayName: Menu Titles (;), FieldType: String, DefaultValue:  Edit; Delete; Clone; Print; Save; Cancel; Download, Description: Menu Titles
+#DesignerProperty: Key: MenuKeys, DisplayName: Menu Keys (;), FieldType: String, DefaultValue:  edit; delete; clone; print; save; cancel; download; drilldown, Description: Menu Keys. The event is [Menu]
+#DesignerProperty: Key: MenuIcons, DisplayName: Menu Icons (;), FieldType: String, DefaultValue:  mdi-pencil; mdi-delete; mdi-content-copy; mdi-printer; mdi-content-save; mdi-cancel; mdi-download;mdi-filter, Description: Menu Icons
+#DesignerProperty: Key: MenuColors, DisplayName: Menu Colors (;), FieldType: String, DefaultValue:  green; red; amber; blue; blue-grey; brown; cyan; orange, Description: Menu Colors
+#DesignerProperty: Key: MenuTitles, DisplayName: Menu Titles (;), FieldType: String, DefaultValue:  Edit; Delete; Clone; Print; Save; Cancel; Download;Drill Down, Description: Menu Titles
 '
 #DesignerProperty: Key: ReadMe, DisplayName: ReadMe*, FieldType: String, DefaultValue: Below are the specifications per fields that will appear on the data table. You can indicate the field and title and the type of component to display to represent data on that column. The raised event is the name of the field being used for example 'columnname(item As Map)' where column name is the field name of your column. To trap changes on the complete row use 'Change(item As Map)'. The edit dialog fires 'CancelItem (item As Map)' & 'CloseItem (item As Map)' & 'OpenItem (item As Map)' & 'SaveItem (item As Map)', Description: Below are the specifications per fields that will appear on the data table. You can indicate the field and title and the type of component to display to represent data on that column. The raised event is the name of the field being used for example 'columnname(item As Map)' where column name is the field name of your column.
-#DesignerProperty: Key: TableName, DisplayName: Table Name, FieldType: String, DefaultValue: , Description: The name of the table for items on table
 #DesignerProperty: Key: ColumnFields, DisplayName: Database Fields (;), FieldType: String, DefaultValue: , Description: Fields to show based on database table or array of objects
 #DesignerProperty: Key: ColumnTitles, DisplayName: Titles / Header (;), FieldType: String, DefaultValue: , Description: Titles for each field
 #DesignerProperty: Key: ColumnWidths, DisplayName: Widths per column (;), FieldType: String, DefaultValue: , Description: Widths of each fields
@@ -259,13 +262,15 @@
 #DesignerProperty: Key: ColumnUpDown, DisplayName: KPI Up/Down Fields (;), FieldType: String, DefaultValue: , Description: These fields will Up/Down indicators. Up = 1; Down = 2
 #DesignerProperty: Key: ColumnGender, DisplayName: Gender Fields (;), FieldType: String, DefaultValue: , Description: These fields will show Gender Avatars. F = 1; M = 2
 #DesignerProperty: Key: ColumnColorSelect, DisplayName: Color Select Fields (;), FieldType: String, DefaultValue: , Description: These fields will show color select
+#DesignerProperty: Key: ColumnColorText, DisplayName: Color Text Fields (;), FieldType: String, DefaultValue: , Description: These fields will show color text field
+#DesignerProperty: Key: ColumnTextColor, DisplayName: Text Color Fields (;), FieldType: String, DefaultValue: , Description: These fields will show text color field
 '
 #DesignerProperty: Key: ColumnMinusPlus, DisplayName: Minus Plus Fields (;), FieldType: String, DefaultValue: , Description: These fields will show minus plus chips. These raises a change event based on the name used here i.e. 'fieldname_minus' and 'fieldname_plus(item As Map)'
 #DesignerProperty: Key: ColumnMultiSelect, DisplayName: Multi Select Fields (;), FieldType: String, DefaultValue: , Description: These fields will have multi-select content
 #DesignerProperty: Key: ColumnCenterAlign, DisplayName: Center Align Fields (;), FieldType: String, DefaultValue: , Description: These fields will have center alignment
 #DesignerProperty: Key: ColumnRightAlign, DisplayName: Right Align Fields (;), FieldType: String, DefaultValue: , Description: These fields will have right alignment
 #DesignerProperty: Key: ReadMe3, DisplayName: ReadMe (Custom Actions), FieldType: String, DefaultValue: Below you can add own custom action keys, Description: Below you can add own custom action keys. These raises a click event 'fieldname (item As Map)' based on the keys specified
-#DesignerProperty: Key: ItemKeys, DisplayName: Additional Action Keys (Key)(;), FieldType: String, DefaultValue:  , Description: Additional Action Buttons. The raised event is [_key]
+#DesignerProperty: Key: ItemKeys, DisplayName: Additional Action Keys (Key)(;), FieldType: String, DefaultValue:  , Description: Additional Action Buttons. The raised event is [OwnColumn](item As Map) where OwnColumn is the key specified
 #DesignerProperty: Key: ItemTitles, DisplayName: Additional Action Headers (;), FieldType: String, DefaultValue:  , Description: Additional Action Column Header
 #DesignerProperty: Key: ItemIcons, DisplayName: Additional Action Icons (Value)(;), FieldType: String, DefaultValue:  , Description: Additional Action Icons
 #DesignerProperty: Key: ItemColors, DisplayName: Additional Action Colors (;), FieldType: String, DefaultValue:  , Description: Additional Action Colors
