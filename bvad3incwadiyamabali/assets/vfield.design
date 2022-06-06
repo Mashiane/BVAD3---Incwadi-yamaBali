@@ -55,6 +55,7 @@
 #DesignerProperty: Key: FieldName, DisplayName: Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table
 #DesignerProperty: Key: NameField, DisplayName: Avatar Field Name*, FieldType: String, DefaultValue: , Description: Secondary Field Name on the database table to source the name of this avatar name field
 #DesignerProperty: Key: ColorField, DisplayName: Color Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table to source the color of this field
+#DesignerProperty: Key: ImageField, DisplayName: Image Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table to source/target the image of this field
 #DesignerProperty: Key: Title, DisplayName: Title / Caption, FieldType: String, DefaultValue: , Description: Title / Label
 #DesignerProperty: Key: TableHeading, DisplayName: Table Heading, FieldType: String, DefaultValue: , Description: This heading to show on the V-Data-Table
 #DesignerProperty: Key: UseCaption, DisplayName: Dynamic Caption (RT), FieldType: Boolean, DefaultValue: False, Description: Dynamic Caption can be updated at RT.
