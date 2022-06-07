@@ -3,6 +3,10 @@
 #DesignerProperty: Key: Singular, DisplayName: Singular*, FieldType: String, DefaultValue: , Description: Singular Name of single Record in the table e.g. category
 #DesignerProperty: Key: Plural, DisplayName: Plural*, FieldType: String, DefaultValue: , Description: Plural Name of many Records in the table e.g. categories
 #DesignerProperty: Key: StartPage, DisplayName: Start Page, FieldType: Boolean, DefaultValue: False, Description: This page is the start page
+#DesignerProperty: Key: Width, DisplayName: Dialog Width, FieldType: String, DefaultValue: 700, Description: The width of the MsgBox
+#DesignerProperty: Key: Fullscreen, DisplayName: Full Screen, FieldType: Boolean, DefaultValue: false, Description: Show the MsgBox in Fullscreen
+#DesignerProperty: Key: FullscreenOnMobile, DisplayName: FullscreenOnMobile, FieldType: Boolean, DefaultValue: false, Description: The MsgBox should be Full screen On Mobile
+#DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: fab-transition, Description: Transition, List: dialog-bottom-transition|dialog-top-transition|expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
 #DesignerProperty: Key: LoadOnMount, DisplayName: Load On Mount, FieldType: Boolean, DefaultValue: True, Description: Records should be loaded on mounted
 #DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key Field*, FieldType: String, DefaultValue: , Description: The name of the primary key field in the table
 #DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment Field, FieldType: String, DefaultValue: , Description: The name of the auto increment field in the table
