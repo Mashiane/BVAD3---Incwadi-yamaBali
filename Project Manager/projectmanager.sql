@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 06, 2022 at 11:17 AM
+-- Generation Time: Jun 07, 2022 at 04:10 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -22,6 +22,29 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `projectmanager` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `projectmanager`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `duration_types`
+--
+
+DROP TABLE IF EXISTS `duration_types`;
+CREATE TABLE `duration_types` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `duration_types`
+--
+
+INSERT INTO `duration_types` (`id`, `name`) VALUES
+(1, 'Hours'),
+(2, 'Days'),
+(3, 'Weeks'),
+(4, 'Months'),
+(5, 'Years');
 
 -- --------------------------------------------------------
 
@@ -54,6 +77,44 @@ INSERT INTO `holidays` (`id`, `dayof`, `description`) VALUES
 (11, '2022-12-25', 'Christmas Day'),
 (12, '2022-12-26', 'Day of Goodwill'),
 (13, '2023-01-01', 'New Year');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `projects`
+--
+
+DROP TABLE IF EXISTS `projects`;
+CREATE TABLE `projects` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `project_type` int(11) DEFAULT NULL,
+  `project_status` int(11) DEFAULT NULL,
+  `project_description` varchar(255) DEFAULT NULL,
+  `project_notes` varchar(255) DEFAULT NULL,
+  `planned_start` varchar(255) DEFAULT NULL,
+  `planned_finish` varchar(255) DEFAULT NULL,
+  `planned_duration` int(11) DEFAULT NULL,
+  `actual_start` varchar(255) DEFAULT NULL,
+  `actual_finish` varchar(255) DEFAULT NULL,
+  `actual_duration` int(11) DEFAULT NULL,
+  `planned_progress` int(11) DEFAULT NULL,
+  `actual_progress` int(11) DEFAULT NULL,
+  `planned_resource_costs` double DEFAULT NULL,
+  `actual_resource_costs` double DEFAULT NULL,
+  `planned_other_costs` double DEFAULT NULL,
+  `actual_other_costs` double DEFAULT NULL,
+  `planned_total_costs` double DEFAULT NULL,
+  `actual_total_costs` double DEFAULT NULL,
+  `assigned_to` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `projects`
+--
+
+INSERT INTO `projects` (`id`, `name`, `project_type`, `project_status`, `project_description`, `project_notes`, `planned_start`, `planned_finish`, `planned_duration`, `actual_start`, `actual_finish`, `actual_duration`, `planned_progress`, `actual_progress`, `planned_resource_costs`, `actual_resource_costs`, `planned_other_costs`, `actual_other_costs`, `planned_total_costs`, `actual_total_costs`, `assigned_to`) VALUES
+(1, 'Develop Incwadi yamaBali', 1, 3, 'Development of a low code vue platform', '', '2022-06-01', '2022-06-30', 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '1');
 
 -- --------------------------------------------------------
 
@@ -124,9 +185,9 @@ CREATE TABLE `resource` (
 
 INSERT INTO `resource` (`id`, `first_name`, `last_name`, `hourly_rate`, `email`, `fullname`, `image`) VALUES
 (1, 'Anele', 'Mbanga', 700, 'mbanga@gmail.com', '', './assets/2.jpg'),
-(2, 'Another', 'Resourc', 100, 'another@resource.com', NULL, './assets/1.jpg'),
-(4, 'Project', 'Resource 2', 250, 'resourcex@project.com', NULL, './assets/1.png'),
-(5, 'Another One', 'Projext X', 350, 'resourcex@project.com', NULL, './assets/2.png');
+(2, 'Another', 'Resourc', 100, 'another@resource.com', NULL, './assets/5.jpg'),
+(4, 'Project', 'Resource 2', 250, 'resourcex@project.com', NULL, './assets/4.jpg'),
+(5, 'Another One', 'Projext X', 350, 'resourcex@project.com', NULL, './assets/img1.png');
 
 -- --------------------------------------------------------
 
@@ -184,9 +245,21 @@ INSERT INTO `weekly_schedule` (`id`, `dayofweek`, `active`, `working_hours`) VAL
 --
 
 --
+-- Indexes for table `duration_types`
+--
+ALTER TABLE `duration_types`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `holidays`
 --
 ALTER TABLE `holidays`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `projects`
+--
+ALTER TABLE `projects`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -224,10 +297,22 @@ ALTER TABLE `weekly_schedule`
 --
 
 --
+-- AUTO_INCREMENT for table `duration_types`
+--
+ALTER TABLE `duration_types`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `holidays`
 --
 ALTER TABLE `holidays`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
+--
+-- AUTO_INCREMENT for table `projects`
+--
+ALTER TABLE `projects`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `project_status`
