@@ -65,6 +65,8 @@
 #DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment, FieldType: Boolean, DefaultValue: False, Description: This field is an auto increment field
 #DesignerProperty: Key: Visible, DisplayName: Show On Form, FieldType: Boolean, DefaultValue: True, Description: Visibility On Form
 #DesignerProperty: Key: OnTable, DisplayName: Show On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be shown on the V-Data-Table
+#DesignerProperty: Key: ColumnVisible, DisplayName: Visible On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be visible on the V-Data-Table
+#DesignerProperty: Key: GroupAble, DisplayName: Groupable On Table, FieldType: Boolean, DefaultValue: False ,Description: This field should be groupable
 #DesignerProperty: Key: OnDb, DisplayName: Use on CRUD (File Picker Off), FieldType: Boolean, DefaultValue: True, Description: This field should be used for CRUD actions
 #DesignerProperty: Key: DbSort, DisplayName: Sort on SQL Query, FieldType: Boolean, DefaultValue: True, Description: This field is sortable on SQL query
 #DesignerProperty: Key: Sortable, DisplayName: Sortable on VDT, FieldType: Boolean, DefaultValue: True, Description: Is Sortable on Data Table

@@ -35,11 +35,13 @@
 #DesignerProperty: Key: SearchShrink, DisplayName: Search Shrink, FieldType: Boolean, DefaultValue:  True, Description: Search box is shrinked (small)
 #DesignerProperty: Key: HasAddnew, DisplayName: Add New (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show Add new on toolbar. Fired event is 'add_click'
 #DesignerProperty: Key: HasClearSort, DisplayName: Clear Sort (ToolBar), FieldType: Boolean, DefaultValue: True, Description: Show clear sort on toolbar. Fired event is 'clearsort_click'
-#DesignerProperty: Key: ClearFilterButton, DisplayName: Clear Filter (ToolBar) , FieldType: Boolean, DefaultValue: False, Description: Show the clear filter for columns. Fired event is 'clearfilter_click' to apply filters and 'filter_click' to apply filters
+#DesignerProperty: Key: AddColumnsVisible, DisplayName: All Columns Visible, FieldType: Boolean, DefaultValue: True, Description: All fields should be visible on the filter
 #DesignerProperty: Key: HasFilter, DisplayName: Has Filter, FieldType: Boolean, DefaultValue: False, Description: Add filter for columns. Fired event is 'clearfilter_click' to clear filters and 'filter_click' to apply filters
 #DesignerProperty: Key: FilterVisible, DisplayName: Filter Visible, FieldType: Boolean, DefaultValue: False, Description: Show filter for columns
+#DesignerProperty: Key: ClearFilterButton, DisplayName: Clear Filter (ToolBar) , FieldType: Boolean, DefaultValue: False, Description: Show the clear filter for columns. Fired event is 'clearfilter_click' to apply filters and 'filter_click' to apply filters
 #DesignerProperty: Key: HasGroupBy, DisplayName: Has Group By, FieldType: Boolean, DefaultValue:  False, Description: Has group by functionality
 #DesignerProperty: Key: GroupByVisible, DisplayName: Group By Visible, FieldType: Boolean, DefaultValue:  False, Description: Group by visibility
+#DesignerProperty: Key: GroupBy, DisplayName: Group By Field, FieldType: String, DefaultValue:  ,Description: Initially group data by this field in the data-table.
 #DesignerProperty: Key: HasPdf, DisplayName: Pdf Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show pdf button on toolbar. Raised event is 'pdf_click' also use 'pdfdownload'
 #DesignerProperty: Key: HasExcel, DisplayName: Excel Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show excel on toolbar. Raised event is 'excel_click' and also use 'exceldownload'
 #DesignerProperty: Key: HasCSV, DisplayName: CSV Export (ToolBar), FieldType: Boolean, DefaultValue: False, Description: Show csv on toolbar. Raised event is 'csv_click'.
