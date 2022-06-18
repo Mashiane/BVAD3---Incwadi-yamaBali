@@ -72,6 +72,7 @@
 #DesignerProperty: Key: AppendOuterIcon, DisplayName: AppendOuterIcon, FieldType: String, DefaultValue: , Description: Append Outer Icon Name
 #DesignerProperty: Key: Totals, DisplayName: Compute Totals, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
 #DesignerProperty: Key: ComputeValue, DisplayName: Compute Value, FieldType: Boolean, DefaultValue: False, Description: Sub to run before displaying the value, you can use () here
+#DesignerProperty: Key: ComputeName, DisplayName: Compute Name, FieldType: Boolean, DefaultValue: False, Description: Sub to run before displaying the name, you can use () here
 #DesignerProperty: Key: ComputeClass, DisplayName: Compute Class, FieldType: Boolean, DefaultValue: False, Sub to run on the class, DO NOT include ()
 #DesignerProperty: Key: ComputeStyle, DisplayName: Compute Style, FieldType: Boolean, DefaultValue: False, Description: Sub to run on the style, DO NOT include ()
 #DesignerProperty: Key: ComputeColor, DisplayName: Compute Color, FieldType: Boolean, DefaultValue: False, Description: Sub to run on the color, DO NOT include ()

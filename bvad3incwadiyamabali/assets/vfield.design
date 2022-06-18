@@ -126,6 +126,7 @@
 #DesignerProperty: Key: ColumnPosition, DisplayName: Column Pos VDT, FieldType: Int, DefaultValue: 0, Description: Data Table Column Position
 #DesignerProperty: Key: Totals, DisplayName: DT Compute Total, FieldType: Boolean, DefaultValue: False, Description: Column should have totals
 #DesignerProperty: Key: ValueMethod, DisplayName: DT Compute Value, FieldType: String, DefaultValue: , Description: Sub to run before displaying the value, you can use () here
+#DesignerProperty: Key: NameMethod, DisplayName: DT Compute Name, FieldType: String, DefaultValue: , Description: Sub to run before displaying the name, you can use () here
 #DesignerProperty: Key: ClassMethod, DisplayName: DT Compute Class, FieldType: String, DefaultValue: , Sub to run on the class, DO NOT include ()
 #DesignerProperty: Key: StyleMethod, DisplayName: DT Compute Style, FieldType: String, DefaultValue: , Description: Sub to run on the style, DO NOT include ()
 #DesignerProperty: Key: ColorMethod, DisplayName: DT Compute Color, FieldType: String, DefaultValue: , Description: Sub to run on the color, DO NOT include ()
