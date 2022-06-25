@@ -1,0 +1,14 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: UsePriority, DisplayName: Use Priority, FieldType: Boolean, DefaultValue: True, Description: Use Priority
+#DesignerProperty: Key: UseDueDate, DisplayName: Use Due Date, FieldType: Boolean, DefaultValue: True, Description: Use Due Date
+#DesignerProperty: Key: UseProgress, DisplayName: Use Progress, FieldType: Boolean, DefaultValue: True, Description: Use Progress
+#DesignerProperty: Key: UseAttachments, DisplayName: Use Attachments, FieldType: Boolean, DefaultValue: False, Description: Use Attachments
+#DesignerProperty: Key: UseAttachments, DisplayName: Use Attachments, FieldType: Boolean, DefaultValue: False, Description: Use Attachments
+#DesignerProperty: Key: UseComments, DisplayName: Use Comments, FieldType: Boolean, DefaultValue: False, Description: Use Comments
+#DesignerProperty: Key: UseResources, DisplayName: Use Resources, FieldType: Boolean, DefaultValue: False, Description: Use Resources
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =

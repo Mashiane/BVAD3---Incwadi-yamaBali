@@ -1,6 +1,3 @@
-#Event: Input (b As Boolean)
-#Event: TransitionEnd(obj As Map)
-#Event: UpdateMiniVariant(Status As Boolean)
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: App, DisplayName: App, FieldType: Boolean, DefaultValue: True, Description: Designates the component as part of the application layout
@@ -50,7 +47,6 @@
 #DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
 #DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
 #DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
-#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
 #DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
 #DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
 #DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: MinHeight

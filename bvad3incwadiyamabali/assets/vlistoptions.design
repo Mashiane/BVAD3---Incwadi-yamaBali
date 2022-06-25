@@ -9,145 +9,112 @@
 #DesignerProperty: Key: HasDivider, DisplayName: HasDivider, FieldType: Boolean, DefaultValue: true, Description: HasDivider
 #DesignerProperty: Key: InsetDivider, DisplayName: InsetDivider, FieldType: Boolean, DefaultValue: false, Description: Each divider should be Inset
 #DesignerProperty: Key: Template, DisplayName: Template, FieldType: String, DefaultValue: list, Description: Template to use, List: list|list-item-group|none|tree
-'LeftImage
 #DesignerProperty: Key: UseLeftImage, DisplayName: UseLeftImage, FieldType: Boolean, DefaultValue: True, Description: Use Left Image
 #DesignerProperty: Key: LeftImage, DisplayName: LeftImage, FieldType: String, DefaultValue: leftimage, Description: Field name for left image
-'LeftAction
 #DesignerProperty: Key: UseLeftAction, DisplayName: UseLeftAction, FieldType: Boolean, DefaultValue: True, Description: Use Left Action
-'LeftActionButton
 #DesignerProperty: Key: UseLeftActionButton, DisplayName: UseLeftActionIcon, FieldType: Boolean, DefaultValue: True, Description: Use Left Action Icon
-'LeftActionIcon
 #DesignerProperty: Key: LeftIcon, DisplayName: LeftActionIcon, FieldType: String, DefaultValue: lefticon, Description: Field name for left action Icon
 #DesignerProperty: Key: LeftIconAttr, DisplayName: LeftActionIconAttr, FieldType: String, DefaultValue: , Description: Left Action Icon Attr
 #DesignerProperty: Key: LeftIconClass, DisplayName: LeftActionIconClass, FieldType: String, DefaultValue: , Description: Left Action Icon Class
 #DesignerProperty: Key: LeftIconColor, DisplayName: LeftActionIconColor, FieldType: String, DefaultValue: leftcolor, Description: Left Action Icon Color
-'LeftActionCheckBox
 #DesignerProperty: Key: UseLeftActionCheckBox, DisplayName: UseLeftActionCheckBox, FieldType: Boolean, DefaultValue: True, Description: Use Left Action Check Box
 #DesignerProperty: Key: ShowLeftCheckBoxes, DisplayName: ShowLeftActionCheckBoxes, FieldType: Boolean, DefaultValue: false, Description: Show Left Action CheckBoxes
 #DesignerProperty: Key: LeftCheckBox, DisplayName: LeftActionCheckBox, FieldType: String, DefaultValue: leftcheckbox, Description: Field name For left action check box
 #DesignerProperty: Key: LeftCheckBoxAttr, DisplayName: LeftActionCheckBoxAttr, FieldType: String, DefaultValue: , Description: Left Action Check Box Attr
 #DesignerProperty: Key: LeftCheckBoxColor, DisplayName: LeftActionCheckBoxColor, FieldType: String, DefaultValue: leftcheckboxcolor, Description: Left Action Check Box Color
-'LeftActionSwitch
 #DesignerProperty: Key: UseLeftActionSwitch, DisplayName: UseLeftActionSwitch, FieldType: Boolean, DefaultValue: True, Description: Use Left Action Switch
 #DesignerProperty: Key: ShowLeftSwitches, DisplayName: ShowLeftActionSwitches, FieldType: Boolean, DefaultValue: false, Description: Show Left Action Switches
 #DesignerProperty: Key: LeftSwitch, DisplayName: LeftActionSwitch, FieldType: String, DefaultValue: leftswitch, Description: Field name for left action switch
 #DesignerProperty: Key: LeftSwitchAttr, DisplayName: LeftActionSwitchAttr, FieldType: String, DefaultValue: , Description: Left Action Switch Attr
 #DesignerProperty: Key: LeftSwitchColor, DisplayName: LeftActionSwitchColor, FieldType: String, DefaultValue: leftswitchcolor, Description: Left Action Switch Color
-'LeftAvatar
 #DesignerProperty: Key: UseLeftAvatar, DisplayName: UseLeftAvatar, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar
 #DesignerProperty: Key: ItemAvatarClass, DisplayName: LeftAvatarClass, FieldType: String, DefaultValue: , Description: Left Avatar Class
-'LeftAvatarImage
 #DesignerProperty: Key: UseLeftAvatarImage, DisplayName: UseLeftAvatarImage, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar Image
 #DesignerProperty: Key: Avatar, DisplayName: LeftAvatarImage, FieldType: String, DefaultValue: avatar, Description: Field name for Avatar Image
 #DesignerProperty: Key: AvatarAttr, DisplayName: LeftAvatarImageAttr, FieldType: String, DefaultValue: , Description: Left Avatar Image Attr
 #DesignerProperty: Key: AvatarClass, DisplayName: LeftAvatarImageClass, FieldType: String, DefaultValue: , Description: Left Avatar Image Class
-'LeftAvatarIcon
 #DesignerProperty: Key: UseLeftAvatarIcon, DisplayName: UseLeftAvatarIcon, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar Icon
 #DesignerProperty: Key: AvatarIcon, DisplayName: LeftAvatarIcon, FieldType: String, DefaultValue: avataricon, Description: Field name for left avatar icon
 #DesignerProperty: Key: AvatarIconAttr, DisplayName: LeftAvatarIconAttr, FieldType: String, DefaultValue: , Description: Left Avatar Icon Attr
 #DesignerProperty: Key: AvatarIconClass, DisplayName: LeftAvatarIconClass, FieldType: String, DefaultValue: , Description: Left Avatar Icon Class
 #DesignerProperty: Key: AvatarIconColor, DisplayName: LeftAvatarIconColor, FieldType: String, DefaultValue: avatariconcolor, Description: Left Avatar IconColor
-'LeftAvatarText
 #DesignerProperty: Key: UseLeftAvatarText, DisplayName: UseLeftAvatarText, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar Text
 #DesignerProperty: Key: AvatarText, DisplayName: LeftAvatarText, FieldType: String, DefaultValue: avatartext, Description: Field name for left Avatar Text
 #DesignerProperty: Key: AvatarTextClass, DisplayName: LeftAvatarTextClass, FieldType: String, DefaultValue: , Description: Left Avatar Text Class
 #DesignerProperty: Key: AvatarTextColor, DisplayName: LeftAvatarTextColor, FieldType: String, DefaultValue: avatartextcolor, Description: Left Avatar Text Color
-'LeftItemIcon
-'LeftIcon
 #DesignerProperty: Key: UseIcon, DisplayName: UseLefIcon, FieldType: Boolean, DefaultValue: True, Description: Use Left Icon
 #DesignerProperty: Key: Icon, DisplayName: LeftIcon, FieldType: String, DefaultValue: icon, Description: Field name for left icon
 #DesignerProperty: Key: IconAttr, DisplayName: LeftIconAttr, FieldType: String, DefaultValue: iconattr, Description: Left Icon Attr
 #DesignerProperty: Key: IconClass, DisplayName: LeftIconClass, FieldType: String, DefaultValue: , Description: Left Icon Class
 #DesignerProperty: Key: IconColor, DisplayName: LeftIconColor, FieldType: String, DefaultValue: iconcolor, Description: Left Icon Color
-'ListItemContent
-'Title
 #DesignerProperty: Key: UseTitle, DisplayName: UseTitle, FieldType: Boolean, DefaultValue: True, Description: Use Title
 #DesignerProperty: Key: Title, DisplayName: Title, FieldType: String, DefaultValue: title, Description: Field name to use for Title
 #DesignerProperty: Key: TitleAttr, DisplayName: TitleAttr, FieldType: String, DefaultValue: , Description: Title Attributes
 #DesignerProperty: Key: TitleClass, DisplayName: TitleClass, FieldType: String, DefaultValue: , Description: Title Classes
-'SubTitle
 #DesignerProperty: Key: UseSubTitle, DisplayName: UseSubTitle, FieldType: Boolean, DefaultValue: True, Description: Use Sub Title
 #DesignerProperty: Key: SubTitle, DisplayName: SubTitle, FieldType: String, DefaultValue: subtitle, Description: Field name to use for SubTitle
 #DesignerProperty: Key: SubTitleAttr, DisplayName: SubTitleAttr, FieldType: String, DefaultValue: , Description: Sub Title Attributes
 #DesignerProperty: Key: SubTitleClass, DisplayName: SubTitleClass, FieldType: String, DefaultValue: , Description: Sub Title Class
-'SubTitle1
 #DesignerProperty: Key: UseSubTitle1, DisplayName: UseSubTitle1, FieldType: Boolean, DefaultValue: True, Description: Use Sub Title1
 #DesignerProperty: Key: SubTitle1, DisplayName: SubTitle1, FieldType: String, DefaultValue: subtitle1, Description: Field name to use for SubTitle1
 #DesignerProperty: Key: SubTitle1Attr, DisplayName: SubTitle1Attr, FieldType: String, DefaultValue: , Description: SubTitle1 Attributes
 #DesignerProperty: Key: SubTitle1Class, DisplayName: SubTitle1Class, FieldType: String, DefaultValue: , Description: SubTitle1 Class
-'SubTitle2
 #DesignerProperty: Key: UseSubTitle2, DisplayName: UseSubTitle2, FieldType: Boolean, DefaultValue: True, Description: Use Sub Title2
 #DesignerProperty: Key: SubTitle2, DisplayName: SubTitle2, FieldType: String, DefaultValue: subtitle2, Description: Field name to use for SubTitle2
 #DesignerProperty: Key: SubTitle2Attr, DisplayName: SubTitle2Attr, FieldType: String, DefaultValue: , Description: SubTitle2 Attributes
 #DesignerProperty: Key: SubTitle2Class, DisplayName: SubTitle2Class, FieldType: String, DefaultValue: , Description: SubTitle2 Class
-'SubTitle3
 #DesignerProperty: Key: UseSubTitle3, DisplayName: UseSubTitle3, FieldType: Boolean, DefaultValue: True, Description: Use Sub Title3
 #DesignerProperty: Key: SubTitle3, DisplayName: SubTitle3, FieldType: String, DefaultValue: subtitle3, Description: Field name to use for SubTitle3
 #DesignerProperty: Key: SubTitle3Attr, DisplayName: SubTitle3Attr, FieldType: String, DefaultValue: , Description: SubTitle3 Attributes
 #DesignerProperty: Key: SubTitle3Class, DisplayName: SubTitle3Class, FieldType: String, DefaultValue: , Description: SubTitle3 Class
-'SubTitle4
 #DesignerProperty: Key: UseSubTitle4, DisplayName: UseSubTitle4, FieldType: Boolean, DefaultValue: True, Description: Use Sub Title4
 #DesignerProperty: Key: SubTitle4, DisplayName: SubTitle4, FieldType: String, DefaultValue: subtitle4, Description: Field name to use for SubTitle4
 #DesignerProperty: Key: SubTitle4Attr, DisplayName: SubTitle4Attr, FieldType: String, DefaultValue: , Description: SubTitle4 Attributes
 #DesignerProperty: Key: SubTitle4Class, DisplayName: SubTitle4Class, FieldType: String, DefaultValue: , Description: SubTitle4 Class
-'RightAvatar
-'RightAvatarImage
 #DesignerProperty: Key: UseRightAvatar, DisplayName: UseRightAvatar, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar
 #DesignerProperty: Key: RightItemAvatarClass, DisplayName: RightItemAvatarClass, FieldType: String, DefaultValue: , Description: Right Avatar Item Class
 #DesignerProperty: Key: UseRightAvatarImage, DisplayName: UseRightAvatarImage, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar Image
 #DesignerProperty: Key: RightAvatar, DisplayName: RightAvatarImage, FieldType: String, DefaultValue: rightavatar, Description: Field name for Right Avatar Image
 #DesignerProperty: Key: RightAvatarAttr, DisplayName: RightAvatarImageAttr, FieldType: String, DefaultValue: , Description: Right Avatar Image Attr
 #DesignerProperty: Key: RightAvatarClass, DisplayName: RightAvatarImageClass, FieldType: String, DefaultValue: , Description: Right Avatar Image Class
-'RightAvatarIcon
 #DesignerProperty: Key: UseRightAvatarIcon, DisplayName: UseRightAvatarIcon, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar Icon
 #DesignerProperty: Key: RightAvatarIcon, DisplayName: RightAvatarIcon, FieldType: String, DefaultValue: rightavataricon, Description: Field name for right avatar icon
 #DesignerProperty: Key: RightAvatarIconAttr, DisplayName: RightAvatarIconAttr, FieldType: String, DefaultValue: , Description: Right Avatar Icon Attr
 #DesignerProperty: Key: RightAvatarIconClass, DisplayName: RightAvatarIconClass, FieldType: String, DefaultValue: , Description: Right Avatar Icon Class
 #DesignerProperty: Key: RightAvatarIconColor, DisplayName: RightAvatarIconColor, FieldType: String, DefaultValue: rightavatariconcolor, Description: Right Avatar Icon Color
-'RightAvatarText
 #DesignerProperty: Key: UseRightAvatarText, DisplayName: UseRightAvatarText, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar Text
 #DesignerProperty: Key: RightAvatarText, DisplayName: RightAvatarText, FieldType: String, DefaultValue: rightavatartext, Description: Field name for right avatar text
 #DesignerProperty: Key: RightAvatarTextClass, DisplayName: RightAvatarTextClass, FieldType: String, DefaultValue: , Description: Right Avatar Text Class
 #DesignerProperty: Key: RightAvatarTextColor, DisplayName: RightAvatarTextColor, FieldType: String, DefaultValue: rightavatartextcolor, Description: Right Avatar Text Color
-'RightImage
 #DesignerProperty: Key: UseRightImage, DisplayName: UseRightImage, FieldType: Boolean, DefaultValue: True, Description: Use Right Image
 #DesignerProperty: Key: RightImage, DisplayName: RightImage, FieldType: String, DefaultValue: rightimage, Description: Field name for right image
-'RightAction
 #DesignerProperty: Key: UseRightAction, DisplayName: UseRightAction, FieldType: Boolean, DefaultValue: True, Description: Use Right Action
-'RightActionText
 #DesignerProperty: Key: UseRightActionText, DisplayName: UseRightActionText, FieldType: Boolean, DefaultValue: True, Description: Use Right Action Text
 #DesignerProperty: Key: RightText, DisplayName: RightText, FieldType: String, DefaultValue: righttext, Description: Field name for right action text
 #DesignerProperty: Key: RightTextAttr, DisplayName: RightTextAttr, FieldType: String, DefaultValue: , Description: RightTextAttr
-'RightActionChip
 #DesignerProperty: Key: UseRightChip, DisplayName: UseRightActionChip, FieldType: Boolean, DefaultValue: True, Description: Use Right Chip
 #DesignerProperty: Key: RightChip, DisplayName: RightActionChip, FieldType: String, DefaultValue: rightchip, Description: Field name for right action chip
 #DesignerProperty: Key: RightChipAttr, DisplayName: RightActionChipAttr, FieldType: String, DefaultValue: , Description: Right Action Chip Attr
 #DesignerProperty: Key: RightChipColor, DisplayName: RightActionChipColor, FieldType: String, DefaultValue: rightchipcolor, Description: Right Action Chip Color
-'
 #DesignerProperty: Key: UseRightMinusPlusChip, DisplayName: UseRightMinusPlusChip, FieldType: Boolean, DefaultValue: True, Description: Use Right Minus Plus Chip
 #DesignerProperty: Key: RightMinusPlusChip, DisplayName: UseRightMinusPlusChip, FieldType: String, DefaultValue: rightminuspluschip, Description: Field name for right minus plus action chip
 #DesignerProperty: Key: RightMinusPlusChipColor, DisplayName: RightMinusPlusChipColor, FieldType: String, DefaultValue: rightminuspluschipcolor, Description: Right Action Chip minus plus chip Color
 #DesignerProperty: Key: RightMinusPlusLabel, DisplayName: RightMinusPlusLabel, FieldType: Boolean, DefaultValue: False, Description: Set / Remove circle Edges
-'RightActionButton
-'RightActionIcon
 #DesignerProperty: Key: UseRightActionButton, DisplayName: UseRightActionIcon, FieldType: Boolean, DefaultValue: True, Description: Use Right Action Icon
 #DesignerProperty: Key: RightIcon, DisplayName: RightActionIcon, FieldType: String, DefaultValue: righticon, Description: Field name for right action icon
 #DesignerProperty: Key: RightIconAttr, DisplayName: RightActionIconAttr, FieldType: String, DefaultValue: , Description: Right Action Icon Attr
 #DesignerProperty: Key: RightIconClass, DisplayName: RightActionIconClass, FieldType: String, DefaultValue: , Description: Right Action Icon Class
 #DesignerProperty: Key: RightIconColor, DisplayName: RightActionIconColor, FieldType: String, DefaultValue: righticoncolor, Description: Right Action Icon Color
-'RightActionCheckBox
 #DesignerProperty: Key: UseRightActionCheckBox, DisplayName: UseRightActionCheckBox, FieldType: Boolean, DefaultValue: True, Description: UseRight Action CheckBox
 #DesignerProperty: Key: ShowRightCheckBoxes, DisplayName: ShowRightActionCheckBoxes, FieldType: Boolean, DefaultValue: false, Description: Show Right Action Check Boxes
 #DesignerProperty: Key: RightCheckBox, DisplayName: RightActionCheckBox, FieldType: String, DefaultValue: rightcheckbox, Description: Field name for right action check box
 #DesignerProperty: Key: RightCheckBoxAttr, DisplayName: RightActionCheckBoxAttr, FieldType: String, DefaultValue: , Description: Right Action CheckBox Attr
 #DesignerProperty: Key: RightCheckBoxColor, DisplayName: RightActionCheckBoxColor, FieldType: String, DefaultValue: rightcheckboxcolor, Description: Right Action CheckBox Color
-'RightActionRating
 #DesignerProperty: Key: UseRightActionRating, DisplayName: UseRightActionRating, FieldType: Boolean, DefaultValue: True, Description: Use Right Action Rating
 #DesignerProperty: Key: ShowRightRating, DisplayName: ShowRightActionRating, FieldType: Boolean, DefaultValue: false, Description: Show Right Action Rating
 #DesignerProperty: Key: RightRating, DisplayName: RightActionRating, FieldType: String, DefaultValue: rightrating, Description: Field name for right action rating
 #DesignerProperty: Key: RightRatingAttr, DisplayName: RightActionRatingAttr, FieldType: String, DefaultValue: , Description: Right Action Rating Attr
 #DesignerProperty: Key: RightRatingColor, DisplayName: RightActionRatingColor, FieldType: String, DefaultValue: rightratingcolor, Description: Right Action Rating Color
-'RightActionSwitch
 #DesignerProperty: Key: UseRightActionSwitch, DisplayName: UseRightActionSwitch, FieldType: Boolean, DefaultValue: True, Description: Use Right Action Switch
 #DesignerProperty: Key: ShowRightSwitches, DisplayName: ShowRightSwitches, FieldType: Boolean, DefaultValue: false, Description: Show Right Action Switches
 #DesignerProperty: Key: RightSwitch, DisplayName: RightActionSwitch, FieldType: String, DefaultValue: rightswitch, Description: Field for right action switch

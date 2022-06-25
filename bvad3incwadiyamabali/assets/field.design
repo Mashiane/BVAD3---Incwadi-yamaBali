@@ -52,6 +52,7 @@
 #DesignerProperty: Key: ItemColors, DisplayName: Item Colors (;), FieldType: String, DefaultValue: , Description: Item Colors to use
 #DesignerProperty: Key: Multiple, DisplayName: Multiple, FieldType: Boolean, DefaultValue: False, Description: Multiple selection for combo/checkbox/radio group
 #DesignerProperty: Key: Chips, DisplayName: Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Chips
+#DesignerProperty: Key: SmallChips, DisplayName: Small Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Small Chips
 #DesignerProperty: Key: ColoredChips, DisplayName: Colored Chips, FieldType: Boolean, DefaultValue: False, Description: Changes display of selections to chips with colors
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: This component should be hidden. If you want to toggle visibility at runtime, check this property.
 #DesignerProperty: Key: Hint, DisplayName: Hint, FieldType: String, DefaultValue: , Description: Hint

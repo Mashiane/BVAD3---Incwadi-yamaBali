@@ -1,0 +1,126 @@
+#DesignerProperty: Key: App, DisplayName: App, FieldType: Boolean, DefaultValue: False, Description:
+#DesignerProperty: Key: AssignName, DisplayName: Assign Name, FieldType: Boolean, DefaultValue: False
+#DesignerProperty: Key: TagName, DisplayName: Tag Name, FieldType: String, DefaultValue: div, Description: tag of the element
+#DesignerProperty: Key: OverwriteTag, DisplayName: Overwrite Tag, FieldType: String, DefaultValue: , Description: over write tag of the element with
+#DesignerProperty: Key: Caption, DisplayName: Caption, FieldType: String, DefaultValue: , Description: Text on the element
+#DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: ColorIntensity, DisplayName: Color Intensity, FieldType: String, DefaultValue: normal, Description: , List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: , List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: SetColorByAttribute, DisplayName: Set Color By Attribute, FieldType: Boolean, DefaultValue: True, Description:
+#DesignerProperty: Key: LoremIpsum, DisplayName: Lorem Ipsum, FieldType: Boolean, DefaultValue: False, Description: Lorem ipsum.
+#DesignerProperty: Key: ActiveClass, DisplayName: Active Class, FieldType: String, DefaultValue: , Description: ActiveClass.
+#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|none|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|none|space-around|space-between|start
+#DesignerProperty: Key: AlignCenter, DisplayName: Align Center, FieldType: Boolean, DefaultValue: False, Description: AlignCenter
+#DesignerProperty: Key: Alt, DisplayName: Alt, FieldType: String, DefaultValue: , Description: Alt
+#DesignerProperty: Key: AppendIcon, DisplayName: Append Icon, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: AppendOuterIcon, DisplayName: Append Outer Icon, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Autofocus, DisplayName: Auto-focus, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: BackgroundImage, DisplayName: Background Image, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: BackgroundRepeat, DisplayName: Background Repeat, FieldType: String, DefaultValue: , Description: , List: inherit|initial|no-repeat|none|repeat|repeat-x|repeat-y
+#DesignerProperty: Key: Bold, DisplayName: Bold, FieldType: Boolean, DefaultValue: False, Description: Bold
+#DesignerProperty: Key: Border, DisplayName: Border, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: BorderColor, DisplayName: BorderColor, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: BorderRadius, DisplayName: Border Radius, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: BorderStyle, DisplayName: Border Style, FieldType: String, DefaultValue: , Description: , List: dashed|dotted|double|groove|hidden|inherit|initial|inset|none|outset|remove|ridge|solid
+#DesignerProperty: Key: BorderWidth, DisplayName: Border Width, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: BuildGrid, DisplayName: Build Grid, FieldType: Boolean, DefaultValue: False, Description: BuildGrid
+#DesignerProperty: Key: ShowGridDesign, DisplayName: Show Grid Design, FieldType: Boolean, DefaultValue: False, Description: ShowGridDesign
+#DesignerProperty: Key: Rows, DisplayName: Rows, FieldType: String, DefaultValue: , Description: Rows
+#DesignerProperty: Key: Columns, DisplayName: Columns, FieldType: String, DefaultValue: , Description: Columns
+#DesignerProperty: Key: OffSets, DisplayName: OffSets XSMLX, FieldType: String, DefaultValue: xs=?; s=?; m=?; l=?; x=? , Description: OffSets SMLX
+#DesignerProperty: Key: Sizes, DisplayName: Sizes XSMLX, FieldType: String, DefaultValue: xs=?; s=?; m=?; l=?; x=?, Description: Sizes SMLX
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margin AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins AXYSMLX
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Padding AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding AXYSMLX
+#DesignerProperty: Key: Center, DisplayName: Center, FieldType: Boolean, DefaultValue: False, Description: Center
+#DesignerProperty: Key: Circle, DisplayName: Circle, FieldType: Boolean, DefaultValue: False, Description: Circle
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Clearable, DisplayName: Clearable, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Clipped, DisplayName: Clipped, FieldType: Boolean, DefaultValue: False, Description: Clipped
+#DesignerProperty: Key: ClippedLeft, DisplayName: ClippedLeft, FieldType: Boolean, DefaultValue: False, Description: Clipped Left
+#DesignerProperty: Key: ClippedRight, DisplayName: ClippedRight, FieldType: Boolean, DefaultValue: False, Description: Clipped Right
+#DesignerProperty: Key: Counter, DisplayName: Counter, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: CoverImage, DisplayName: Cover Image Src, FieldType: String, DefaultValue:  , Description: CoverImage
+#DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: False, Description: Dark
+#DesignerProperty: Key: DataSource, DisplayName: Data Source, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Dense, DisplayName: Dense, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: FillHeight, DisplayName: Fill Height, FieldType: Boolean, DefaultValue: False, Description: FillHeight
+#DesignerProperty: Key: Filled, DisplayName: Filled, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: FitScreen, DisplayName: Fit Screen VH, FieldType: Boolean, DefaultValue: False, Description: FitScreen VH
+#DesignerProperty: Key: Flat, DisplayName: Flat, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Float, DisplayName: Float, FieldType: String, DefaultValue: , Description: , List: left|none|right
+#DesignerProperty: Key: Fluid, DisplayName: Fluid, FieldType: Boolean, DefaultValue: False, Description: Fluid
+#DesignerProperty: Key: FontFamily, DisplayName: Font Family, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: FontStyle, DisplayName: Font Style, FieldType: String, DefaultValue: , Description: , List: inherit|initial|italic|none|normal|oblique
+#DesignerProperty: Key: FontWeight, DisplayName: Font Weight, FieldType: String, DefaultValue: , Description: , List: bold|bolder|inherit|initial|lighter|none|normal
+#DesignerProperty: Key: FullScreen, DisplayName: Full Screen On Mobile, FieldType: Boolean, DefaultValue: False, Description: FullScreen Mobile
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: HiddenMDAndUp, DisplayName: Hidden MD And Up, FieldType: Boolean, DefaultValue: False, Description: HiddenMDAndUp
+#DesignerProperty: Key: HiddenSMAndDown, DisplayName: Hidden SM And Down, FieldType: Boolean, DefaultValue: False, Description: HiddenSMAndDown
+#DesignerProperty: Key: HideDetails, DisplayName: Hide Details, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Hint, DisplayName: Hint, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Href, DisplayName: Href, FieldType: String, DefaultValue: , Description: Href
+#DesignerProperty: Key: InputType, DisplayName: Input Type, FieldType: String, DefaultValue: , Description: Input type, List: email|error|file|info|none|number|password|search|success|tel|text|url|warning
+#DesignerProperty: Key: Italic, DisplayName: Italic, FieldType: Boolean, DefaultValue: False, Description: Italic
+#DesignerProperty: Key: ItemText, DisplayName: Item Text, FieldType: String, DefaultValue: , Description:
+#DesignerProperty: Key: ItemValue, DisplayName: Item Value, FieldType: String, DefaultValue: , Description:
+#DesignerProperty: Key: Items, DisplayName: Items, FieldType: String, DefaultValue: , Description:
+#DesignerProperty: Key: JustifyCenter, DisplayName: Justify Center, FieldType: Boolean, DefaultValue: False, Description: JustifyCenter
+#DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Label, DisplayName: Label, FieldType: String, DefaultValue: , Description: Label of the element
+#DesignerProperty: Key: MaxHeight, DisplayName: Max Height, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: MaxWidth, DisplayName: Max Width, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: NoGutter, DisplayName: No Gutters, FieldType: Boolean, DefaultValue: False, Description: NoGutter
+#DesignerProperty: Key: Outlined, DisplayName: Outlined, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: PersistentHint, DisplayName: Persistent Hint, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Placeholder, DisplayName: Placeholder, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: PrependIcon, DisplayName: Prepend Icon, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: PrependInnerIcon, DisplayName: Prepend Inner Icon, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Readonly, DisplayName: Readonly, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Required, DisplayName: Required, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: ReturnObject, DisplayName: Return Object, FieldType: Boolean, DefaultValue: False, Description:
+#DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: Boolean, DefaultValue: False , Description: ,
+#DesignerProperty: Key: Shaped, DisplayName: Shaped, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: SingleLine, DisplayName: Single Line, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Slot, DisplayName: Slot, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Solo, DisplayName: Solo, FieldType: Boolean, DefaultValue: False , Description:
+#DesignerProperty: Key: Src, DisplayName: Src, FieldType: String, DefaultValue: , Description: Src
+#DesignerProperty: Key: States, DisplayName: States, FieldType: String, DefaultValue: , Description: Initial Binding States. Must be a json String- use =
+#DesignerProperty: Key: Style, DisplayName: Style, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: StyleHeight, DisplayName: Style Height, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: StyleMaxHeight, DisplayName: Style Max Height, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: StyleMaxWidth, DisplayName: Style Max Width, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: StyleWidth, DisplayName: Style Width, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: TextAlign, DisplayName: Text Align, FieldType: String, DefaultValue: , Description: , List: center|justify|left|none|right
+#DesignerProperty: Key: TextDecoration, DisplayName: Text Decoration, FieldType: String, DefaultValue: , Description: , List: line-through|none|overline|underline
+#DesignerProperty: Key: To, DisplayName: To, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VElse, DisplayName: V-Else, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VElseIf, DisplayName: V-Else-If, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VHtml, DisplayName: V-Html, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VIf, DisplayName: V-If, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VModel, DisplayName: V-Model, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VOn, DisplayName: V-On, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VShow, DisplayName: V-Show, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: VSlotActivator, DisplayName: V-Slot-Activator, FieldType: String, DefaultValue: , Description: Slot activator
+#DesignerProperty: Key: VSlotDefault, DisplayName: V-Slot-Default, FieldType: String, DefaultValue: , Description: Slot default
+#DesignerProperty: Key: VText, DisplayName: V-Text, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: Value, DisplayName: Value, FieldType: String, DefaultValue: , Description: Value on the element
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue:  , Description:
+#DesignerProperty: Key: OnClick, DisplayName: On Click, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnClickStop, DisplayName: On Click Stop, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnChange, DisplayName: On Change, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnDblClick, DisplayName: On Dbl Click, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnMouseMove, DisplayName: On Mouse Move, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnMouseOut, DisplayName: On Mouse Out, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnKeyUp, DisplayName: On KeyUp, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnKeyPress, DisplayName: On KeyPress, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnClickAlt, DisplayName: On ClickAlt, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnClickShift, DisplayName: On ClickShift, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.
+#DesignerProperty: Key: OnClickPrevent, DisplayName: On ClickPrevent, FieldType: String, DefaultValue: , Description: Event arguments to be passed to the attribute.

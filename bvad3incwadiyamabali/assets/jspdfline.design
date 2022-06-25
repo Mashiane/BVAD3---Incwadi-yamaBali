@@ -1,0 +1,9 @@
+#DesignerProperty: Key: DataX1, DisplayName: X1, FieldType: String, DefaultValue: , Description: X1
+#DesignerProperty: Key: DataY1, DisplayName: Y1, FieldType: String, DefaultValue: , Description: Y1
+#DesignerProperty: Key: DataX2, DisplayName: X2, FieldType: String, DefaultValue: , Description: X2
+#DesignerProperty: Key: DataY2, DisplayName: Y2, FieldType: String, DefaultValue: , Description: Y2
+#DesignerProperty: Key: DataStyle, DisplayName: Style, FieldType: String, DefaultValue: S, Description: DataStyle, List: F|FD|S
+#DesignerProperty: Key: DataLineWidth, DisplayName: LineWidth, FieldType: String, DefaultValue: 1, Description: LineWidth
+#DesignerProperty: Key: DataDrawColor, DisplayName: DrawColor, FieldType: String, DefaultValue: , Description: DrawColor
+#DesignerProperty: Key: DataFillColor, DisplayName: FillColor, FieldType: String, DefaultValue: , Description: FillColor
+#DesignerProperty: Key: ColorChooser, DisplayName: ColorChooser, FieldType: Color, DefaultValue: Null, Description: Use this to select RGB color

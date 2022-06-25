@@ -1,55 +1,3 @@
-#Event: Blur (e As BANanoEvent)
-#Event: Change (item As Object)
-#Event: Click (e As BANanoEvent)
-#Event: ClickAlt (e As BANanoEvent)
-#Event: ClickAppend (e As BANanoEvent)
-#Event: ClickAppendOuter (e As BANanoEvent)
-#Event: ClickClear (e As BANanoEvent)
-#Event: ClickClose (e As BANanoEvent)
-#Event: ClickPrepend (e As BANanoEvent)
-#Event: ClickPrependInner (e As BANanoEvent)
-#Event: ClickPrevent (e As BANanoEvent)
-#Event: ClickShift (e As BANanoEvent)
-#Event: ClickStop (e As BANanoEvent)
-#Event: Date_Change (item As String)
-#Event: DblClick (e As BANanoEvent)
-#Event: DblClickPrevent (e As BANanoEvent)
-#Event: DragEnter (e As BANanoEvent)
-#Event: DragLeave (e As BANanoEvent)
-#Event: DragOver (e As BANanoEvent)
-#Event: Drop (e As BANanoEvent)
-#Event: End (e As BANanoEvent)
-#Event: File_Change(fileObj As Map)
-#Event: Files_Change(fileList As List)
-#Event: FileImage_Button_Click (e As BANanoEvent)
-#Event: Focus (e As BANanoEvent)
-#Event: Input (item As Object)
-#Event: KeyDown (e As BANanoEvent)
-#Event: KeyPress (e As BANanoEvent)
-#Event: KeyUp (e As BANanoEvent)
-#Event: KeyUpEnter (e As BANanoEvent)
-#Event: KeyUpEnterPrevent (e As BANanoEvent)
-#Event: KeydownEnterPrevent (e As BANanoEvent)
-#Event: KeydownLeftPrevent (e As BANanoEvent)
-#Event: KeydownRightPrevent (e As BANanoEvent)
-#Event: KeydownSpacePrevent (e As BANanoEvent)
-#Event: LeftClick (item As Map)
-#Event: MouseDown (e As BANanoEvent)
-#Event: MouseDownStop (e As BANanoEvent)
-#Event: MouseMove (e As BANanoEvent)
-#Event: MouseOut (e As BANanoEvent)
-#Event: MouseOver (event As BANanoEvent)
-#Event: MouseUp (e As BANanoEvent)
-#Event: RightClick (item As Map)
-#Event: RemoveChip (item As Map)
-#Event: Start (e As BANanoEvent)
-#Event: Submit (e As BANanoEvent)
-#Event: Time_Change (item As String)
-#Event: TouchStartStop (e As BANanoEvent)
-#Event: UpdateError (B As Boolean)
-#Event: Plus (e As BANanoEvent)
-#Event: Minus (e As BANanoEvent)
-#Event: Watch
 #DesignerProperty: Key: ReadMe, DisplayName: ReadMe*, FieldType: String, DefaultValue: The VField should always be placed inside a VForm. The VField helps you create any kind of form component like image-avatar-progress bar-progress circle-chip-rating and buttons and icons. You also indicate where the native component should be placed in the grid by specifying its Row/Column position. The grid is built automatically for you! When using the VField you only call BindState once, on the VForm. If you use a date you need to set a watch to display the nicedate. For dropdowns you need to specify the data-source - (item-value) and (item-text) (i.e. key value pairs For the source field names), Description: The VField should always be placed inside a VForm. The VField helps you create any kind of form component like image-avatar-progress bar-progress circle-chip-rating and buttons and icons. You also indicate where the native component should be placed in the grid by specifying its Row/Column position. The grid is built automatically for you! When using the VField you only call BindState once, on the VForm. If you use a date you need to set a watch to display the nicedate. For dropdowns you need to specify the data-source - (item-value) and (item-text) (i.e. key value pairs For the source field names)
 #DesignerProperty: Key: ParentID, DisplayName: Parent ID, FieldType: String, DefaultValue: , Description: The parent id if not placing on RC
 #DesignerProperty: Key: FieldName, DisplayName: Field Name*, FieldType: String, DefaultValue: , Description: Field Name on the database table
@@ -74,7 +22,6 @@
 #DesignerProperty: Key: DefaultValue1, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: What is the default value for this field
 #DesignerProperty: Key: ComputeVModel, DisplayName: Compute VModel, FieldType: String, DefaultValue: , Description: The computed VModel
 #DesignerProperty: Key: ComponentType, DisplayName: Component Type (Form)*, FieldType: String, DefaultValue: TextField, Description: Component Type and if its a date you need to set a watch to make it a nice date. For PC/PL specify the Size & Width, List: AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|DatePicker|DateTimePicker|Email|FAB|FileInput|FileInputImage|GenderList|H1|H2|H3|H4|H5|H6|Icon|Image|Money|P|Password|PersonList|PhoneList|ProgressCircular|ProgressLinear|RadioGroup|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Slider|Switch|Telephone|TextArea|TextField|Thousands|TimePicker|Website|div|span|MinusPlus
-'
 #DesignerProperty: Key: ColumnType, DisplayName: Column Type*, FieldType: String, DefaultValue: Normal, Description: Data Table Column Type, List: Action|AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|Chips|ColorSelect|ColorTextField|TextFieldColor|ComboBox|CountryList|CurrencyList|CustomColors|Date|DateTime|Email|FileSize|GenderList|Icon|Image|Link|LinkText|Money|Normal|Number|PersonList|PhoneList|ProgressCircular|ProgressLinear|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Switch|TextArea|TextField|Thousands|Time|MinusPlus
 #DesignerProperty: Key: ListItemType, DisplayName: ListView Type, FieldType: String, DefaultValue: , Description: List View Item Type, List: id|to|leftimage|lefticon|leftcolor|leftcheckbox|leftcheckboxcolor|leftswitch|leftswitchcolor|avatar|avataricon|avatariconcolor|avatartext|avatartextcolor|icon|iconcolor|title|subtitle|subtitle1|subtitle2|subtitle3|subtitle4|rightavatar|rightavataricon|rightavatariconcolor|rightavatartext|rightavatartextcolor|rightimage|righttext|rightchip|rightchipcolor|rightminuspluschip|rightminuspluschipcolor|righticon|righticoncolor|rightcheckbox|rightcheckboxcolor|rightrating|rightratingcolor|rightswitch|rightswitchcolor
 #DesignerProperty: Key: ChipLabel, DisplayName: Chip Label, FieldType: Boolean, DefaultValue: False, Description: Remove circle edges for plus minus
@@ -112,7 +59,6 @@
 #DesignerProperty: Key: ItemColor, DisplayName: Item Color, (Auto/Combo/Select), FieldType: String, DefaultValue: color, Description: Item Color for Drop Downs
 #DesignerProperty: Key: ItemAvatar, DisplayName: Item Avatar, (Auto), FieldType: String, DefaultValue: avatar, Description: Item Avatar for Drop Downs
 #DesignerProperty: Key: Multiple, DisplayName: Multiple, FieldType: Boolean, DefaultValue: False, Description: Multiple selection for Radio/Combo/CheckBoxes
-#DesignerProperty: Key: ColoredChips, DisplayName: Colored Chips, FieldType: Boolean, DefaultValue: False, Description: Changes display of selections to chips with colors
 #DesignerProperty: Key: ReturnObject, DisplayName: ReturnObject (Auto/Combo/Select), FieldType: Boolean, DefaultValue: False, Description: Select Return Object
 #DesignerProperty: Key: UseItems, DisplayName: Use These Items (Auto/Combo/Select/Check/Radio), FieldType: Boolean, DefaultValue: False, Description: Use These Items
 #DesignerProperty: Key: ItemKeys, DisplayName: Item Values (Key)(;), FieldType: String, DefaultValue: , Description: Item Values to use
@@ -120,6 +66,7 @@
 #DesignerProperty: Key: ItemColors, DisplayName: Item Colors (;), FieldType: String, DefaultValue: , Description: Item Colors to use
 #DesignerProperty: Key: Chips, DisplayName: Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Chips
 #DesignerProperty: Key: SmallChips, DisplayName: Small Chips (Drop Downs), FieldType: Boolean, DefaultValue: False, Description: Show items as Small Chips
+#DesignerProperty: Key: ColoredChips, DisplayName: Colored Chips, FieldType: Boolean, DefaultValue: False, Description: Changes display of selections to chips with colors
 #DesignerProperty: Key: MaxLen, DisplayName: Counter/Length, FieldType: Int, DefaultValue: 0, Description: Counter / Length
 #DesignerProperty: Key: Href, DisplayName: Href, FieldType: String, DefaultValue: #, Description: The URL for this link
 #DesignerProperty: Key: Target, DisplayName: Target, FieldType: String, DefaultValue: _blank, Description: The target for the link, List: _blank|_parent|_self|_top|none
@@ -134,7 +81,6 @@
 #DesignerProperty: Key: VisibilityMethod, DisplayName: DT Compute Visibility, FieldType: String, DefaultValue: , Description: Sub to run on v-show, DO NOT include ()
 #DesignerProperty: Key: IconMethod, DisplayName: DT Compute Icon, FieldType: String, DefaultValue: , Description: Sub to run on the icon, DO NOT include ()
 #DesignerProperty: Key: OutlinedMethod, DisplayName: DT Compute Outlined, FieldType: String, DefaultValue: , Description: Sub to run on outlined, DO NOT include ()
-'
 #DesignerProperty: Key: IconName, DisplayName: Icon Name, FieldType: String, DefaultValue: , Description: Icon Name
 #DesignerProperty: Key: LoremIpsum, DisplayName:LoremIpsum, FieldType: Boolean, DefaultValue: False, Description: Show Lorem Ipsum
 #DesignerProperty: Key: Placeholder, DisplayName: Place Holder, FieldType: String, DefaultValue: , Description: Place holder
@@ -166,7 +112,6 @@
 #DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: False, Description: Shrink Content
 #DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
 #DesignerProperty: Key: Dense, DisplayName: Dense, FieldType: Boolean, DefaultValue: False, Description: Dense
-'#DesignerProperty: Key: Clearable, DisplayName: Clearable, FieldType: Boolean, DefaultValue: False, Description: Clearable
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: false, Description: Tile
 #DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
 #DesignerProperty: Key: MinValue, DisplayName: Min Value (Slider), FieldType: Int, DefaultValue: 0, Description: Min Value e.g. Slider

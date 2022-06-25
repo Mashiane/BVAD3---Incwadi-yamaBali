@@ -1,0 +1,54 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: The component is visible / hidden
+#DesignerProperty: Key: Value, DisplayName: Value, FieldType: String, DefaultValue: 20, Description: Value gauge is showing
+#DesignerProperty: Key: Symbol, DisplayName: Symbol, FieldType: String, DefaultValue: , Description: Special symbol to show next to value
+#DesignerProperty: Key: Percents, DisplayName: Percents, FieldType: Boolean, DefaultValue: False, Description: Percents
+#DesignerProperty: Key: MaxValue, DisplayName: Max Value, FieldType: String, DefaultValue: 100, Description: Max Value
+#DesignerProperty: Key: MinValue, DisplayName: Min Value, FieldType: String, DefaultValue: 0, Description: Min Value
+#DesignerProperty: Key: Label, DisplayName: Label, FieldType: String, DefaultValue: , Description: Text to show below value
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: Int, DefaultValue: 250, Description: Gauge Height
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: Int, DefaultValue: 250, Description: Gauge Width
+#DesignerProperty: Key: Counter, DisplayName: Counter, FieldType: Boolean, DefaultValue: True, Description: Animate level number change
+#DesignerProperty: Key: Decimals, DisplayName: Decimals, FieldType: String, DefaultValue: 0, Description: Number of digits after floating point
+#DesignerProperty: Key: DisplayRemaining, DisplayName: Display Remaining, FieldType: Boolean, DefaultValue: False, Description: Replace display number with the number remaining to reach max
+#DesignerProperty: Key: Donut, DisplayName: Donut, FieldType: Boolean, DefaultValue: False, Description: Show full donut gauge
+#DesignerProperty: Key: DonutStartAngle, DisplayName: Donut Start Angle, FieldType: String, DefaultValue: 90, Description: Angle to start from when in donut mode
+#DesignerProperty: Key: FormatNumber, DisplayName: Format Number, FieldType: Boolean, DefaultValue: False, Description: Formats numbers with commas where appropriate
+#DesignerProperty: Key: ValueFontColor, DisplayName: Value Font Color, FieldType: String, DefaultValue: none, Description: Color of label showing current value, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: ValueFontFamily, DisplayName: Value Font Family, FieldType: String, DefaultValue: Arial, Description: Font of label showing current value
+#DesignerProperty: Key: GaugeColor, DisplayName: Gauge Color, FieldType: String, DefaultValue: none, Description: Gaugecolor, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: LabelFontColor, DisplayName: Label Font Color, FieldType: String, DefaultValue: none, Description: Labelfontcolor, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: Pointer, DisplayName: Pointer, FieldType: Boolean, DefaultValue: False, Description: Show value pointer
+#DesignerProperty: Key: PointerBottomLength, DisplayName: Pointer Bottom Length, FieldType: Int, DefaultValue: 10, Description: Pointer Bottom Length
+#DesignerProperty: Key: PointerBottomWidth, DisplayName: Pointer Bottom Width, FieldType: Int, DefaultValue: 12, Description: Pointer Bottom Width
+#DesignerProperty: Key: PointerColor, DisplayName: Pointer Color, FieldType: String, DefaultValue: none, Description: Pointer Color, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: PointerStrokeColor, DisplayName: Pointer Stroke Color, FieldType: String, DefaultValue: none, Description: Pointer Stroke Color, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: PointerStrokeLinecap, DisplayName: Pointer Stroke Linecap, FieldType: String, DefaultValue: round, Description: Pointer Stroke Linecap, List: butt|round|square
+#DesignerProperty: Key: PointerStrokeWidth, DisplayName: Pointer Stroke Width, FieldType: Int, DefaultValue: 3, Description: Pointer Stroke Width
+#DesignerProperty: Key: PointerTopLength, DisplayName: Pointer Top Length, FieldType: Int, DefaultValue: -15, Description: Pointer Top Length
+#DesignerProperty: Key: GaugeWidthScale, DisplayName: Gauge Width Scale, FieldType: String, DefaultValue: 1.0, Description: Width of the gauge element
+#DesignerProperty: Key: HideMinMax, DisplayName: Hide Min Max, FieldType: Boolean, DefaultValue: False, Description: Hide min and max values
+#DesignerProperty: Key: HideValue, DisplayName: Hide Value, FieldType: Boolean, DefaultValue: False, Description: Hide value text
+#DesignerProperty: Key: HumanFriendly, DisplayName: Human Friendly, FieldType: Boolean, DefaultValue: False, Description: Convert large numbers to human friendly
+#DesignerProperty: Key: HumanFriendlyDecimal, DisplayName: Human Friendly Decimal, FieldType: Int, DefaultValue: 0, Description: Humanfriendlydecimal
+#DesignerProperty: Key: LabelMinFontSize, DisplayName: Label Min Font Size, FieldType: String, DefaultValue: 10, Description: Absolute minimum font size for the label
+#DesignerProperty: Key: MaxLabelMinFontSize, DisplayName: Max Label Min Font Size, FieldType: String, DefaultValue: 10, Description: Absolute minimum font size for the maximum label
+#DesignerProperty: Key: Maxtxt, DisplayName: Maxtxt, FieldType: String, DefaultValue: , Description: Maxium value text
+#DesignerProperty: Key: MinLabelMinFontSize, DisplayName: Min Label Min Font Size, FieldType: String, DefaultValue: 10, Description: Absolute minimum font size for the minimum label
+#DesignerProperty: Key: MinTxt, DisplayName: Min Txt, FieldType: String, DefaultValue: , Description: Minimum value text
+#DesignerProperty: Key: NoGradient, DisplayName: No Gradient, FieldType: Boolean, DefaultValue: False, Description: Whether to use gradual color change for value or sector-based
+#DesignerProperty: Key: RefreshAnimationTime, DisplayName: Refresh Animation Time, FieldType: String, DefaultValue: 700, Description: Length of refresh animation
+#DesignerProperty: Key: RefreshAnimationType, DisplayName: Refresh Animation Type, FieldType: String, DefaultValue: >, Description: Type of refresh animation, List: linear|>|<|<>|bounce
+#DesignerProperty: Key: RelativeGaugeSize, DisplayName: Relative Gauge Size, FieldType: Boolean, DefaultValue: True, Description: Whether gauge size should follow changes in container element size
+#DesignerProperty: Key: SlotName, DisplayName: SlotName, FieldType: String, DefaultValue:  , Description: Slot to be placed in
+#DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description: V-For
+#DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description: Key
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf Directive
+#DesignerProperty: Key: VElse, DisplayName: V-Else, FieldType: String, DefaultValue:  , Description: V-Else
+#DesignerProperty: Key: VElseIf, DisplayName: V-Else-If, FieldType: String, DefaultValue:  , Description: V-Else-If
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: States, DisplayName: State Bindings, FieldType: String, DefaultValue: , Description: Bindings (=/:). Must be a json String

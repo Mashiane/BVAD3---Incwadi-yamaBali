@@ -1,0 +1,15 @@
+#DesignerProperty: Key: DataX, DisplayName: X, FieldType: String, DefaultValue: , Description: DataX
+#DesignerProperty: Key: DataY, DisplayName: Y, FieldType: String, DefaultValue: , Description: DataY
+#DesignerProperty: Key: DataW, DisplayName: W, FieldType: String, DefaultValue: , Description: DataW
+#DesignerProperty: Key: DataH, DisplayName: H, FieldType: String, DefaultValue: , Description: DataH
+#DesignerProperty: Key: DataType, DisplayName: Type, FieldType: String, DefaultValue: text, Description: DataType, List: freetext|link|text
+#DesignerProperty: Key: DataTitle, DisplayName: Title, FieldType: String, DefaultValue: , Description: DataTitle
+#DesignerProperty: Key: DataContents, DisplayName: Contents, FieldType: String, DefaultValue: , Description: DataContents
+#DesignerProperty: Key: DataOpen, DisplayName: Open, FieldType: Boolean, DefaultValue: False, Description: DataOpen
+#DesignerProperty: Key: DataColorHex, DisplayName: Color Hex, FieldType: String, DefaultValue: , Description: DataColorHex
+#DesignerProperty: Key: ColorChooser, DisplayName: ColorChooser, FieldType: Color, DefaultValue: Null, Description: Use this to select RGB color
+#DesignerProperty: Key: DataTextColor, DisplayName: Text Color RGB, FieldType: String, DefaultValue: , Description: DataTextColor
+#DesignerProperty: Key: DataFontName, DisplayName: FontName, FieldType: String, DefaultValue: , Description: DataFontName
+#DesignerProperty: Key: DataFontSize, DisplayName: FontSize, FieldType: String, DefaultValue: , Description: DataFontSize
+#DesignerProperty: Key: DataFontStyle, DisplayName: FontStyle, FieldType: String, DefaultValue: , Description: DataFontStyle, List: bold|bolditalic|italic|normal
+#DesignerProperty: Key: DataFontWeight, DisplayName: FontWeight, FieldType: String, DefaultValue: , Description: DataFontWeight, List: 100|200|300|400|500|600|700|800|900

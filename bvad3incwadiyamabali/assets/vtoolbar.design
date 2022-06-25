@@ -1,13 +1,3 @@
-#Event: Click (e As BANanoEvent)
-#Event: ClickPrevent (e As BANanoEvent)
-#Event: ClickStop (e As BANanoEvent)
-#Event: Add_Click (e As BANanoEvent)
-#Event: ClearSort_Click (e As BANanoEvent)
-#Event: ClearFilter_Click (e As BANanoEvent)
-#Event: Refresh_Click (e As BANanoEvent)
-#Event: Pdf_Click (e As BANanoEvent)
-#Event: Excel_Click (e As BANanoEvent)
-#Event: Back_Click (e As BANanoEvent)
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
@@ -28,7 +18,6 @@
 #DesignerProperty: Key: Floating, DisplayName: Floating, FieldType: Boolean, DefaultValue: false, Description: Applies display: inline-flex to the component
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: Designates a specific height for the toolbar
 #DesignerProperty: Key: Light, DisplayName: Light, FieldType: Boolean, DefaultValue: false, Description: Applies the light theme variant to the component
-'#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
 #DesignerProperty: Key: MaxHeight, DisplayName: MaxHeight, FieldType: String, DefaultValue: , Description: Sets the maximum height for the component
 #DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: Sets the maximum width for the component
 #DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: Sets the minimum height for the component
@@ -48,8 +37,7 @@
 #DesignerProperty: Key: TextColorIntensity, DisplayName: TextColorIntensity, FieldType: String, DefaultValue: , Description: TextColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: false, Description: Removes the components border-radius
 #DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf
-'#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Sets the width for the component
-'
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Sets the width for the component
 #DesignerProperty: Key: HasSearch, DisplayName: Has Search, FieldType: Boolean, DefaultValue:  False, Description: Have a search input box
 #DesignerProperty: Key: SearchVModel, DisplayName: Search VModel, FieldType: String, DefaultValue: search, Description: SearchVModel
 #DesignerProperty: Key: SpacerBeforeSearch, DisplayName: Spacer Before Search, FieldType: Boolean, DefaultValue:  False, Description: Spacer before search

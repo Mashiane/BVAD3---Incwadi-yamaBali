@@ -1,0 +1,38 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: FillPercentage, DisplayName: Fill Percentage, FieldType: Int, DefaultValue: 0, Description: Fill Percentage
+#DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: String, DefaultValue: 70px , Description: Font Size
+#DesignerProperty: Key: FontFamily, DisplayName: Font Family, FieldType: String, DefaultValue: , Description: Font Family
+#DesignerProperty: Key: FontFillStyle, DisplayName: Font Fill Style, FieldType: String, DefaultValue: white, Description: Font Fill Style
+#DesignerProperty: Key: DrawPercentageSign, DisplayName: Draw Percentage Sign, FieldType: Boolean, DefaultValue: False, Description: Draw Percentage Sign
+#DesignerProperty: Key: DrawBubbles, DisplayName: Draw Bubbles, FieldType: Boolean, DefaultValue: True, Description: Draw Bubbles
+#DesignerProperty: Key: DrawShadow, DisplayName: Draw Shadow, FieldType: Boolean, DefaultValue: True, Description: Draw Shadow
+#DesignerProperty: Key: DrawText, DisplayName: Draw Text, FieldType: Boolean, DefaultValue: True, Description: Draw Text
+#DesignerProperty: Key: Size, DisplayName: Size, FieldType: Int, DefaultValue: 300, Description: Size
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 300px, Description: Height
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 300px, Description: Width
+#DesignerProperty: Key: BorderWidth, DisplayName: Border Width, FieldType: Int, DefaultValue: 25, Description: Border Width
+#DesignerProperty: Key: BackgroundColor, DisplayName: Background Color, FieldType: String, DefaultValue:  #e2e2e2, Description: Background Color
+#DesignerProperty: Key: ForegroundColor, DisplayName: Foreground Color, FieldType: String, DefaultValue: #fafafa, Description: Foreground Color
+#DesignerProperty: Key: FflFillStyle, DisplayName: FFL Fill Style, FieldType: String, DefaultValue: purple, Description: Ffl Fill Style
+#DesignerProperty: Key: FflAngularSpeed, DisplayName: FFL Angular Speed, FieldType: Int, DefaultValue: 0, Description: Ffl Angular Speed
+#DesignerProperty: Key: FflMaxAmplitude, DisplayName: FFL Max Amplitude, FieldType: Int, DefaultValue: 9, Description: Ffl Max Amplitude
+#DesignerProperty: Key: FflFrequency, DisplayName: FFL Frequency, FieldType: Int, DefaultValue: 30, Description: Ffl Frequency
+#DesignerProperty: Key: FflHorizontalSpeed, DisplayName: FFL Horizontal Speed, FieldType: Int, DefaultValue: -150, Description: Ffl Horizontal Speed
+#DesignerProperty: Key: BflFillStyle, DisplayName: BFL Fill Style, FieldType: String, DefaultValue: pink, Description: Bfl Fill Style
+#DesignerProperty: Key: BflAngularSpeed, DisplayName: BFL Angular Speed, FieldType: Int, DefaultValue: 140, Description: Bfl Angular Speed
+#DesignerProperty: Key: BflMaxAmplitude, DisplayName: BFL Max Amplitude, FieldType: Int, DefaultValue: 12, Description: Bfl Max Amplitude
+#DesignerProperty: Key: BflFrequency, DisplayName: BFL Frequency, FieldType: Int, DefaultValue: 40, Description: Bfl Frequency
+#DesignerProperty: Key: BflHorizontalSpeed, DisplayName: BFL Horizontal Speed, FieldType: Int, DefaultValue: 150, Description: Bfl Horizontal Speed
+#DesignerProperty: Key: SlotName, DisplayName: SlotName, FieldType: String, DefaultValue:  , Description: Slot to be placed in
+#DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description: V-For
+#DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description: Key
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf Directive
+#DesignerProperty: Key: VElse, DisplayName: V-Else, FieldType: String, DefaultValue:  , Description: V-Else
+#DesignerProperty: Key: VElseIf, DisplayName: V-Else-If, FieldType: String, DefaultValue:  , Description: V-Else-If
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: States, DisplayName: State Bindings, FieldType: String, DefaultValue: , Description: Bindings (=/:). Must be a json String

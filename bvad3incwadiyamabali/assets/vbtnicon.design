@@ -1,7 +1,3 @@
-#Event: Click (item As String)
-#Event: ClickStop (e As BANanoEvent)
-#Event: ClickPrevent (e As BANanoEvent)
-' Properties that will be show in the ABStract Designer.  They will be passed in the props map in DesignerCreateView (Case Sensitive!)
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Raised, DisplayName: Raised/Text, FieldType: Boolean, DefaultValue: True, Description: Transparent Background Off
 #DesignerProperty: Key: FullWidth, DisplayName: Block, FieldType: Boolean, DefaultValue: False, Description: Full Width
@@ -23,7 +19,6 @@
 #DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: ToolTipPosition, DisplayName: Tooltip Position, FieldType: String, DefaultValue: left, Description: Tool Tip Position, List: bottom|left|right|top
 #DesignerProperty: Key: ToolTip, DisplayName: Tooltip, FieldType: String, DefaultValue: , Description: Tooltip
-'
 #DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ColorIntensity, DisplayName: Color Intensity, FieldType: String, DefaultValue: normal, Description: , List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
@@ -41,7 +36,7 @@
 #DesignerProperty: Key: ItemIcons, DisplayName: Item Icons (;), FieldType: String, DefaultValue:  mdi-plus; mdi-pencil; mdi-delete, Description: Item Icons
 #DesignerProperty: Key: ItemColors, DisplayName: Item Colors (;), FieldType: String, DefaultValue:  green; amber; red, Description: Item Colors
 #DesignerProperty: Key: ItemTexts, DisplayName: Item Texts (;), FieldType: String, DefaultValue:  Add; Edit; Delete, Description: Item Texts
-#DesignerProperty: Key: ItemImages, DisplayName: Item Images (;), FieldType: String, DefaultValue:  ./assets/bvad3.png; ./assets/bvad3.png; ./assets/bvad3.png Description: Item Images
+#DesignerProperty: Key: ItemImages, DisplayName: Item Images (;), FieldType: String, DefaultValue:  ./assets/bvad3.png; ./assets/bvad3.png; ./assets/bvad3.png, Description: Item Images
 #DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: mr-2 , Description: Classes added to the HTML tag.
 #DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
 #DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =
@@ -54,7 +49,6 @@
 #DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
 #DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
 #DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
-'#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
 #DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
 #DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: Height

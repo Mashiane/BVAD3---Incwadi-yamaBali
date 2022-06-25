@@ -1,0 +1,66 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: BorderDash, DisplayName: BorderDash, FieldType: String, DefaultValue: 0, Description: BorderDash
+#DesignerProperty: Key: BorderWidth, DisplayName: BorderWidth, FieldType: String, DefaultValue: 0, Description: BorderWidth
+#DesignerProperty: Key: Bytes, DisplayName: Bytes, FieldType: Boolean, DefaultValue: False, Description: Bytes
+#DesignerProperty: Key: ChartType, DisplayName: ChartType, FieldType: String, DefaultValue: LineChart, Description: ChartType, List: AreaChart|BarChart|BubbleChart|ColumnChart|LineChart|PieChart|ScatterChart
+#DesignerProperty: Key: Curve, DisplayName: Curve, FieldType: Boolean, DefaultValue: False, Description: Curve
+#DesignerProperty: Key: Decimal, DisplayName: Decimals, FieldType: String, DefaultValue: , Description: Decimals
+#DesignerProperty: Key: Discrete, DisplayName: Discrete, FieldType: Boolean, DefaultValue: False, Description: Discrete
+#DesignerProperty: Key: Donut, DisplayName: Donut, FieldType: Boolean, DefaultValue: False, Description: Donut
+#DesignerProperty: Key: Download, DisplayName: Download, FieldType: Boolean, DefaultValue: True, Description: Download
+#DesignerProperty: Key: DownloadBackgroundColor, DisplayName: DownloadBackgroundColor, FieldType: String, DefaultValue: , Description: DownloadBackgroundColor, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: EmptyLabel, DisplayName: EmptyLabel, FieldType: String, DefaultValue: No Data, Description: EmptyLabel
+#DesignerProperty: Key: FileName, DisplayName: FileName, FieldType: String, DefaultValue: chart, Description: FileName
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 400px, Description: Height
+#DesignerProperty: Key: Label, DisplayName: Title, FieldType: String, DefaultValue: My Chart, Description: Title
+#DesignerProperty: Key: LegendPosition, DisplayName: LegendPosition, FieldType: String, DefaultValue: , Description: LegendPosition, List: bottom|none|right|top
+#DesignerProperty: Key: LibraryBackgroundColor, DisplayName: LibraryBackgroundColor, FieldType: String, DefaultValue: , Description: LibraryBackgroundColor, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: LoadingLabel, DisplayName: LoadingLabel, FieldType: String, DefaultValue: Loading... , Description: LoadingLabel
+#DesignerProperty: Key: Max, DisplayName: Max, FieldType: String, DefaultValue: , Description: Max
+#DesignerProperty: Key: Min, DisplayName: Min, FieldType: String, DefaultValue: , Description: Min
+#DesignerProperty: Key: SetMinMax, DisplayName: SetMinMax, FieldType: Boolean, DefaultValue: False, Description: SetMinMax
+#DesignerProperty: Key: Points, DisplayName: Points, FieldType: Boolean, DefaultValue: False, Description: Points
+#DesignerProperty: Key: SetPrecision, DisplayName: SetPrecision, FieldType: Boolean, DefaultValue: False, Description: SetPrecision
+#DesignerProperty: Key: Precision, DisplayName: Precision, FieldType: String, DefaultValue: , Description: Precision
+#DesignerProperty: Key: SetRound, DisplayName: SetRound, FieldType: Boolean, DefaultValue: False, Description: SetRound
+#DesignerProperty: Key: Round, DisplayName: Round, FieldType: String, DefaultValue: , Description: Round
+#DesignerProperty: Key: Prefix, DisplayName: Prefix, FieldType: String, DefaultValue: , Description: Prefix
+#DesignerProperty: Key: RefreshInterval, DisplayName: Refresh, FieldType: String, DefaultValue: 0, Description: Refresh
+#DesignerProperty: Key: Stacked, DisplayName: Stacked, FieldType: Boolean, DefaultValue: False, Description: Stacked
+#DesignerProperty: Key: Suffix, DisplayName: Suffix, FieldType: String, DefaultValue: , Description: Suffix
+#DesignerProperty: Key: Thousands, DisplayName: Thousands, FieldType: String, DefaultValue: , Description: Thousands
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 100%, Description: Width
+#DesignerProperty: Key: XMax, DisplayName: XMax, FieldType: String, DefaultValue: , Description: XMax
+#DesignerProperty: Key: XMin, DisplayName: XMin, FieldType: String, DefaultValue: , Description: XMin
+#DesignerProperty: Key: SetXMinXMax, DisplayName: SetXMinXMax, FieldType: Boolean, DefaultValue: False, Description: SetXMinXMax
+#DesignerProperty: Key: ShowLine, DisplayName: ShowLine, FieldType: Boolean, DefaultValue: True, Description: ShowLine
+#DesignerProperty: Key: XTitle, DisplayName: XTitle, FieldType: String, DefaultValue: X, Description: XTitle
+#DesignerProperty: Key: YTitle, DisplayName: YTitle, FieldType: String, DefaultValue: Y, Description: YTitle
+#DesignerProperty: Key: Zeros, DisplayName: Zeros, FieldType: Boolean, DefaultValue: False, Description: Zeros
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: GradientActive, DisplayName: GradientActive, FieldType: Boolean, DefaultValue: false, Description: Gradient should be set
+#DesignerProperty: Key: Gradient, DisplayName: Gradient, FieldType: String, DefaultValue: , Description: Gradient, List: bl_tr|bottom_top|br_tl|left_right|right_left|tl_br|top_bottom|tr_bl
+#DesignerProperty: Key: GradientColor1, DisplayName: GradientColor1, FieldType: Color, DefaultValue: 0xFFCFDCDC, Gradient Color 1.
+#DesignerProperty: Key: GradientColor2, DisplayName: GradientColor2, FieldType: Color, DefaultValue: 0xFFCFDCDC, Gradient Color 2.
+#DesignerProperty: Key: States, DisplayName: States, FieldType: String, DefaultValue: , Description: Initial Binding States. Must be a json String.
+#DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disabled
+#DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: False, Description: Absolute
+#DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
+#DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
+#DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: MinHeight
+#DesignerProperty: Key: MaxHeight, DisplayName: MaxHeight, FieldType: String, DefaultValue: , Description: MaxHeight
+#DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: MinWidth
+#DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: MaxWidth
+#DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: String, DefaultValue: none, Description: Rounded, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
+#DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: False, Description: Tile
+#DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: False, Description: Shrink
+#DesignerProperty: Key: Grow, DisplayName: Grow, FieldType: Boolean, DefaultValue: false, Description: Grow
+#DesignerProperty: Key: Flat, DisplayName: Flat, FieldType: Boolean, DefaultValue: False, Description: Flat
+#DesignerProperty: Key: Dense, DisplayName: Dense, FieldType: Boolean, DefaultValue: False, Description: Dense

@@ -1,9 +1,6 @@
-#Event: Click (e As BANanoEvent)
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: SetName, DisplayName: SetName, FieldType: Boolean, DefaultValue: false, Description: SetName
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
-#DesignerProperty: Key: Caption, DisplayName: Caption, FieldType: String, DefaultValue: , Description: Caption
-#DesignerProperty: Key: UseCaption, DisplayName: Use Caption [RT], FieldType: Boolean, DefaultValue: False, Description: Update label at runtime
-#DesignerProperty: Key: SetName, DisplayName: Set Name, FieldType: Boolean, DefaultValue: false, Description: Set Name property of this component
 #DesignerProperty: Key: VShowCompute, DisplayName: VShow Compute, FieldType: String, DefaultValue: , Description: Callback to execute to compute VShow
 #DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: false, Description: Absolute
 #DesignerProperty: Key: DFlex, DisplayName: DFlex, FieldType: Boolean, DefaultValue: false, Description: DFlex
@@ -13,6 +10,8 @@
 #DesignerProperty: Key: FontFamily, DisplayName: Font Family, FieldType: String, DefaultValue: , Description: Font Family
 #DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: String, DefaultValue: , Description: Font Size
 #DesignerProperty: Key: Heading, DisplayName: Heading (LP), FieldType: String, DefaultValue: , Description: Heading for Label Plus
+#DesignerProperty: Key: Caption, DisplayName: Caption, FieldType: String, DefaultValue: , Description: Caption
+#DesignerProperty: Key: UseCaption, DisplayName: Use Caption (RT), FieldType: Boolean, DefaultValue: False, Description: Update label at runtime
 #DesignerProperty: Key: LoremIpsum, DisplayName: LoremIpsum, FieldType: Boolean, DefaultValue: false, Description: LoremIpsum
 #DesignerProperty: Key: Bold, DisplayName: Bold, FieldType: Boolean, DefaultValue: false, Description: Bold
 #DesignerProperty: Key: Italic, DisplayName: Italic, FieldType: Boolean, DefaultValue: false, Description: Italic
@@ -70,7 +69,6 @@
 #DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =
 #DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
 #DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
-'#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
 #DesignerProperty: Key: States, DisplayName: States, FieldType: String, DefaultValue: , Description: Initial Binding States. Must be a json String, you can use also use any of false; true; array; list; object; string; int; boolean
 #DesignerProperty: Key: GradientActive, DisplayName: GradientActive, FieldType: Boolean, DefaultValue: false, Description: Gradient should be set
 #DesignerProperty: Key: Gradient, DisplayName: Gradient, FieldType: String, DefaultValue: , Description: Gradient, List: bl_tr|bottom_top|br_tl|left_right|right_left|tl_br|top_bottom|tr_bl

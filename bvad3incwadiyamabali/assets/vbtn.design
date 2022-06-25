@@ -1,9 +1,6 @@
-#Event: Click (e As BANanoEvent)
-#Event: ClickPrevent (e As BANanoEvent)
-#Event: ClickStop (e As BANanoEvent)
-' Properties that will be show in the ABStract Designer.  They will be passed in the props map in DesignerCreateView (Case Sensitive!)
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: ParentID
-#DesignerProperty: Key: Text, DisplayName: Caption, FieldType: String, DefaultValue: Button, Description: Makes the background transparent
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: Text, DisplayName: Caption, FieldType: String, DefaultValue: , Description: Caption of the button
 #DesignerProperty: Key: Raised, DisplayName: Raised/Text, FieldType: Boolean, DefaultValue: True, Description: Transparent Background Off
 #DesignerProperty: Key: Block, DisplayName: Block, FieldType: Boolean, DefaultValue: False, Description: Expands the button to 100% of available space
 #DesignerProperty: Key: Size, DisplayName: Size, FieldType: String, DefaultValue: normal, Description: Size, List: large|normal|small|x-large|x-small
@@ -21,7 +18,6 @@
 #DesignerProperty: Key: ToolTipPosition, DisplayName: Tooltip Position, FieldType: String, DefaultValue: left, Description: Tool Tip Position, List: bottom|left|right|top
 #DesignerProperty: Key: ToolTip, DisplayName: Tooltip, FieldType: String, DefaultValue: , Description: Tooltip
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Removes the ability to click or target the component
-#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Loading, DisplayName: Loading, FieldType: Boolean, DefaultValue: False, Description: Adds a loading icon animation
 #DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
 #DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
@@ -55,7 +51,6 @@
 #DesignerProperty: Key: Hover, DisplayName: Hover, FieldType: Boolean, DefaultValue: false, Description: Hover
 #DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
 #DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
-'#DesignerProperty: Key: WidthHeight, DisplayName: Width & Height W-MW-MXW-H-MH-MXH, FieldType: String, DefaultValue: w=?; mw=?; mxw=?; h=?; mh=?; mxh=? , Description: Width & Height W-MW-MXW-H-MH-MXH 
 #DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
 #DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Designates an elevation applied to the component between 0 and 24
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: Sets the height for the component

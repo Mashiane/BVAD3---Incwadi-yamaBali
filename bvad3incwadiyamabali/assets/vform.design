@@ -1,9 +1,8 @@
-#Event: Input (B As Boolean)
-#Event: Submit (e As BANanoEvent)
-#Event: SubmitPrevent (e As BANanoEvent)
 #DesignerProperty: Key: ReadMe, DisplayName: ReadMe*, FieldType: String, DefaultValue: The VForm is used when creating forms. When used with VField it becomes the recommended choice to create your forms. The VForm can be linked to both the VDataTable and DataSource. You can also use your own tag e.g div or v-container , Description: The id of the element to place this into
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into. If inside a dialog type in the dialog name and [cardtext]
-#DesignerProperty: Key: OwnTag, DisplayName: Tag, FieldType: String, DefaultValue: v-form, Description: Tag, you can also specify your own e.g v-container or div
+#DesignerProperty: Key: OwnTag, DisplayName: Tag, FieldType: String, DefaultValue: v-form, Description: Tag to use, List: v-form|v-container|div
+#DesignerProperty: Key: Fluid, DisplayName: Fluid (V-Container), FieldType: Boolean, DefaultValue: false, Description: The v-container should be fluid
+#DesignerProperty: Key: DFlex, DisplayName: DFlex (V-Container), FieldType: Boolean, DefaultValue: false, Description: DFlex
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Form is Hidden
 #DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
 #DesignerProperty: Key: PlaceAtBottom, DisplayName: Place At Bottom, FieldType: Boolean, DefaultValue: False, Description: Force Place At Bottom
@@ -30,8 +29,6 @@
 #DesignerProperty: Key: ShowGridDesign, DisplayName: Show Grid Design, FieldType: Boolean, DefaultValue: False, Description: Show Grid Design Border
 #DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Vertical Align content, List: baseline|center|end|normal|start|stretch
 #DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify content, List: center|end|normal|space-around|space-between|start
-#DesignerProperty: Key: Fluid, DisplayName: Fluid (V-Container), FieldType: Boolean, DefaultValue: false, Description: The v-container should be fluid
-#DesignerProperty: Key: DFlex, DisplayName: DFlex (V-Container), FieldType: Boolean, DefaultValue: false, Description: DFlex
 #DesignerProperty: Key: TextCenter, DisplayName: Text Center, FieldType: Boolean, DefaultValue: false, Description: Text Center Content
 #DesignerProperty: Key: FillHeight, DisplayName: Fill Height, FieldType: Boolean, DefaultValue: false, Description: Fill Height
 #DesignerProperty: Key: BackgroundImage, DisplayName: BackgroundImage, FieldType: String, DefaultValue:  , Description: Background Image for this component

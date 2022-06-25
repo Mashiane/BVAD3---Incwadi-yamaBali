@@ -1,0 +1,16 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: TypeValue, DisplayName: Type, FieldType: String, DefaultValue: text, Description: Typevalue, List: number|password|text
+#DesignerProperty: Key: VModel, DisplayName: VModel, FieldType: String, DefaultValue: , Description: VModel
+#DesignerProperty: Key: Value, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: The inputs value
+#DesignerProperty: Key: EntryLength, DisplayName: Entry Length, FieldType: String, DefaultValue: 6, Description: Length
+#DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: False, Description: Applies the dark theme variant to the component
+#DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disable the input
+#DesignerProperty: Key: HideSpinButtons, DisplayName: Hide Spin Buttons, FieldType: Boolean, DefaultValue: False, Description: Hides spin buttons on the input when type is set to number
+#DesignerProperty: Key: Plain, DisplayName: Plain, FieldType: Boolean, DefaultValue: False, Description: Outlined style applied by default to the input. set to true to apply plain style
+#DesignerProperty: Key: Readonly, DisplayName: Readonly, FieldType: Boolean, DefaultValue: False, Description: Puts input in readonly state
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =

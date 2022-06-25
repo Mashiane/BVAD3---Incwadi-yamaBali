@@ -1,5 +1,5 @@
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
-#DesignerProperty: Key: SetName, DisplayName: SetName, FieldType: Boolean, DefaultValue: false, Description: Set Name property of element
+#DesignerProperty: Key: SetName, DisplayName: SetName, FieldType: Boolean, DefaultValue: false, Description: SetName
 #DesignerProperty: Key: KeepAlive, DisplayName: KeepAlive, FieldType: Boolean, DefaultValue: False, Description: KeepAlive
 #DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
 #DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =

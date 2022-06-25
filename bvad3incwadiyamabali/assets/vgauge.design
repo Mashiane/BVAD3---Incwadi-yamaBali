@@ -1,0 +1,41 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: VModel, DisplayName: VModel, FieldType: String, DefaultValue: gauge1, Description: VModel
+#DesignerProperty: Key: InitialValue, DisplayName: Initial Value, FieldType: String, DefaultValue: 0, Description: Initial Value
+#DesignerProperty: Key: Value, DisplayName: Value, FieldType: String, DefaultValue: 50, Description: Value
+#DesignerProperty: Key: Angle, DisplayName: Angle, FieldType: String, DefaultValue: 0.15, Description: Span of the gauge arc
+#DesignerProperty: Key: LineWidth, DisplayName: Line Width, FieldType: String, DefaultValue: 0.44, Description: Line thickness
+#DesignerProperty: Key: RadiusScale, DisplayName: Radius Scale, FieldType: String, DefaultValue: 1, Description: Radius Scale
+#DesignerProperty: Key: PointerLength, DisplayName: Pointer Length, FieldType: String, DefaultValue: 0.6, Description: Pointer Length Relative to gauge radius
+#DesignerProperty: Key: PointerStrokeWidth, DisplayName: Pointer Stroke Width, FieldType: String, DefaultValue: 0.035, Description: Pointer Stroke Thinkness
+#DesignerProperty: Key: PointerColor, DisplayName: Pointer Color, FieldType: String, DefaultValue: #000000, Description: Pointer Color, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: LimitMax, DisplayName: Limit Max, FieldType: Boolean, DefaultValue: False, Description: Limit Max
+#DesignerProperty: Key: LimitMin, DisplayName: Limit Min, FieldType: Boolean, DefaultValue: False, Description: Limit Min
+#DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: String, DefaultValue: 40, Description: Font Size
+#DesignerProperty: Key: ColorStart, DisplayName: Color Start, FieldType: String, DefaultValue: #6FADCF, Description: Color Start, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: ColorStop, DisplayName: Color Stop, FieldType: String, DefaultValue: #8FC0DA, Description: Color Stop, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: StrokeColor, DisplayName: Stroke Color, FieldType: String, DefaultValue: #E0E0E0, Description: Stroke Coloe, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: GenerateGradient, DisplayName: Generate Gradient, FieldType: Boolean, DefaultValue: True, Description: Generate Gradient
+#DesignerProperty: Key: HighDpiSupport, DisplayName: High Dpi Support, FieldType: Boolean, DefaultValue: True, Description: High Dpi Support
+#DesignerProperty: Key: AnimationSpeed, DisplayName: Animation Speed, FieldType: String, DefaultValue: 10, Description: Animation Speed
+#DesignerProperty: Key: Unit, DisplayName: Unit, FieldType: String, DefaultValue: %, Description: Unit
+#DesignerProperty: Key: DecimalPlace, DisplayName: DecimalPlace, FieldType: String, DefaultValue: 0, Description: DecimalPlace
+#DesignerProperty: Key: Donut, DisplayName: Donut, FieldType: Boolean, DefaultValue: False, Description: Donut
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 200px, Description: Height
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 200px, Description: Width
+#DesignerProperty: Key: MaxValue, DisplayName: Max Value, FieldType: String, DefaultValue: 100, Description: Max Value
+#DesignerProperty: Key: MinValue, DisplayName: Min Value, FieldType: String, DefaultValue: 0, Description: Min Value
+#DesignerProperty: Key: OnTop, DisplayName: On Top, FieldType: Boolean, DefaultValue: False, Description: On Top
+#DesignerProperty: Key: GaugeClass, DisplayName: Gauge Class, FieldType: String, DefaultValue: , Description: Gaug Class.
+#DesignerProperty: Key: SlotName, DisplayName: SlotName, FieldType: String, DefaultValue:  , Description: Slot to be placed in
+#DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description: V-For
+#DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description: Key
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf Directive
+#DesignerProperty: Key: VElse, DisplayName: V-Else, FieldType: String, DefaultValue:  , Description: V-Else
+#DesignerProperty: Key: VElseIf, DisplayName: V-Else-If, FieldType: String, DefaultValue:  , Description: V-Else-If
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: States, DisplayName: State Bindings, FieldType: String, DefaultValue: , Description: Bindings (=/:). Must be a json String

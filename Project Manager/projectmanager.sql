@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 07, 2022 at 04:10 PM
+-- Generation Time: Jun 25, 2022 at 06:43 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -114,7 +114,9 @@ CREATE TABLE `projects` (
 --
 
 INSERT INTO `projects` (`id`, `name`, `project_type`, `project_status`, `project_description`, `project_notes`, `planned_start`, `planned_finish`, `planned_duration`, `actual_start`, `actual_finish`, `actual_duration`, `planned_progress`, `actual_progress`, `planned_resource_costs`, `actual_resource_costs`, `planned_other_costs`, `actual_other_costs`, `planned_total_costs`, `actual_total_costs`, `assigned_to`) VALUES
-(1, 'Develop Incwadi yamaBali', 1, 3, 'Development of a low code vue platform', '', '2022-06-01', '2022-06-30', 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '1');
+(1, 'Develop Incwadi yamaBali', 1, 3, 'Development of a low code vue platform', '', '2022-06-01', '2022-06-30', 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '1'),
+(2, 'Write a book about SithasoVant3', 1, 2, 'This project will entail writing a book about using SithasoVant to create mobile webapps', '', '2022-06-25', '2022-06-30', 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '1'),
+(3, 'Write a book about using BANanoVuetifyAD3', 1, 2, 'A book about BANanoVuetifyAD3', '', '2022-06-01', '2022-06-01', 0, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, '1');
 
 -- --------------------------------------------------------
 
@@ -184,10 +186,10 @@ CREATE TABLE `resource` (
 --
 
 INSERT INTO `resource` (`id`, `first_name`, `last_name`, `hourly_rate`, `email`, `fullname`, `image`) VALUES
-(1, 'Anele', 'Mbanga', 700, 'mbanga@gmail.com', '', './assets/2.jpg'),
-(2, 'Another', 'Resourc', 100, 'another@resource.com', NULL, './assets/5.jpg'),
-(4, 'Project', 'Resource 2', 250, 'resourcex@project.com', NULL, './assets/4.jpg'),
-(5, 'Another One', 'Projext X', 350, 'resourcex@project.com', NULL, './assets/img1.png');
+(1, 'Anele', 'Mbanga', 700, 'mbanga@gmail.com', '', './assets/sponget.png'),
+(2, 'Another', 'Resourc', 100, 'another@resource.com', NULL, './assets/1.jpg'),
+(4, 'Project', 'Resource 2', 250, 'resourcex@project.com', NULL, './assets/img6.png'),
+(5, 'Another One', 'Projext X', 350, 'resourcex@project.com', NULL, './assets/yuna.jpg');
 
 -- --------------------------------------------------------
 
@@ -312,7 +314,7 @@ ALTER TABLE `holidays`
 -- AUTO_INCREMENT for table `projects`
 --
 ALTER TABLE `projects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `project_status`

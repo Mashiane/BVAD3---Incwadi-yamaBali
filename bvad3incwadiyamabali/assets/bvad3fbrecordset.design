@@ -1,0 +1,20 @@
+#DesignerProperty: Key: ShowLog, DisplayName: ShowLog, FieldType: Boolean, DefaultValue: False, Description: ShowLog
+#DesignerProperty: Key: TableName, DisplayName: TableName, FieldType: String, DefaultValue: , Description: TableName
+#DesignerProperty: Key: RecordSource, DisplayName: RecordSource, FieldType: String, DefaultValue: , Description: RecordSource
+#DesignerProperty: Key: PrimaryKey, DisplayName: PrimaryKey, FieldType: String, DefaultValue: , Description: PrimaryKey
+#DesignerProperty: Key: AutoIncrement, DisplayName: AutoIncrement, FieldType: String, DefaultValue: , Description: AutoIncrement
+#DesignerProperty: Key: Singular, DisplayName: Singular, FieldType: String, DefaultValue: , Description: Singular
+#DesignerProperty: Key: Plural, DisplayName: Plural, FieldType: String, DefaultValue: , Description: Plural
+#DesignerProperty: Key: DisplayField, DisplayName: DisplayField, FieldType: String, DefaultValue: , Description: DisplayField
+#DesignerProperty: Key: Fields, DisplayName: Fields (;), FieldType: String, DefaultValue: , Description: Fields
+#DesignerProperty: Key: Defaults, DisplayName: Defaults JSON, FieldType: String, DefaultValue: , Description: Defaults
+#DesignerProperty: Key: Integers, DisplayName: Integers (;), FieldType: String, DefaultValue: , Description: Integers
+#DesignerProperty: Key: Doubles, DisplayName: Doubles (;), FieldType: String, DefaultValue: , Description: Doubles
+#DesignerProperty: Key: Blobs, DisplayName: Blobs (;), FieldType: String, DefaultValue: , Description: Blobs
+#DesignerProperty: Key: SelectFields, DisplayName: SelectFields (;), FieldType: String, DefaultValue: , Description: SelectFields
+#DesignerProperty: Key: WhereFields, DisplayName: WhereFields, FieldType: String, DefaultValue: , Description: WhereFields
+#DesignerProperty: Key: Operators, DisplayName: Operators, FieldType: String, DefaultValue: , Description: Operators
+#DesignerProperty: Key: AndOr, DisplayName: AndOr, FieldType: String, DefaultValue: , Description: AndOr
+#DesignerProperty: Key: AscDesc, DisplayName: AscDesc, FieldType: String, DefaultValue: , Description: AscDesc
+#DesignerProperty: Key: OrderBy, DisplayName: OrderBy (;), FieldType: String, DefaultValue: , Description: OrderBy
+#DesignerProperty: Key: CustomQuery, DisplayName: CustomQuery, FieldType: String, DefaultValue: , Description: CustomQuery

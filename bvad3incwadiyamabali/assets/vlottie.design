@@ -1,0 +1,20 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: AutoPlay, DisplayName: Auto Play, FieldType: Boolean, DefaultValue: True, Description: Autoplay
+#DesignerProperty: Key: Direction, DisplayName: Direction, FieldType: String, DefaultValue: forward, Description: Direction, List: backward|forward
+#DesignerProperty: Key: LoopIt, DisplayName: Loop , FieldType: Boolean, DefaultValue: True, Description: Loopit
+#DesignerProperty: Key: Path, DisplayName: JSON Path, FieldType: String, DefaultValue: , Description: JSON Path of lottie file
+#DesignerProperty: Key: Renderer, DisplayName: Renderer, FieldType: String, DefaultValue: svg, Description: Renderer, List: canvas|html|svg
+#DesignerProperty: Key: Speed, DisplayName: Speed, FieldType: Int, DefaultValue: 1, Description: Speed
+#DesignerProperty: Key: Volume, DisplayName: Volume, FieldType: Int, DefaultValue: 1, Description: Volume
+#DesignerProperty: Key: Quality, DisplayName: Quality, FieldType: String, DefaultValue: high, Description: Quality, List: high|medium|low
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 500px, Description: Width
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 500px, Description: Height
+#DesignerProperty: Key: BackgroundColor, DisplayName: BackgroundColor, FieldType: String, DefaultValue: , Description: Changes the background-color for the component, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: BackgroundColorIntensity, DisplayName: BackgroundColorIntensity, FieldType: String, DefaultValue: , Description: BackgroundColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf Directive
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =

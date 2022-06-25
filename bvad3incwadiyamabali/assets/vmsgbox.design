@@ -1,7 +1,3 @@
-#Event: Ok_Click (e As BANanoEvent)
-#Event: Cancel_click (e As BANanoEvent)
-#Event: ClickOutside (e as bananoevent)
-#Event: Visible
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: True, Description: The MsgBox is not visible
 #DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
@@ -15,7 +11,6 @@
 #DesignerProperty: Key: ToolbarDark, DisplayName: Toolbar Dark, FieldType: Boolean, DefaultValue: False, Description: The toolbar should be dark
 #DesignerProperty: Key: CardTextCaption, DisplayName: Message, FieldType: String, DefaultValue: Message, Description: Message to show
 #DesignerProperty: Key: CustomActions, DisplayName: Custom Actions, FieldType: Boolean, DefaultValue: False, Description: Use custom actions
-'
 #DesignerProperty: Key: BorderPosition, DisplayName: BorderPosition, FieldType: String, DefaultValue: none, Description: Border, List: bottom|left|none|right|top|all
 #DesignerProperty: Key: BorderColor, DisplayName: BorderColor, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: BorderRadius, DisplayName: Border Radius, FieldType: String, DefaultValue:  , Description: Border Width
@@ -31,7 +26,6 @@
 #DesignerProperty: Key: OkRounded, DisplayName: Ok Rounded, FieldType: Boolean, DefaultValue: False, Description: The Ok button is rounded
 #DesignerProperty: Key: OkWidth, DisplayName: Ok Width, FieldType: String, DefaultValue: 200, Description: The Ok button width
 #DesignerProperty: Key: OkSize, DisplayName: Ok Size, FieldType: String, DefaultValue: normal, Description: Size, List: large|normal|small|x-large|x-small
-'
 #DesignerProperty: Key: CancelCaption, DisplayName: Cancel Label, FieldType: String, DefaultValue: Cancel, Description: The label of the Cancel button
 #DesignerProperty: Key: CancelVisible, DisplayName: Cancel Visible, FieldType: Boolean, DefaultValue: True, Description: The Cancel button is visible
 #DesignerProperty: Key: CancelLoading, DisplayName: Cancel Loading, FieldType: Boolean, DefaultValue: False, Description: The Cancel button is loading
@@ -49,7 +43,6 @@
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: The height of the MsgBox
 #DesignerProperty: Key: MinHeight, DisplayName: Min Height, FieldType: String, DefaultValue: , Description: The min height of the MsgBox
 #DesignerProperty: Key: MaxHeight, DisplayName: Max Height, FieldType: String, DefaultValue: , Description: The max height of the MsgBox
-'
 #DesignerProperty: Key: CloseDelay, DisplayName: Close Delay, FieldType: String, DefaultValue: , Description: Close Delay
 #DesignerProperty: Key: ContentClass, DisplayName: Content Class, FieldType: String, DefaultValue: , Description: Content Class
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: false, Description: Dark

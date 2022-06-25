@@ -1,0 +1,13 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
+#DesignerProperty: Key: Text, DisplayName: Text, FieldType: String, DefaultValue: BANanoVuetifyAD3, Description: Text
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 128, Description: Height
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 128, Description: Width
+#DesignerProperty: Key: ColorDark, DisplayName: Color Dark, FieldType: String, DefaultValue: #000000, Description: Color Dark
+#DesignerProperty: Key: ColorLight, DisplayName: Color Light, FieldType: String, DefaultValue: #ffffff, Description: Color Light
+#DesignerProperty: Key: CorrectLevel, DisplayName: Correct Level, FieldType: String, DefaultValue: H, Description: Correct Level, List: H|L|M|Q
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String- use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String- use =

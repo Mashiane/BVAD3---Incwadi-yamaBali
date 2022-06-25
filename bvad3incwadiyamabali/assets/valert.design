@@ -1,4 +1,3 @@
-#IgnoreWarnings:12
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: AlertType, DisplayName: AlertType, FieldType: String, DefaultValue: none, Description: AlertType, List: error|info|none|success|warning
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden

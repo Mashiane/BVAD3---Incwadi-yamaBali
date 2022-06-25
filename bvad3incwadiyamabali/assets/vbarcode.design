@@ -1,0 +1,31 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Display Value
+#DesignerProperty: Key: Value, DisplayName: Value, FieldType: String, DefaultValue: 123456789012, Description: Value of bar code
+#DesignerProperty: Key: Text, DisplayName: Text, FieldType: String, DefaultValue: , Description: Text
+#DesignerProperty: Key: Format, DisplayName: Format, FieldType: String, DefaultValue: CODE128, Description: Format, List: CODE39|CODE128|CODE128A|CODE128B|CODE128C|EAN13|EAN8|EAN5|EAN2|UPC|UPCE|ITF14|ITF|MSI|MSI10|MSI11|MSI1010|MSI1110|pharmacode|codabar|GenericBarcode
+#DesignerProperty: Key: TextAlign, DisplayName: Text Align, FieldType: String, DefaultValue: center, Description: Text Align, List: center|left|right
+#DesignerProperty: Key: TextMargin, DisplayName: Text Margin, FieldType: Int, DefaultValue: 2, Description: Text Margin
+#DesignerProperty: Key: TextPosition, DisplayName: Text Position, FieldType: String, DefaultValue: bottom, Description: Text Position, List: bottom|top
+#DesignerProperty: Key: BackgroundColor, DisplayName: Background Color, FieldType: String, DefaultValue: white, Description: Background Color, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: LineColor, DisplayName: Line Color, FieldType: String, DefaultValue: black, Description: Line Color, List: amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|green|grey|indigo|light-blue|light-green|lime|orange|pink|purple|red|teal|transparent|white|yellow|primary|secondary|accent|error|info|success|warning|none
+#DesignerProperty: Key: DisplayValue, DisplayName: Display Value, FieldType: Boolean, DefaultValue: True, Description: Display Value
+#DesignerProperty: Key: Flat, DisplayName: Flat, FieldType: Boolean, DefaultValue: False, Description: Flat
+#DesignerProperty: Key: Font, DisplayName: Font, FieldType: String, DefaultValue: monospace, Description: Font
+#DesignerProperty: Key: FontBold, DisplayName: Font Bold, FieldType: Boolean, DefaultValue: False, Description: Font Bold
+#DesignerProperty: Key: FontItalic, DisplayName: Font Italic, FieldType: Boolean, DefaultValue: False, Description: Font Italic
+#DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: Int, DefaultValue: 20, Description: Font Size
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: Int, DefaultValue: 100, Description: Height
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: Int, DefaultValue: 2, Description: Width
+#DesignerProperty: Key: Margin, DisplayName: Margin, FieldType: Int, DefaultValue: 10, Description: Margin
+#DesignerProperty: Key: SlotName, DisplayName: SlotName, FieldType: String, DefaultValue:  , Description: Slot to be placed in
+#DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description: V-For
+#DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description: Key
+#DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf Directive
+#DesignerProperty: Key: VElse, DisplayName: V-Else, FieldType: String, DefaultValue:  , Description: V-Else
+#DesignerProperty: Key: VElseIf, DisplayName: V-Else-If, FieldType: String, DefaultValue:  , Description: V-Else-If
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X
+#DesignerProperty: Key: Classes, DisplayName: Classes, FieldType: String, DefaultValue: , Description: Classes added to the HTML tag.
+#DesignerProperty: Key: Styles, DisplayName: Styles, FieldType: String, DefaultValue: , Description: Styles added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: Attributes, DisplayName: Attributes, FieldType: String, DefaultValue: , Description: Attributes added to the HTML tag. Must be a json String, use =
+#DesignerProperty: Key: States, DisplayName: State Bindings, FieldType: String, DefaultValue: , Description: Bindings (=/:). Must be a json String

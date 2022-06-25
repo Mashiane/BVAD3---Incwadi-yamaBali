@@ -1,0 +1,14 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: Clearable, DisplayName: Elements Clearable, FieldType: Boolean, DefaultValue: False, Description: Controls should be clearable
+#DesignerProperty: Key: Dense, DisplayName: Elements Dense, FieldType: Boolean, DefaultValue: False, Description: Controls should be dense
+#DesignerProperty: Key: HideDetails, DisplayName: Elements Hide Details, FieldType: Boolean, DefaultValue: False, Description: Controls should hide details
+#DesignerProperty: Key: Filled, DisplayName: Elements Filled, FieldType: Boolean, DefaultValue: False, Description: Controls should be filled
+#DesignerProperty: Key: Outlined, DisplayName: Elements Outlined, FieldType: Boolean, DefaultValue: False, Description: Controls should be outlined
+#DesignerProperty: Key: Rounded, DisplayName: Elements Rounded, FieldType: Boolean, DefaultValue: False, Description: Controls should be rounded
+#DesignerProperty: Key: Shaped, DisplayName: Elements Shaped, FieldType: Boolean, DefaultValue: False, Description: Controls should be shaped
+#DesignerProperty: Key: Disabled, DisplayName: Disabled Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a disabled state
+#DesignerProperty: Key: Readonly, DisplayName: Readonly Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a readonly state
+#DesignerProperty: Key: LowerCaseKeys, DisplayName: LowerCaseKeys, FieldType: Boolean, DefaultValue: True, Description: The keys should be lowercase
+#DesignerProperty: Key: FilesAsDataUrl, DisplayName: FilesAsDataUrl, FieldType: Boolean, DefaultValue: False, Description: Files As DataUrl
+#DesignerProperty: Key: MarginAXYTBLR, DisplayName: Margins AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Margins A-X-Y-S-M-L-X
+#DesignerProperty: Key: PaddingAXYTBLR, DisplayName: Paddings AXYTBLR, FieldType: String, DefaultValue: a=?; x=?; y=?; t=?; b=?; l=?; r=? , Description: Padding A-X-Y-S-M-L-X

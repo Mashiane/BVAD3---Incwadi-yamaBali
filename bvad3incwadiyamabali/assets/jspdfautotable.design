@@ -1,0 +1,28 @@
+#DesignerProperty: Key: DataStartY, DisplayName: StartY, FieldType: String, DefaultValue: , Description: DataStartY
+#DesignerProperty: Key: DataStartyFinalYPlus, DisplayName: StartYFinalYPlus, FieldType: String, DefaultValue: 0, Description: DataStartyFinalYPlus
+#DesignerProperty: Key: DataSource, DisplayName: DataSource, FieldType: String, DefaultValue: , Description: DataSource
+#DesignerProperty: Key: DataTheme, DisplayName: Theme, FieldType: String, DefaultValue: striped, Description: DataTheme, List: css|grid|none|plain|striped
+#DesignerProperty: Key: DataUseCss, DisplayName: UseCss, FieldType: Boolean, DefaultValue: False, Description: DataUseCss
+#DesignerProperty: Key: DataDataKey, DisplayName: Keys (;), FieldType: String, DefaultValue: , Description: DataDataKey
+#DesignerProperty: Key: DataHeader, DisplayName: Headers (;), FieldType: String, DefaultValue: , Description: DataHeader
+#DesignerProperty: Key: DataHorizontalPageBreak, DisplayName: HorizontalPageBreak, FieldType: Boolean, DefaultValue: True, Description: DataHorizontalPageBreak
+#DesignerProperty: Key: DataHorizontalPageBreakRepeat, DisplayName: HorizontalPageBreakRepeat, FieldType: String, DefaultValue: , Description: DataHorizontalPageBreakRepeat
+#DesignerProperty: Key: DataHtml, DisplayName: Html, FieldType: String, DefaultValue: , Description: DataHtml
+#DesignerProperty: Key: DataIncludeHiddenHtml, DisplayName: IncludeHiddenHtml, FieldType: Boolean, DefaultValue: False, Description: DataIncludeHiddenHtml
+#DesignerProperty: Key: DataRowPageBreak, DisplayName: RowPageBreak, FieldType: String, DefaultValue: auto, Description: DataRowPageBreak, List: auto|avoid
+#DesignerProperty: Key: DataShowFoot, DisplayName: ShowFoot, FieldType: String, DefaultValue: everyPage, Description: DataShowFoot, List: everyPage|lastPage|never
+#DesignerProperty: Key: DataShowHead, DisplayName: ShowHead, FieldType: String, DefaultValue: everyPage, Description: DataShowHead, List: everyPage|firstPage|never
+#DesignerProperty: Key: DataPageBreak, DisplayName: PageBreak, FieldType: String, DefaultValue: , Description: DataPageBreak, List: always|auto|avoid
+#DesignerProperty: Key: DataTableLineColor, DisplayName: TableLineColor, FieldType: String, DefaultValue: 200, Description: DataTableLineColor
+#DesignerProperty: Key: DataTableLineWidth, DisplayName: TableLineWidth, FieldType: String, DefaultValue: 1, Description: DataTableLineWidth
+#DesignerProperty: Key: DataTableWidth, DisplayName: TableWidth, FieldType: String, DefaultValue: auto, Description: DataTableWidth, List: auto|wrap
+#DesignerProperty: Key: DataMarginBottom, DisplayName: MarginBottom, FieldType: String, DefaultValue: 40, Description: DataMarginBottom
+#DesignerProperty: Key: DataMarginLeft, DisplayName: MarginLeft, FieldType: String, DefaultValue: 40, Description: DataMarginLeft
+#DesignerProperty: Key: DataMarginRight, DisplayName: MarginRight, FieldType: String, DefaultValue: 40, Description: DataMarginRight
+#DesignerProperty: Key: DataMarginTop, DisplayName: MarginTop, FieldType: String, DefaultValue: 40, Description: DataMarginTop
+#DesignerProperty: Key: ColorChooser, DisplayName: ColorChooser, FieldType: Color, DefaultValue: Null, Description: Use this to select RGB color
+#DesignerProperty: Key: DataTextColor, DisplayName: TextColor, FieldType: String, DefaultValue: , Description: DataTextColor
+#DesignerProperty: Key: DataFontName, DisplayName: FontName, FieldType: String, DefaultValue: , Description: DataFontName
+#DesignerProperty: Key: DataFontSize, DisplayName: FontSize, FieldType: String, DefaultValue: , Description: DataFontSize
+#DesignerProperty: Key: DataFontStyle, DisplayName: FontStyle, FieldType: String, DefaultValue: normal, Description: DataFontStyle, List: bold|bolditalic|italic|normal
+#DesignerProperty: Key: DataFontWeight, DisplayName: FontWeight, FieldType: String, DefaultValue: , Description: DataFontWeight, List: 100|200|300|400|500|600|700|800|900

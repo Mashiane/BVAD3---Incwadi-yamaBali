@@ -1,0 +1,53 @@
+#DesignerProperty: Key: ReadMe, DisplayName: ReadMe*, FieldType: String, DefaultValue: The DataSource helps you connect your front end to your back end. Before you execute any statements on it - you need to execute BindState first! With this you dont have to write any SQL statements and you can also use it with your custom SQL statements., Description: The DataSource helps you connect your front end to your back end. Before you execute any statements on it - you need to execute BindState first! With this you dont have to write any SQL statements and you can also use it with your custom SQL statements.
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
+#DesignerProperty: Key: UsesEncryption, DisplayName: Uses Encrytion, FieldType: Boolean, DefaultValue: False, Description: Set this to True if encrypting to or from server
+#DesignerProperty: Key: EncryptTo, DisplayName: Encrypt To, FieldType: Boolean, DefaultValue: False, Description: Encrypt content to Server
+#DesignerProperty: Key: EncryptFrom, DisplayName: Encrypt From, FieldType: Boolean, DefaultValue: False, Description: Encrypt content from Server
+#DesignerProperty: Key: ShowLog, DisplayName: Show Logs, FieldType: Boolean, DefaultValue: False, Description: Show Logs
+#DesignerProperty: Key: LowerCaseFields, DisplayName: Lower Case Fields, FieldType: Boolean, DefaultValue: True, Description: Convert fields to lowercase when returning content
+#DesignerProperty: Key: VapidKey, DisplayName: VapidKey, FieldType: String, DefaultValue: , Description: VapidKey
+#DesignerProperty: Key: UseAnalytics, DisplayName: UseAnalytics, FieldType: Boolean, DefaultValue: False, Description: UseAnalytics
+#DesignerProperty: Key: UseAuth, DisplayName: UseAuth, FieldType: Boolean, DefaultValue: False, Description: UseAuth
+#DesignerProperty: Key: UseDatabase, DisplayName: UseRealDatabase, FieldType: Boolean, DefaultValue: False, Description: UseRealDatabase
+#DesignerProperty: Key: UseFireStore, DisplayName: UseFireStore, FieldType: Boolean, DefaultValue: False, Description: UseFireStore
+#DesignerProperty: Key: UsePerformance, DisplayName: UsePerformance, FieldType: Boolean, DefaultValue: False, Description: UsePerformance
+#DesignerProperty: Key: UseStorage, DisplayName: UseStorage, FieldType: Boolean, DefaultValue: False, Description: UseStorage
+#DesignerProperty: Key: UseMessaging, DisplayName: UseMessaging, FieldType: Boolean, DefaultValue: False, Description: UseMessaging
+#DesignerProperty: Key: TimeStampOnSnapShots, DisplayName: TimeStampOnSnapShots, FieldType: Boolean, DefaultValue: True, Description: TimeStampOnSnapShots
+#DesignerProperty: Key: EnablePersistence, DisplayName: EnablePersistence, FieldType: Boolean, DefaultValue: True, Description: EnablePersistence
+#DesignerProperty: Key: DatabaseType, DisplayName: Database Type*, FieldType: String, DefaultValue: mysql, Description: Database Type, List: indexeddb|jrdc|mssql|mysql|sqlite|firestore|mongodb|direct_sqlite|direct_mysql|direct_mssql|direct_msaccess|json|couchdb|direct_mongodb|postgres|direct_postgres|msaccess
+#DesignerProperty: Key: HostName, DisplayName: Host Name*, FieldType: String, DefaultValue: localhost, Description: Host Name
+#DesignerProperty: Key: Port, DisplayName: Port*, FieldType: String, DefaultValue: 3306, Description: Port Number
+#DesignerProperty: Key: DatabaseName, DisplayName: Database Name*, FieldType: String, DefaultValue: , Description: Database Name
+#DesignerProperty: Key: UserName, DisplayName: User Name, FieldType: String, DefaultValue: root, Description: User Name
+#DesignerProperty: Key: Password, DisplayName: Password, FieldType: String, DefaultValue: , Description: Password
+#DesignerProperty: Key: Salt, DisplayName: Salt, FieldType: String, DefaultValue: , Description: Salt for MD5Hashing
+#DesignerProperty: Key: Dynamic, DisplayName: Dynamic (No Config File), FieldType: Boolean, DefaultValue: False, Description: Dynamic (Do not use config file)
+#DesignerProperty: Key: WorkOnline, DisplayName: CouchDB Work Online, FieldType: Boolean, DefaultValue: True, Description: Persist changes to online server
+#DesignerProperty: Key: WatchChanges, DisplayName: CouchDB Watch Changes, FieldType: Boolean, DefaultValue: False, Description: Watch Changes on Record Changes and fire events
+#DesignerProperty: Key: LiveReplication, DisplayName: Live Replication, FieldType: Boolean, DefaultValue: False, Description: Live Replication to server as and when it happens
+#DesignerProperty: Key: TableName, DisplayName: Table Name*, FieldType: String, DefaultValue: , Description: The name of the table in the database
+#DesignerProperty: Key: EscapeFields, DisplayName: EscapeFields*, FieldType: Boolean, DefaultValue: True, Description: Fields should be escaped
+#DesignerProperty: Key: RecordSource, DisplayName: Record Source*, FieldType: String, DefaultValue: , Description: The name to give each record. This is used for data binding
+#DesignerProperty: Key: PrimaryKey, DisplayName: Primary Key Field*, FieldType: String, DefaultValue: , Description: The name of the field that is a Primary Key
+#DesignerProperty: Key: AutoIncrement, DisplayName: Auto Increment Field*, FieldType: String, DefaultValue: , Description: The name of the field that is for Auto Increment
+#DesignerProperty: Key: PasswordField, DisplayName: Password Field, FieldType: String, DefaultValue: , Description: Password Field on users table
+#DesignerProperty: Key: Singular, DisplayName: Singular (Each Entry on Table)*, FieldType: String, DefaultValue: , Description: A single entry from this table is called? e.g. Category
+#DesignerProperty: Key: Plural, DisplayName: Plural (Collection of Entries)*, FieldType: String, DefaultValue: , Description: A collection of entries from this table is called? e.g. Categories
+#DesignerProperty: Key: DisplayField, DisplayName: When Deleting Display Field*, FieldType: String, DefaultValue: , Description: Which field name should be displayed to confirm a delete
+#DesignerProperty: Key: Fields, DisplayName: Field Names on Table (;)*, FieldType: String, DefaultValue: , Description: The names of the fields from table to use for CRUD functionality
+#DesignerProperty: Key: SelectFields, DisplayName: Fields for Select Statement (;)* , FieldType: String, DefaultValue: *, Description: The names of the fields Fields to select from table for SQL statement e.g * for  all
+#DesignerProperty: Key: OrderBy, DisplayName: Order / Sort By Fields (;)*, FieldType: String, DefaultValue: id, Description: Fields to Order / Sort ByBy on SQL statement
+#DesignerProperty: Key: MultiSelect, DisplayName: MultiSelect Fields (;), FieldType: String, DefaultValue: , Description: Enter field names that are MultiSelect
+#DesignerProperty: Key: Defaults , DisplayName: Defaults Values (JSON);, FieldType: String, DefaultValue: , Description: Enter the default values per field
+#DesignerProperty: Key: Integers, DisplayName: Integer Fields (;), FieldType: String, DefaultValue: , Description: Enter field names that are Integers
+#DesignerProperty: Key: Doubles, DisplayName: Double Fields (;), FieldType: String, DefaultValue: , Description: Enter field names that are Doubles
+#DesignerProperty: Key: Blobs, DisplayName: Blob Fields (;), FieldType: String, DefaultValue: , Description: Enter field names that are Blobs
+#DesignerProperty: Key: JRDCInsert, DisplayName: JRDC Insert Command, FieldType: String, DefaultValue: , Description: The JRDC command for INSERT to the table
+#DesignerProperty: Key: JRDCUpdate, DisplayName: JRDC Update Command, FieldType: String, DefaultValue: , Description: The JRDC command for UPDATE to the table
+#DesignerProperty: Key: JRDCDelete, DisplayName: JRDC Delete Command, FieldType: String, DefaultValue: , Description: The JRDC command for DELETE to the table
+#DesignerProperty: Key: JRDCSelect, DisplayName: JRDC Select Command, FieldType: String, DefaultValue: , Description: The JRDC command for SELECT WHERE from the table
+#DesignerProperty: Key: JRDCSelectWhere, DisplayName: JRDC Select Where Command, FieldType: String, DefaultValue: , Description: The JRDC command for a 'Select Where' statement
+#DesignerProperty: Key: JRDCSelectWhereCustom, DisplayName: JRDC Select Where Custom Command, FieldType: String, DefaultValue: , Description: The JRDC command for a CUSTOM 'SELECT WHERE' statement
+#DesignerProperty: Key: JRDCExists, DisplayName: JRDC Exists Command, FieldType: String, DefaultValue: , Description: The JRDC command to check Existense of records
+#DesignerProperty: Key: JRDCRead, DisplayName: JRDC Read Command, FieldType: String, DefaultValue: , Description: The JRDC command for Read statements

@@ -1,0 +1,40 @@
+#DesignerProperty: Key: ApiKey, DisplayName: ApiKey, FieldType: String, DefaultValue: , Description: ApiKey
+#DesignerProperty: Key: AuthDomain, DisplayName: AuthDomain, FieldType: String, DefaultValue: , Description: AuthDomain
+#DesignerProperty: Key: DatabaseUrl, DisplayName: DatabaseUrl, FieldType: String, DefaultValue: , Description: DatabaseUrl
+#DesignerProperty: Key: ProjectId, DisplayName: ProjectId, FieldType: String, DefaultValue: , Description: ProjectId
+#DesignerProperty: Key: StorageBucket, DisplayName: StorageBucket, FieldType: String, DefaultValue: , Description: StorageBucket
+#DesignerProperty: Key: MessagingSenderId, DisplayName: MessagingSenderId, FieldType: String, DefaultValue: , Description: MessagingSenderId
+#DesignerProperty: Key: AppId, DisplayName: AppId, FieldType: String, DefaultValue: , Description: AppId
+#DesignerProperty: Key: MeasurementId, DisplayName: MeasurementId, FieldType: String, DefaultValue: , Description: MeasurementId
+#DesignerProperty: Key: VapidKey, DisplayName: VapidKey, FieldType: String, DefaultValue: , Description: VapidKey
+#DesignerProperty: Key: ServerKey, DisplayName: ServerKey, FieldType: String, DefaultValue: , Description: ServerKey
+#DesignerProperty: Key: UseAnalytics, DisplayName: UseAnalytics, FieldType: Boolean, DefaultValue: False, Description: UseAnalytics
+#DesignerProperty: Key: UseAuth, DisplayName: UseAuth, FieldType: Boolean, DefaultValue: False, Description: UseAuth
+#DesignerProperty: Key: UseDatabase, DisplayName: UseDatabase, FieldType: Boolean, DefaultValue: False, Description: UseDatabase
+#DesignerProperty: Key: UsePerformance, DisplayName: UsePerformance, FieldType: Boolean, DefaultValue: False, Description: UsePerformance
+#DesignerProperty: Key: UseStorage, DisplayName: UseStorage, FieldType: Boolean, DefaultValue: False, Description: UseStorage
+#DesignerProperty: Key: UseMessaging, DisplayName: UseMessaging, FieldType: Boolean, DefaultValue: False, Description: UseMessaging
+#DesignerProperty: Key: TimeStampOnSnapShots, DisplayName: TimeStampOnSnapShots, FieldType: Boolean, DefaultValue: True, Description: TimeStampOnSnapShots
+#DesignerProperty: Key: EnablePersistence, DisplayName: EnablePersistence, FieldType: Boolean, DefaultValue: True, Description: EnablePersistence
+#DesignerProperty: Key: UserName, DisplayName: UserName, FieldType: String, DefaultValue: root, Description: UserName
+#DesignerProperty: Key: Password, DisplayName: Password, FieldType: String, DefaultValue: , Description: Password
+#DesignerProperty: Key: ShowLog, DisplayName: ShowLog, FieldType: Boolean, DefaultValue: False, Description: ShowLog
+#DesignerProperty: Key: TableName, DisplayName: TableName, FieldType: String, DefaultValue: , Description: TableName
+#DesignerProperty: Key: RecordSource, DisplayName: RecordSource, FieldType: String, DefaultValue: , Description: RecordSource
+#DesignerProperty: Key: PrimaryKey, DisplayName: PrimaryKey, FieldType: String, DefaultValue: , Description: PrimaryKey
+#DesignerProperty: Key: AutoIncrement, DisplayName: AutoIncrement, FieldType: String, DefaultValue: , Description: AutoIncrement
+#DesignerProperty: Key: Singular, DisplayName: Singular, FieldType: String, DefaultValue: , Description: Singular
+#DesignerProperty: Key: Plural, DisplayName: Plural, FieldType: String, DefaultValue: , Description: Plural
+#DesignerProperty: Key: DisplayField, DisplayName: DisplayField, FieldType: String, DefaultValue: , Description: DisplayField
+#DesignerProperty: Key: Fields, DisplayName: Fields (;), FieldType: String, DefaultValue: , Description: Fields
+#DesignerProperty: Key: Defaults, DisplayName: Defaults JSON, FieldType: String, DefaultValue: , Description: Defaults
+#DesignerProperty: Key: Integers, DisplayName: Integers (;), FieldType: String, DefaultValue: , Description: Integers
+#DesignerProperty: Key: Doubles, DisplayName: Doubles (;), FieldType: String, DefaultValue: , Description: Doubles
+#DesignerProperty: Key: Blobs, DisplayName: Blobs (;), FieldType: String, DefaultValue: , Description: Blobs
+#DesignerProperty: Key: SelectFields, DisplayName: SelectFields (;), FieldType: String, DefaultValue: , Description: SelectFields
+#DesignerProperty: Key: WhereFields, DisplayName: WhereFields, FieldType: String, DefaultValue: , Description: WhereFields
+#DesignerProperty: Key: Operators, DisplayName: Operators, FieldType: String, DefaultValue: , Description: Operators
+#DesignerProperty: Key: AndOr, DisplayName: AndOr, FieldType: String, DefaultValue: , Description: AndOr
+#DesignerProperty: Key: AscDesc, DisplayName: AscDesc, FieldType: String, DefaultValue: , Description: AscDesc
+#DesignerProperty: Key: OrderBy, DisplayName: OrderBy (;), FieldType: String, DefaultValue: , Description: OrderBy
+#DesignerProperty: Key: CustomQuery, DisplayName: CustomQuery, FieldType: String, DefaultValue: , Description: CustomQuery
