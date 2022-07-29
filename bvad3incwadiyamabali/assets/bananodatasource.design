@@ -14,7 +14,7 @@
 #DesignerProperty: Key: UseStorage, DisplayName: UseStorage, FieldType: Boolean, DefaultValue: False, Description: UseStorage
 #DesignerProperty: Key: UseMessaging, DisplayName: UseMessaging, FieldType: Boolean, DefaultValue: False, Description: UseMessaging
 #DesignerProperty: Key: TimeStampOnSnapShots, DisplayName: TimeStampOnSnapShots, FieldType: Boolean, DefaultValue: True, Description: TimeStampOnSnapShots
-#DesignerProperty: Key: EnablePersistence, DisplayName: EnablePersistence, FieldType: Boolean, DefaultValue: True, Description: EnablePersistence
+#DesignerProperty: Key: EnablePersistence, DisplayName: EnablePersistence, FieldType: Boolean, DefaultValue: False, Description: EnablePersistence
 #DesignerProperty: Key: DatabaseType, DisplayName: Database Type*, FieldType: String, DefaultValue: mysql, Description: Database Type, List: indexeddb|jrdc|mssql|mysql|sqlite|firestore|mongodb|direct_sqlite|direct_mysql|direct_mssql|direct_msaccess|json|couchdb|direct_mongodb|postgres|direct_postgres|msaccess
 #DesignerProperty: Key: HostName, DisplayName: Host Name*, FieldType: String, DefaultValue: localhost, Description: Host Name
 #DesignerProperty: Key: Port, DisplayName: Port*, FieldType: String, DefaultValue: 3306, Description: Port Number

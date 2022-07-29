@@ -14,21 +14,22 @@
 #DesignerProperty: Key: Visible, DisplayName: Show On Form, FieldType: Boolean, DefaultValue: True, Description: Visibility On Form
 #DesignerProperty: Key: OnTable, DisplayName: Show On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be shown on the V-Data-Table
 #DesignerProperty: Key: ColumnVisible, DisplayName: Visible On Table, FieldType: Boolean, DefaultValue: True, Description: This field should be visible on the V-Data-Table
-#DesignerProperty: Key: GroupAble, DisplayName: Groupable On Table, FieldType: Boolean, DefaultValue: False ,Description: This field should be groupable
 #DesignerProperty: Key: OnDb, DisplayName: Use on CRUD (File Picker Off), FieldType: Boolean, DefaultValue: True, Description: This field should be used for CRUD actions
 #DesignerProperty: Key: DbSort, DisplayName: Sort on SQL Query, FieldType: Boolean, DefaultValue: True, Description: This field is sortable on SQL query
 #DesignerProperty: Key: Sortable, DisplayName: Sortable on VDT, FieldType: Boolean, DefaultValue: True, Description: Is Sortable on Data Table
 #DesignerProperty: Key: Filterable, DisplayName: Filterable on VDT, FieldType: Boolean, DefaultValue: True, Description: This field should be filterable on the V-Data-Table
 #DesignerProperty: Key: DefaultValue1, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: What is the default value for this field
 #DesignerProperty: Key: ComputeVModel, DisplayName: Compute VModel, FieldType: String, DefaultValue: , Description: The computed VModel
-#DesignerProperty: Key: ComponentType, DisplayName: Component Type (Form)*, FieldType: String, DefaultValue: TextField, Description: Component Type and if its a date you need to set a watch to make it a nice date. For PC/PL specify the Size & Width, List: AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|DatePicker|DateTimePicker|Email|FAB|FileInput|FileInputImage|GenderList|H1|H2|H3|H4|H5|H6|Icon|Image|Money|P|Password|PersonList|PhoneList|ProgressCircular|ProgressLinear|RadioGroup|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Slider|Switch|Telephone|TextArea|TextField|Thousands|TimePicker|Website|div|span|MinusPlus
+#DesignerProperty: Key: ComponentType, DisplayName: Component Type (Form)*, FieldType: String, DefaultValue: TextField, Description: Component Type and if its a date you need to set a watch to make it a nice date. For PC/PL specify the Size & Width, List: AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|ColorSelect|ColorTextField|ComboBox|CountryList|CurrencyList|CustomColors|DatePicker|DateTimePicker|Email|FAB|SpeedDial|FileInput|FileInputImage|GenderList|H1|H2|H3|H4|H5|H6|Icon|Image|Money|P|Password|PersonList|PhoneList|ProgressCircular|ProgressLinear|RadioGroup|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Slider|Switch|Telephone|TextArea|TextField|Thousands|TimePicker|Website|div|span|MinusPlus
 #DesignerProperty: Key: ColumnType, DisplayName: Column Type*, FieldType: String, DefaultValue: Normal, Description: Data Table Column Type, List: Action|AutoComplete|Avatar|AvatarIcon|AvatarText|AvatarName|AvatarGroup|Button|CheckBox|Chip|Chips|ColorSelect|ColorTextField|TextFieldColor|ComboBox|CountryList|CurrencyList|CustomColors|Date|DateTime|Email|FileSize|GenderList|Icon|Image|Link|LinkText|Money|Normal|Number|PersonList|PhoneList|ProgressCircular|ProgressLinear|RagCircles|RagSmiles|RagUpDown|Rating|ReActions|Select|Switch|TextArea|TextField|Thousands|Time|MinusPlus
 #DesignerProperty: Key: ListItemType, DisplayName: ListView Type, FieldType: String, DefaultValue: , Description: List View Item Type, List: id|to|leftimage|lefticon|leftcolor|leftcheckbox|leftcheckboxcolor|leftswitch|leftswitchcolor|avatar|avataricon|avatariconcolor|avatartext|avatartextcolor|icon|iconcolor|title|subtitle|subtitle1|subtitle2|subtitle3|subtitle4|rightavatar|rightavataricon|rightavatariconcolor|rightavatartext|rightavatartextcolor|rightimage|righttext|rightchip|rightchipcolor|rightminuspluschip|rightminuspluschipcolor|righticon|righticoncolor|rightcheckbox|rightcheckboxcolor|rightrating|rightratingcolor|rightswitch|rightswitchcolor
 #DesignerProperty: Key: ChipLabel, DisplayName: Chip Label, FieldType: Boolean, DefaultValue: False, Description: Remove circle edges for plus minus
-#DesignerProperty: Key: ShowEyes, DisplayName: ShowEyes, FieldType: Boolean, DefaultValue: false, Description: ShowEyes
+#DesignerProperty: Key: ShowEyes, DisplayName: ShowEyes, FieldType: Boolean, DefaultValue: false, Description: Show Eyes on password
+#DesignerProperty: Key: Prefix, DisplayName: Prefix, FieldType: String, DefaultValue: , Description: Displays prefix text
+#DesignerProperty: Key: Suffix, DisplayName: Suffix, FieldType: String, DefaultValue: , Description: Displays suffix text
 #DesignerProperty: Key: FontFamily, DisplayName: Font Family, FieldType: String, DefaultValue: , Description: Font Family
 #DesignerProperty: Key: FontSize, DisplayName: Font Size, FieldType: String, DefaultValue: , Description: Font Size
-#DesignerProperty: Key: LabelPlus, DisplayName: Label Plus, FieldType: Boolean, DefaultValue: false, Description: Label Plus
+#DesignerProperty: Key: LabelPlus, DisplayName: Label Plus (With Heading), FieldType: Boolean, DefaultValue: false, Description: Label Plus (With Heading)
 #DesignerProperty: Key: Heading, DisplayName: Label Plus Heading, FieldType: String, DefaultValue: , Description: Heading for Label Plus
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: This component should be hidden. If you want to toggle visibility at runtime, check this property.
 #DesignerProperty: Key: ShowDateButtons, DisplayName: Show Date Buttons, FieldType: Boolean, DefaultValue: True, Description: Show Date Buttons
@@ -38,8 +39,8 @@
 #DesignerProperty: Key: Sizes, DisplayName: Sizes SMLX, FieldType: String, DefaultValue: s=?; m=?; l=?; x=?, Description: Sizes SMLX
 #DesignerProperty: Key: DialogSize, DisplayName: Edit Dialog Size, FieldType: String, DefaultValue: normal, Description: The dialog size on data-table for inline edit, List:normal|large
 #DesignerProperty: Key: AutoCompleteFalse, DisplayName: Auto Complete False, FieldType: Boolean, DefaultValue: False, Description: Auto Complete False (for usernames and passwords)
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: Locale, DisplayName: Locale, FieldType: String, DefaultValue: , Description: Sets the locale, List: ar-SA|cs-CZ|da-DK|de-DE|el-GR|en-AU|en-GB|en-IE|en-US|en-ZA|es-ES|es-MX|fi-FI|fr-CA|fr-FR|he-IL|hi-IN|hu-HU|id-ID|it-IT|ja-JP|ko-KR|nl-BE|nl-NL|no-NO|pl-PL|pl-PL|pt-BR|pt-PT|ro-RO|ru-RU|sk-SK|sv-SE|th-TH|tr-TR|zh-CN|zh-HK|zh-TW
 #DesignerProperty: Key: TextAlign, DisplayName: Text Align, FieldType: String, DefaultValue: none, Description: , List: center|justify|left|none|right
 #DesignerProperty: Key: Inset, DisplayName: Switch Inset?, FieldType: Boolean, DefaultValue: False, Description: Switch should be Inset
@@ -115,6 +116,7 @@
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: false, Description: Tile
 #DesignerProperty: Key: Elevation, DisplayName: Elevation, FieldType: String, DefaultValue: , Description: Elevation
 #DesignerProperty: Key: MinValue, DisplayName: Min Value (Slider), FieldType: Int, DefaultValue: 0, Description: Min Value e.g. Slider
+#DesignerProperty: Key: StepValue, DisplayName: Step Value (Slider), FieldType: Int, DefaultValue: 1, Description: Step Value e.g. Slider
 #DesignerProperty: Key: MaxValue, DisplayName: Max Value (Slider), FieldType: Int, DefaultValue: 100, Description: Max Value e.g. Slider
 #DesignerProperty: Key: Size, DisplayName: Size (Icon/Avatar/Button), FieldType: String, DefaultValue: regular, Description: Size, List: large|regular|small|x-large|x-small
 #DesignerProperty: Key: OwnSize, DisplayName: Own Size (Icon/Avatar/Button/PC), FieldType: String, DefaultValue: , Description: Own Size for icon/progress circulr
@@ -129,12 +131,17 @@
 #DesignerProperty: Key: MaxHeight, DisplayName: Max Height, FieldType: String, DefaultValue: , Description: The maximum-height where applicable
 #DesignerProperty: Key: MinWidth, DisplayName: Min Width, FieldType: String, DefaultValue: , Description: The minimum-width where applicable
 #DesignerProperty: Key: MaxWidth, DisplayName: Max Width, FieldType: String, DefaultValue: , Description: The maximum-height where applicable
-#DesignerProperty: Key: ButtonType, DisplayName: Button Type, FieldType: String, DefaultValue: button, Description: vbtnicon button Type, List: button|fab|fab-text|icon-left|icon-right|none|image-left|image-right|image
-#DesignerProperty: Key: ButtonPosition, DisplayName: Button Position, FieldType: String, DefaultValue: normal, Description: vbtnicon button Position, List: bottom-left|bottom-right|normal|top-left|top-right
+#DesignerProperty: Key: ButtonType, DisplayName: Button Type, FieldType: String, DefaultValue: button, Description: vbtnicon button Type, List: button|fab|fab-text|icon-left|icon-right|none|image-left|image-right|image|icon|image-square|image-diamond|speed-dial
+#DesignerProperty: Key: ButtonPosition, DisplayName: Button Position, FieldType: String, DefaultValue: normal, Description: VBtnIcon Button Position, List: bottom-left|bottom-right|normal|top-left|top-right
+#DesignerProperty: Key: ButtonImageType, DisplayName: Button Image Type, FieldType: String, DefaultValue: none, Description: vbtnicon Image Type, List: none|circle|rounded
 #DesignerProperty: Key: ButtonRaised, DisplayName: Button Raised, FieldType: Boolean, DefaultValue:  False, Description: The vbtnicon button is raised
 #DesignerProperty: Key: ButtonOutlined, DisplayName: Button Outlined, FieldType: Boolean, DefaultValue:  False, Description: The vbtnicon button is outlined
 #DesignerProperty: Key: ButtonRounded, DisplayName: Button Rounded, FieldType: Boolean, DefaultValue:  False, Description: The vbtnicon button is rounded
 #DesignerProperty: Key: ButtonAbsolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue:  False, Description: The is placed absolute
+#DesignerProperty: Key: OpenIcon, DisplayName: Open Icon, FieldType: String, DefaultValue: mdi-account-circle, Description: Open Icon
+#DesignerProperty: Key: CloseIcon, DisplayName: Close Icon, FieldType: String, DefaultValue: mdi-close, Description: Close Icon
+#DesignerProperty: Key: Direction, DisplayName: Direction, FieldType: String, DefaultValue: top, Description: Direction in which speed-dial content will show, List: bottom|left|right|top
+#DesignerProperty: Key: OpenOnHover, DisplayName: OpenOnHover, FieldType: Boolean, DefaultValue: True, Description: Opens speed-dial on hover
 #DesignerProperty: Key: ButtonApp, DisplayName: App, FieldType: Boolean, DefaultValue:  False, Description: Should align for app
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: False, Description: Dark
 #DesignerProperty: Key: FullWidth, DisplayName: FullWidth, FieldType: Boolean, DefaultValue:  False, Description: Should fill full width

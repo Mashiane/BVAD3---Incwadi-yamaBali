@@ -23,11 +23,11 @@
 #DesignerProperty: Key: Overlap, DisplayName: Overlap, FieldType: Boolean, DefaultValue: false, Description: Overlaps the slotted content on top of the component
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: false, Description: Removes the components border-radius
 #DesignerProperty: Key: Transition, DisplayName: Transition, FieldType: String, DefaultValue: , Description: Sets the component transition, List: expand-transition|fab-transition|fade-transition|none|scale-transition|scroll-x-reverse-transition|scroll-x-transition|scroll-y-reverse-transition|scroll-y-transition|slide-x-reverse-transition|slide-x-transition|slide-y-reverse-transition|slide-y-transition
-#DesignerProperty: Key: IconName, DisplayName: IconName, FieldType: String, DefaultValue: , Description: Icon Name
+#DesignerProperty: Key: IconName, DisplayName: IconName, FieldType: String, DefaultValue: mdi-vuetify, Description: Icon Name
 #DesignerProperty: Key: IconSize, DisplayName: IconSize, FieldType: String, DefaultValue: , Description: Icon Size, List: large|none|small|x-large|x-small
-#DesignerProperty: Key: AvatarImg, DisplayName: AvatarImg, FieldType: String, DefaultValue: , Description: AvatarImg
+#DesignerProperty: Key: AvatarImg, DisplayName: AvatarImg, FieldType: String, DefaultValue: ./assets/bvad31.png, Description: AvatarImg
 #DesignerProperty: Key: AvatarSize, DisplayName: AvatarSize, FieldType: String, DefaultValue: 48, Description: AvatarSize
-#DesignerProperty: Key: ButtonText, DisplayName: Button Text, FieldType: String, DefaultValue: , Description: Button Text
+#DesignerProperty: Key: ButtonText, DisplayName: Button Text, FieldType: String, DefaultValue: Badge1, Description: Button Text
 #DesignerProperty: Key: ButtonRaised, DisplayName: Button Raised/Text, FieldType: Boolean, DefaultValue: True, Description: Button Transparent Background Off
 #DesignerProperty: Key: ButtonBlock, DisplayName: Button Block, FieldType: Boolean, DefaultValue: False, Description: Button Block
 #DesignerProperty: Key: ButtonSize, DisplayName: Button Size, FieldType: String, DefaultValue: normal, Description: Button Size, List: large|normal|small|x-large|x-small

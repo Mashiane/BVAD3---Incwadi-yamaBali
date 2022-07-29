@@ -4,6 +4,8 @@
 #DesignerProperty: Key: Checked, DisplayName: Checked, FieldType: Boolean, DefaultValue: False, Description: Checked
 #DesignerProperty: Key: TrueValue, DisplayName: TrueValue*, FieldType: String, DefaultValue: Y, Description: Sets value for truthy state. This is a string value use SetValue("Y")
 #DesignerProperty: Key: FalseValue, DisplayName: FalseValue*, FieldType: String, DefaultValue: N, Description: Sets value for falsy state. This is a string value use SetValue("N")
+#DesignerProperty: Key: OffIcon, DisplayName: Off Icon, FieldType: String, DefaultValue: $checkboxOff, Description: The icon used when inactive
+#DesignerProperty: Key: OnIcon, DisplayName: On Icon, FieldType: String, DefaultValue: $checkboxOn, Description: The icon used when active
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disable the input
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Loading, DisplayName: Loading, FieldType: Boolean, DefaultValue: False, Description: Loading

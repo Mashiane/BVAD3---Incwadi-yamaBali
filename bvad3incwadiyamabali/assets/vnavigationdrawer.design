@@ -1,6 +1,7 @@
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: App, DisplayName: App, FieldType: Boolean, DefaultValue: True, Description: Designates the component as part of the application layout
+#DesignerProperty: Key: MiniDrawer, DisplayName: Mini Drawer, FieldType: Boolean, DefaultValue: False, Description: Create a mini drawer that expands on hover and controlled also by hamburger
 #DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: false, Description: Applies position: absolute to the component
 #DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Sets the width for the component
 #DesignerProperty: Key: Bottom, DisplayName: Bottom, FieldType: Boolean, DefaultValue: false, Description: Expands from the bottom of the screen on mobile devices

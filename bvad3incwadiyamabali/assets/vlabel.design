@@ -17,8 +17,8 @@
 #DesignerProperty: Key: Italic, DisplayName: Italic, FieldType: Boolean, DefaultValue: false, Description: Italic
 #DesignerProperty: Key: FontBlack, DisplayName: Font Weight Black, FieldType: Boolean, DefaultValue: false, Description: Font weight black
 #DesignerProperty: Key: TextAlign, DisplayName: Text Align, FieldType: String, DefaultValue: , Description: , List: center|justify|left|none|right
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: TextDecoration, DisplayName: Text Decoration, FieldType: String, DefaultValue: none, Description: , List: line-through|none|overline|underline
 #DesignerProperty: Key: Capitalized, DisplayName: Capitalized, FieldType: Boolean, DefaultValue: false, Description: Capitalized
 #DesignerProperty: Key: LowerCased, DisplayName: LowerCased, FieldType: Boolean, DefaultValue: false, Description: LowerCased

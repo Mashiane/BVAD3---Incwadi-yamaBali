@@ -1,3 +1,4 @@
+#DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: FileName, DisplayName: URL, FieldType: String, DefaultValue: , Description: URL
 #DesignerProperty: Key: AspectRatio, DisplayName: AspectRatio, FieldType: String, DefaultValue: 1.0, Description: AspectRatio

@@ -6,6 +6,8 @@
 #DesignerProperty: Key: Readonly, DisplayName: Readonly, FieldType: Boolean, DefaultValue: False, Description: Puts input in readonly state
 #DesignerProperty: Key: VModel, DisplayName: VModel*, FieldType: String, DefaultValue: rg1, Description: VModel
 #DesignerProperty: Key: Value, DisplayName: Default Value, FieldType: String, DefaultValue: , Description: The inputs value
+#DesignerProperty: Key: OffIcon, DisplayName: Off Icon, FieldType: String, DefaultValue: $radioOff, Description: The icon used when inactive
+#DesignerProperty: Key: OnIcon, DisplayName: On Icon, FieldType: String, DefaultValue: $radioOn, Description: The icon used when active
 #DesignerProperty: Key: Mandatory, DisplayName: Mandatory, FieldType: Boolean, DefaultValue: False, Description: Forces a value to always be selected if available
 #DesignerProperty: Key: ItemValue, DisplayName: ItemValue*, FieldType: String, DefaultValue: value, Description: ItemValue
 #DesignerProperty: Key: ItemText, DisplayName: ItemText*, FieldType: String, DefaultValue: text, Description: ItemText

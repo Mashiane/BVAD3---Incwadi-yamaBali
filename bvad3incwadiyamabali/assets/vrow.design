@@ -9,8 +9,9 @@
 #DesignerProperty: Key: ColorIntensity, DisplayName: Color Intensity, FieldType: String, DefaultValue: normal, Description: , List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: , List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Applies the align-itemshttps://developer, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Applies the justify-contenthttps://developer, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Applies the align-itemshttps://developer, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Applies the justify-contenthttps://developer, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: BackgroundImage, DisplayName: BackgroundImage, FieldType: String, DefaultValue:  , Description: BackgroundImage
 #DesignerProperty: Key: Block, DisplayName: Block, FieldType: Boolean, DefaultValue: False, Description: Expands the button to 100% of available space
 #DesignerProperty: Key: NoGutters, DisplayName: NoGutters, FieldType: Boolean, DefaultValue: False, Description: Removes the gutter between v-cols
 #DesignerProperty: Key: Dense, DisplayName: Dense, FieldType: Boolean, DefaultValue: False, Description: Reduces the gutter between v-cols

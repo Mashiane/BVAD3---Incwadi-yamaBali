@@ -3,6 +3,7 @@
 #DesignerProperty: Key: VListOptionsName, DisplayName: V-List-Options, FieldType: String, DefaultValue: , Description: V-List-Options Name
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: True, Description: Hidden
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disables the menu
+#DesignerProperty: Key: ShowDropDown, DisplayName: ShowDropDown, FieldType: Boolean, DefaultValue: False, Description: Show a dropdown
 #DesignerProperty: Key: ActivateUsing, DisplayName: ActivateUsing, FieldType: String, DefaultValue: button, Description: ActivateUsing, List: chip-avatar|avatar-image|avatar-text|button|icon|none
 #DesignerProperty: Key: ActivatorColor, DisplayName: ActivatorColor, FieldType: String, DefaultValue: primary, Description: ActivatorColor, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ActivatorColorIntensity, DisplayName: ActivatorColorIntensity, FieldType: String, DefaultValue: normal, Description: ActivatorColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal

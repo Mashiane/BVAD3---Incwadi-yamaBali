@@ -2,6 +2,7 @@
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: false, Description: Applies the dark theme variant to the component
 #DesignerProperty: Key: Divider, DisplayName: Divider, FieldType: String, DefaultValue: /, Description: Specifies the dividing character between items
+#DesignerProperty: Key: DividerIcon, DisplayName: Divider Icon, FieldType: String, DefaultValue: , Description: Specifies the dividing icon between items
 #DesignerProperty: Key: ItemKeys, DisplayName: Action Keys (Key)(;), FieldType: String, DefaultValue:  , Description: Action Icons
 #DesignerProperty: Key: ItemTitles, DisplayName: Action Titles (Value)(;), FieldType: String, DefaultValue:  , Description: Action Titles
 #DesignerProperty: Key: ItemTo, DisplayName: Action To (;), FieldType: String, DefaultValue:  , Description: Action To

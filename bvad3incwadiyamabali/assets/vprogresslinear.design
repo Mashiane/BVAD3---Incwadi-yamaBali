@@ -14,6 +14,8 @@
 #DesignerProperty: Key: BufferValue, DisplayName: BufferValue, FieldType: String, DefaultValue: , Description: The percentage value for the buffer
 #DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: , Description: Applies specified color to the control - it can be the name of material color for example success or purple or css color #033 or rgba255. 0. 0. 0, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ColorIntensity, DisplayName: ColorIntensity, FieldType: String, DefaultValue: , Description: ColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: none, Description: Text Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: Text Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: false, Description: Applies the dark theme variant to the component
 #DesignerProperty: Key: Fixed, DisplayName: Fixed, FieldType: Boolean, DefaultValue: false, Description: Applies position: fixed to the component
 #DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue: , Description: Key
@@ -22,6 +24,7 @@
 #DesignerProperty: Key: Query, DisplayName: Query, FieldType: Boolean, DefaultValue: false, Description: Animates like indeterminate prop but inverse
 #DesignerProperty: Key: Reverse, DisplayName: Reverse, FieldType: Boolean, DefaultValue: false, Description: Displays reversed progress right to left in LTR mode and left to right in RTL
 #DesignerProperty: Key: Striped, DisplayName: Striped, FieldType: Boolean, DefaultValue: false, Description: Adds a stripe background to the filled portion of the progress component
+#DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: Boolean, DefaultValue: False, Description: Rounded.
 #DesignerProperty: Key: VFor, DisplayName: VFor, FieldType: String, DefaultValue: , Description: VFor
 #DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf
 #DesignerProperty: Key: VOn, DisplayName: VOn, FieldType: String, DefaultValue: , Description: VOn
@@ -44,7 +47,6 @@
 #DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Width
 #DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: MinWidth
 #DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: MaxWidth
-#DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: String, DefaultValue: none, Description: Adds a border radius to the progress component, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: False, Description: Tile
 #DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: False, Description: Shrink
 #DesignerProperty: Key: Grow, DisplayName: Grow, FieldType: Boolean, DefaultValue: false, Description: Grow

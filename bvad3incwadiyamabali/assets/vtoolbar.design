@@ -1,7 +1,7 @@
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: HasTitle, DisplayName: Has Title, FieldType: Boolean, DefaultValue:  False, Description: Has a title
 #DesignerProperty: Key: Title, DisplayName: Title, FieldType: String, DefaultValue: , Description: Title
 #DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: false, Description: Applies position: absolute to the component

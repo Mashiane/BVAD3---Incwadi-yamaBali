@@ -23,8 +23,8 @@
 #DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: Sets the maximum width for the component
 #DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: Sets the minimum height for the component
 #DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: Sets the minimum width for the component
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: Position, DisplayName: Position, FieldType: String, DefaultValue: normal, Description: Position, List: left|normal|right
 #DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: String, DefaultValue: none, Description: Designates the border-radius applied to the component, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
 #DesignerProperty: Key: BorderPosition, DisplayName: BorderPosition, FieldType: String, DefaultValue: none, Description: Border, List: bottom|left|none|right|top|all

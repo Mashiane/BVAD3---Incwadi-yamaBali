@@ -4,6 +4,10 @@
 #DesignerProperty: Key: Torch, DisplayName: Torch, FieldType: Boolean, DefaultValue: False, Description: Torch On Or Off
 #DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 300px, Description: Height
 #DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 100%, Description: Width
+#DesignerProperty: Key: BorderColor, DisplayName: BorderColor, FieldType: String, DefaultValue: black, Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: BorderRadius, DisplayName: Border Radius, FieldType: String, DefaultValue: 5px , Description:
+#DesignerProperty: Key: BorderStyle, DisplayName: Border Style, FieldType: String, DefaultValue: solid, Description: , List: dashed|dotted|double|groove|hidden|inherit|initial|inset|none|outset|remove|ridge|solid
+#DesignerProperty: Key: BorderWidth, DisplayName: Border Width, FieldType: String, DefaultValue: 1px , Description: Border Width
 #DesignerProperty: Key: SlotName, DisplayName: SlotName, FieldType: String, DefaultValue:  , Description: Slot to be placed in
 #DesignerProperty: Key: VFor, DisplayName: V-For, FieldType: String, DefaultValue:  , Description: V-For
 #DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue:  , Description: Key

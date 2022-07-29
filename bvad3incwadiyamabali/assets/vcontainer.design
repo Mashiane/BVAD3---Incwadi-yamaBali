@@ -2,8 +2,8 @@
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: false, Description: Hidden
 #DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
 #DesignerProperty: Key: PlaceAtBottom, DisplayName: Place At Bottom, FieldType: Boolean, DefaultValue: False, Description: Force Place At Bottom
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: Fluid, DisplayName: Fluid, FieldType: Boolean, DefaultValue: false, Description: Removes viewport maximum-width size breakpoints
 #DesignerProperty: Key: DFlex, DisplayName: DFlex, FieldType: Boolean, DefaultValue: false, Description: DFlex
 #DesignerProperty: Key: TextCenter, DisplayName: TextCenter, FieldType: Boolean, DefaultValue: false, Description: TextCenter

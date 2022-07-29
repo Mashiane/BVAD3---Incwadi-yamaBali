@@ -3,6 +3,8 @@
 #DesignerProperty: Key: VModel, DisplayName: VModel, FieldType: String, DefaultValue: radio1, Description: VModel
 #DesignerProperty: Key: Checked, DisplayName: Checked, FieldType: Boolean, DefaultValue: False, Description: Checked
 #DesignerProperty: Key: Value, DisplayName: Value (Multiple)*, FieldType: String, DefaultValue: radio1, Description: The value used when the component is selected in a group
+#DesignerProperty: Key: OffIcon, DisplayName: Off Icon, FieldType: String, DefaultValue: $radioOff, Description: The icon used when inactive
+#DesignerProperty: Key: OnIcon, DisplayName: On Icon, FieldType: String, DefaultValue: $radioOn, Description: The icon used when active
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Removes the ability to click or target the component
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Required, DisplayName: Required, FieldType: Boolean, DefaultValue: False, Description: Required
@@ -11,8 +13,6 @@
 #DesignerProperty: Key: ColorIntensity, DisplayName: Colorintensity, FieldType: String, DefaultValue: , Description: Colorintensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: Dark, DisplayName: Dark, FieldType: Boolean, DefaultValue: False, Description: Applies the dark theme variant to the component
 #DesignerProperty: Key: Light, DisplayName: Light, FieldType: Boolean, DefaultValue: False, Description: Applies the light theme variant to the component
-#DesignerProperty: Key: OffIcon, DisplayName: OffIcon, FieldType: String, DefaultValue: , Description: The icon used when inactive
-#DesignerProperty: Key: OnIcon, DisplayName: OnIcon, FieldType: String, DefaultValue: , Description: The icon used when active
 #DesignerProperty: Key: Readonly, DisplayName: Readonly, FieldType: String, DefaultValue: , Description: Puts input in readonly state
 #DesignerProperty: Key: Ripple, DisplayName: Ripple, FieldType: Boolean, DefaultValue: False, Description: Applies the v-ripple/directives/ripple directive
 #DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue: , Description: Key

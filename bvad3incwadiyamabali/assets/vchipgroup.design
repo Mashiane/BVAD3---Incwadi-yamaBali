@@ -5,7 +5,11 @@
 #DesignerProperty: Key: ItemKeys, DisplayName: Item Values (Key)(;), FieldType: String, DefaultValue:  , Description: Item Values
 #DesignerProperty: Key: ItemTitles, DisplayName: Item Texts (Value)(;), FieldType: String, DefaultValue:  , Description: Item Texts
 #DesignerProperty: Key: ItemColors, DisplayName: Item Colors (;), FieldType: String, DefaultValue:  , Description: Item Colors
-#DesignerProperty: Key: Filter, DisplayName: Filter, FieldType: Boolean, DefaultValue: True, Description: Filter
+#DesignerProperty: Key: ItemTextColors, DisplayName: Item Text Colors (;), FieldType: String, DefaultValue:  , Description: Item Text Colors
+#DesignerProperty: Key: Rounded, DisplayName: Rounded Chips, FieldType: String, DefaultValue: none, Description: Rounded, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
+#DesignerProperty: Key: ItemHeight, DisplayName: Item Height, FieldType: String, DefaultValue: , Description: Item Height
+#DesignerProperty: Key: ItemWidth, DisplayName: Item Width, FieldType: String, DefaultValue: , Description: Item Width
+#DesignerProperty: Key: Filter, DisplayName: Filter, FieldType: Boolean, DefaultValue: True, Description: Displays a selection icon when selected
 #DesignerProperty: Key: Outlined, DisplayName: Outlined, FieldType: Boolean, DefaultValue: False, Description: Outlined
 #DesignerProperty: Key: Size, DisplayName: Size, FieldType: String, DefaultValue: normal, Description: Size, List: large|normal|small|x-large|x-small
 #DesignerProperty: Key: ActiveClass, DisplayName: Active Class, FieldType: String, DefaultValue: , Description: The active-class applied to children when they are activated
@@ -42,7 +46,6 @@
 #DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Width
 #DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: MinWidth
 #DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: MaxWidth
-#DesignerProperty: Key: Rounded, DisplayName: Rounded, FieldType: String, DefaultValue: none, Description: Rounded, List: none|rounded|rounded-0|rounded-b-xl|rounded-bl-xl|rounded-br-xl|rounded-circle|rounded-l-xl|rounded-lg|rounded-pill|rounded-r-xl|rounded-sm|rounded-t-xl|rounded-tl-xl|rounded-tr-xl|rounded-xl
 #DesignerProperty: Key: Tile, DisplayName: Tile, FieldType: Boolean, DefaultValue: False, Description: Tile
 #DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: False, Description: Shrink
 #DesignerProperty: Key: Grow, DisplayName: Grow, FieldType: Boolean, DefaultValue: false, Description: Grow

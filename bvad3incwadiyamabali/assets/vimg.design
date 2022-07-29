@@ -1,5 +1,6 @@
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: false, Description: Hidden
+#DesignerProperty: Key: HasLoader, DisplayName: Has Loader, FieldType: Boolean, DefaultValue: false, Description: Has loading indicator
 #DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
 #DesignerProperty: Key: Absolute, DisplayName: Absolute, FieldType: Boolean, DefaultValue: false, Description: Absolute
 #DesignerProperty: Key: Src, DisplayName: Src URL, FieldType: String, DefaultValue: ./assets/bvad31.png, Description: The image URL
@@ -11,14 +12,14 @@
 #DesignerProperty: Key: AspectRatio, DisplayName: AspectRatio, FieldType: String, DefaultValue: undefined, Description: Calculated as width/height. so for a 1920x1080px image this will be 1
 #DesignerProperty: Key: Contain, DisplayName: Contain, FieldType: Boolean, DefaultValue: true, Description: Prevents the image from being cropped if it doesnt fit
 #DesignerProperty: Key: Shrink, DisplayName: Shrink, FieldType: Boolean, DefaultValue: false, Description: Shrink
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: none, Description: Text Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: Text Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
-#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: 200, Description: Sets the height for the component
+#DesignerProperty: Key: Height, DisplayName: Height, FieldType: String, DefaultValue: , Description: Sets the height for the component
 #DesignerProperty: Key: MinHeight, DisplayName: MinHeight, FieldType: String, DefaultValue: , Description: Sets the minimum height for the component
 #DesignerProperty: Key: MaxHeight, DisplayName: MaxHeight, FieldType: String, DefaultValue: , Description: Sets the maximum height for the component
-#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: 200, Description: Sets the width for the component
+#DesignerProperty: Key: Width, DisplayName: Width, FieldType: String, DefaultValue: , Description: Sets the width for the component
 #DesignerProperty: Key: MinWidth, DisplayName: MinWidth, FieldType: String, DefaultValue: , Description: Sets the minimum width for the component
 #DesignerProperty: Key: MaxWidth, DisplayName: MaxWidth, FieldType: String, DefaultValue: , Description: Sets the maximum width for the component
 #DesignerProperty: Key: Sizes, DisplayName: Sizes, FieldType: String, DefaultValue: , Description: For use with srcset. see MDNhttps://developer

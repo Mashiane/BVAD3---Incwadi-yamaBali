@@ -43,10 +43,15 @@
 #DesignerProperty: Key: Light, DisplayName: Light, FieldType: Boolean, DefaultValue: false, Description: Applies the light theme variant to the component
 #DesignerProperty: Key: LoaderHeight, DisplayName: LoaderHeight, FieldType: String, DefaultValue: , Description: Specifies the height of the loader
 #DesignerProperty: Key: Outlined, DisplayName: Outlined, FieldType: Boolean, DefaultValue: false, Description: Applies the outlined style to the input
+#DesignerProperty: Key: MinValue, DisplayName: Min Value, FieldType: String, DefaultValue: 0, Description: Min Value for numbers
+#DesignerProperty: Key: StepValue, DisplayName: Step Value, FieldType: String, DefaultValue: 1, Description: Step Value for numbers
+#DesignerProperty: Key: MaxValue, DisplayName: Max Value, FieldType: String, DefaultValue: 100 , Description: Max Value for numbers
+#DesignerProperty: Key: HideSpinButtons, DisplayName: Hide Spin Buttons, FieldType: Boolean, DefaultValue: False, Description: Hides spin buttons on the input when type is set to number
 #DesignerProperty: Key: PersistentHint, DisplayName: PersistentHint, FieldType: Boolean, DefaultValue: false, Description: Forces hint to always be visible
 #DesignerProperty: Key: PersistentPlaceholder, DisplayName: PersistentPlaceholder, FieldType: Boolean, DefaultValue: false, Description: Forces placeholder to always be visible
 #DesignerProperty: Key: Placeholder, DisplayName: Placeholder, FieldType: String, DefaultValue: , Description: Sets the input’s placeholder text
 #DesignerProperty: Key: Prefix, DisplayName: Prefix, FieldType: String, DefaultValue: , Description: Displays prefix text
+#DesignerProperty: Key: Suffix, DisplayName: Suffix, FieldType: String, DefaultValue: , Description: Displays suffix text
 #DesignerProperty: Key: PrependIcon, DisplayName: PrependIcon, FieldType: String, DefaultValue: , Description: Prepends an icon to the component. uses the same syntax as v-icon
 #DesignerProperty: Key: PrependInnerIcon, DisplayName: PrependInnerIcon, FieldType: String, DefaultValue: , Description: Prepends an icon inside the components input. uses the same syntax as v-icon
 #DesignerProperty: Key: Reverse, DisplayName: Reverse, FieldType: Boolean, DefaultValue: false, Description: Reverses the input orientation
@@ -56,7 +61,6 @@
 #DesignerProperty: Key: SingleLine, DisplayName: SingleLine, FieldType: Boolean, DefaultValue: false, Description: Label does not move on focus/dirty
 #DesignerProperty: Key: Solo, DisplayName: Solo, FieldType: Boolean, DefaultValue: false, Description: Changes the style of the input
 #DesignerProperty: Key: SoloInverted, DisplayName: SoloInverted, FieldType: Boolean, DefaultValue: false, Description: Reduces element opacity until focused
-#DesignerProperty: Key: Suffix, DisplayName: Suffix, FieldType: String, DefaultValue: , Description: Displays suffix text
 #DesignerProperty: Key: VFor, DisplayName: VFor, FieldType: String, DefaultValue: , Description: VFor
 #DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf
 #DesignerProperty: Key: VOn, DisplayName: VOn, FieldType: String, DefaultValue: , Description: VOn

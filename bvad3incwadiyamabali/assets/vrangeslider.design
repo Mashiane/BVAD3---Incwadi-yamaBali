@@ -1,8 +1,8 @@
 #DesignerProperty: Key: ParentID, DisplayName: ParentID, FieldType: String, DefaultValue: , Description: The id of the element to place this into
 #DesignerProperty: Key: Label, DisplayName: Label, FieldType: String, DefaultValue: Range Slider, Description: Sets input label
 #DesignerProperty: Key: MinValue, DisplayName: MinValue, FieldType: String, DefaultValue: 0, Description: MinValue
-#DesignerProperty: Key: MaxValue, DisplayName: MaxValue, FieldType: String, DefaultValue: 100 , Description: MaxValue
 #DesignerProperty: Key: StepValue, DisplayName: StepValue, FieldType: String, DefaultValue: 1, Description: StepValue
+#DesignerProperty: Key: MaxValue, DisplayName: MaxValue, FieldType: String, DefaultValue: 100 , Description: MaxValue
 #DesignerProperty: Key: VModel, DisplayName: VModel, FieldType: String, DefaultValue: rangeslider1, Description: VModel
 #DesignerProperty: Key: Value, DisplayName: Values (;), FieldType: String, DefaultValue: 10; 20, Description: The inputs value
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disable the input

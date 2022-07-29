@@ -5,6 +5,7 @@
 #DesignerProperty: Key: DFlex, DisplayName: DFlex (V-Container), FieldType: Boolean, DefaultValue: false, Description: DFlex
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Form is Hidden
 #DesignerProperty: Key: Blurry, DisplayName: Blurry, FieldType: Boolean, DefaultValue: false, Description: Blurry run-timeable
+#DesignerProperty: Key: BindRC, DisplayName: BindRCs, FieldType: Boolean, DefaultValue: false, Description: Bind rows and columns visibility
 #DesignerProperty: Key: PlaceAtBottom, DisplayName: Place At Bottom, FieldType: Boolean, DefaultValue: False, Description: Force Place At Bottom
 #DesignerProperty: Key: AutoComplete, DisplayName: Auto Complete, FieldType: Boolean, DefaultValue: False, Description: Form should be Auto Complete
 #DesignerProperty: Key: LazyValidation, DisplayName: LazyValidation, FieldType: Boolean, DefaultValue: True, Description: If enabled. value will always be _true_ unless there are visible validation errors
@@ -27,8 +28,8 @@
 #DesignerProperty: Key: Disabled, DisplayName: Disabled Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a disabled state
 #DesignerProperty: Key: Readonly, DisplayName: Readonly Form, FieldType: Boolean, DefaultValue: False, Description: Puts all children inputs into a readonly state
 #DesignerProperty: Key: ShowGridDesign, DisplayName: Show Grid Design, FieldType: Boolean, DefaultValue: False, Description: Show Grid Design Border
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Vertical Align content, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify content, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Vertical Align content, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify content, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: TextCenter, DisplayName: Text Center, FieldType: Boolean, DefaultValue: false, Description: Text Center Content
 #DesignerProperty: Key: FillHeight, DisplayName: Fill Height, FieldType: Boolean, DefaultValue: false, Description: Fill Height
 #DesignerProperty: Key: BackgroundImage, DisplayName: BackgroundImage, FieldType: String, DefaultValue:  , Description: Background Image for this component

@@ -28,6 +28,7 @@
 #DesignerProperty: Key: LeftSwitchAttr, DisplayName: LeftActionSwitchAttr, FieldType: String, DefaultValue: , Description: Left Action Switch Attr
 #DesignerProperty: Key: LeftSwitchColor, DisplayName: LeftActionSwitchColor, FieldType: String, DefaultValue: leftswitchcolor, Description: Left Action Switch Color
 #DesignerProperty: Key: UseLeftAvatar, DisplayName: UseLeftAvatar, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar
+#DesignerProperty: Key: LeftAvatarSize, DisplayName: LeftAvatarSize, FieldType: String, DefaultValue: 40, Description: Left Avatar Size
 #DesignerProperty: Key: ItemAvatarClass, DisplayName: LeftAvatarClass, FieldType: String, DefaultValue: , Description: Left Avatar Class
 #DesignerProperty: Key: UseLeftAvatarImage, DisplayName: UseLeftAvatarImage, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar Image
 #DesignerProperty: Key: Avatar, DisplayName: LeftAvatarImage, FieldType: String, DefaultValue: avatar, Description: Field name for Avatar Image
@@ -40,7 +41,7 @@
 #DesignerProperty: Key: AvatarIconColor, DisplayName: LeftAvatarIconColor, FieldType: String, DefaultValue: avatariconcolor, Description: Left Avatar IconColor
 #DesignerProperty: Key: UseLeftAvatarText, DisplayName: UseLeftAvatarText, FieldType: Boolean, DefaultValue: True, Description: Use Left Avatar Text
 #DesignerProperty: Key: AvatarText, DisplayName: LeftAvatarText, FieldType: String, DefaultValue: avatartext, Description: Field name for left Avatar Text
-#DesignerProperty: Key: AvatarTextClass, DisplayName: LeftAvatarTextClass, FieldType: String, DefaultValue: , Description: Left Avatar Text Class
+#DesignerProperty: Key: AvatarTextClass, DisplayName: LeftAvatarTextClass, FieldType: String, DefaultValue: white--text text-h6, Description: Left Avatar Text Class
 #DesignerProperty: Key: AvatarTextColor, DisplayName: LeftAvatarTextColor, FieldType: String, DefaultValue: avatartextcolor, Description: Left Avatar Text Color
 #DesignerProperty: Key: UseIcon, DisplayName: UseLefIcon, FieldType: Boolean, DefaultValue: True, Description: Use Left Icon
 #DesignerProperty: Key: Icon, DisplayName: LeftIcon, FieldType: String, DefaultValue: icon, Description: Field name for left icon
@@ -72,6 +73,7 @@
 #DesignerProperty: Key: SubTitle4Attr, DisplayName: SubTitle4Attr, FieldType: String, DefaultValue: , Description: SubTitle4 Attributes
 #DesignerProperty: Key: SubTitle4Class, DisplayName: SubTitle4Class, FieldType: String, DefaultValue: , Description: SubTitle4 Class
 #DesignerProperty: Key: UseRightAvatar, DisplayName: UseRightAvatar, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar
+#DesignerProperty: Key: RightAvatarSize, DisplayName: RightAvatarSize, FieldType: String, DefaultValue: 40, Description: Right Avatar Size
 #DesignerProperty: Key: RightItemAvatarClass, DisplayName: RightItemAvatarClass, FieldType: String, DefaultValue: , Description: Right Avatar Item Class
 #DesignerProperty: Key: UseRightAvatarImage, DisplayName: UseRightAvatarImage, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar Image
 #DesignerProperty: Key: RightAvatar, DisplayName: RightAvatarImage, FieldType: String, DefaultValue: rightavatar, Description: Field name for Right Avatar Image
@@ -84,7 +86,7 @@
 #DesignerProperty: Key: RightAvatarIconColor, DisplayName: RightAvatarIconColor, FieldType: String, DefaultValue: rightavatariconcolor, Description: Right Avatar Icon Color
 #DesignerProperty: Key: UseRightAvatarText, DisplayName: UseRightAvatarText, FieldType: Boolean, DefaultValue: True, Description: Use Right Avatar Text
 #DesignerProperty: Key: RightAvatarText, DisplayName: RightAvatarText, FieldType: String, DefaultValue: rightavatartext, Description: Field name for right avatar text
-#DesignerProperty: Key: RightAvatarTextClass, DisplayName: RightAvatarTextClass, FieldType: String, DefaultValue: , Description: Right Avatar Text Class
+#DesignerProperty: Key: RightAvatarTextClass, DisplayName: RightAvatarTextClass, FieldType: String, DefaultValue: white--text text-h6, Description: Right Avatar Text Class
 #DesignerProperty: Key: RightAvatarTextColor, DisplayName: RightAvatarTextColor, FieldType: String, DefaultValue: rightavatartextcolor, Description: Right Avatar Text Color
 #DesignerProperty: Key: UseRightImage, DisplayName: UseRightImage, FieldType: Boolean, DefaultValue: True, Description: Use Right Image
 #DesignerProperty: Key: RightImage, DisplayName: RightImage, FieldType: String, DefaultValue: rightimage, Description: Field name for right image

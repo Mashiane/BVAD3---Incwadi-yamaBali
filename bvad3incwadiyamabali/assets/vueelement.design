@@ -10,8 +10,8 @@
 #DesignerProperty: Key: SetColorByAttribute, DisplayName: Set Color By Attribute, FieldType: Boolean, DefaultValue: True, Description:
 #DesignerProperty: Key: LoremIpsum, DisplayName: Lorem Ipsum, FieldType: Boolean, DefaultValue: False, Description: Lorem ipsum.
 #DesignerProperty: Key: ActiveClass, DisplayName: Active Class, FieldType: String, DefaultValue: , Description: ActiveClass.
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|none|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|none|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|none|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|none|space-around|space-between|start
 #DesignerProperty: Key: AlignCenter, DisplayName: Align Center, FieldType: Boolean, DefaultValue: False, Description: AlignCenter
 #DesignerProperty: Key: Alt, DisplayName: Alt, FieldType: String, DefaultValue: , Description: Alt
 #DesignerProperty: Key: AppendIcon, DisplayName: Append Icon, FieldType: String, DefaultValue:  , Description:

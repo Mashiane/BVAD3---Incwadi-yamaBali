@@ -2,16 +2,18 @@
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: VModel, DisplayName: VModel, FieldType: String, DefaultValue: progress1 , Description: VModel
 #DesignerProperty: Key: Value, DisplayName: Value (Percentage), FieldType: String, DefaultValue: 10, Description: The percentage value for current progress
-#DesignerProperty: Key: ShowCaption, DisplayName: ShowCaption, FieldType: Boolean, DefaultValue: False, Description: ShowCaption
+#DesignerProperty: Key: ShowCaption, DisplayName: ShowCaption, FieldType: Boolean, DefaultValue: True, Description: ShowCaption
 #DesignerProperty: Key: Caption, DisplayName: Caption VModel*, FieldType: String, DefaultValue: {{ progress1 }}, Description: Caption
 #DesignerProperty: Key: Rotate, DisplayName: Rotate (Start Degree), FieldType: Int, DefaultValue: 0, Description: Rotates the circle start point in deg
 #DesignerProperty: Key: Size, DisplayName: Size (Diameter), FieldType: Int, DefaultValue: 32, Description: Sets the diameter of the circle in pixels
 #DesignerProperty: Key: Width, DisplayName: Width (Stroke), FieldType: Int, DefaultValue: 4, Description: Sets the stroke of the circle in pixels
-#DesignerProperty: Key: Indeterminate, DisplayName: Indeterminate, FieldType: Boolean, DefaultValue: True, Description: Constantly animates. use when loading progress is unknown
+#DesignerProperty: Key: Indeterminate, DisplayName: Indeterminate, FieldType: Boolean, DefaultValue: False, Description: Constantly animates. use when loading progress is unknown
 #DesignerProperty: Key: ShowAvatar, DisplayName: ShowAvatar, FieldType: Boolean, DefaultValue: False, Description: ShowAvatar
 #DesignerProperty: Key: Avatar, DisplayName: Avatar Image, FieldType: String, DefaultValue: ./assets/sponge.png, Description: Avatar Image
 #DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: primary, Description: Applies specified color to the control - it can be the name of material color for example success or purple or css color #033 or rgba255. 0. 0. 0, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ColorIntensity, DisplayName: ColorIntensity, FieldType: String, DefaultValue: normal, Description: ColorIntensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: TextColor, DisplayName: Text Color, FieldType: String, DefaultValue: none, Description: Text Color, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: Text Color Intensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: Key, DisplayName: Key, FieldType: String, DefaultValue: , Description: Key
 #DesignerProperty: Key: VFor, DisplayName: VFor, FieldType: String, DefaultValue: , Description: VFor
 #DesignerProperty: Key: VIf, DisplayName: VIf, FieldType: String, DefaultValue: , Description: VIf

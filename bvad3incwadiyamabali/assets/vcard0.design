@@ -15,8 +15,8 @@
 #DesignerProperty: Key: ExactPath, DisplayName: ExactPath, FieldType: Boolean, DefaultValue: False, Description: ExactPath
 #DesignerProperty: Key: Flat, DisplayName: Flat, FieldType: Boolean, DefaultValue: False, Description: Flat
 #DesignerProperty: Key: TextCenter, DisplayName: TextCenter, FieldType: Boolean, DefaultValue: false, Description: TextCenter
-#DesignerProperty: Key: Align, DisplayName: Vertical Align, FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
-#DesignerProperty: Key: Justify, DisplayName: Horizontal Align/Justify, FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
+#DesignerProperty: Key: Align, DisplayName: Align (Vertical), FieldType: String, DefaultValue: normal, Description: Align, List: baseline|center|end|normal|start|stretch
+#DesignerProperty: Key: Justify, DisplayName: Justify (Horizontal), FieldType: String, DefaultValue: normal, Description: Justify, List: center|end|normal|space-around|space-between|start
 #DesignerProperty: Key: BorderPosition, DisplayName: BorderPosition, FieldType: String, DefaultValue: none, Description: Border, List: bottom|left|none|right|top|all
 #DesignerProperty: Key: BorderColor, DisplayName: BorderColor, FieldType: String, DefaultValue: , Description: , List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: BorderRadius, DisplayName: Border Radius, FieldType: String, DefaultValue:  , Description:

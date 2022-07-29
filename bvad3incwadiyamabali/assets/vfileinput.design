@@ -5,6 +5,7 @@
 #DesignerProperty: Key: ButtonHeight, DisplayName: ButtonHeight, FieldType: String, DefaultValue: 104px, Description: ButtonHeight
 #DesignerProperty: Key: ButtonWidth, DisplayName: ButtonWidth, FieldType: String, DefaultValue: 104px, Description: ButtonWidth
 #DesignerProperty: Key: Disabled, DisplayName: Disabled, FieldType: Boolean, DefaultValue: False, Description: Disable the input
+#DesignerProperty: Key: Directory, DisplayName: Directory Chooser, FieldType: Boolean, DefaultValue: False, Description: Directory chooser
 #DesignerProperty: Key: Hidden, DisplayName: Hidden, FieldType: Boolean, DefaultValue: False, Description: Hidden
 #DesignerProperty: Key: Loading, DisplayName: Loading, FieldType: Boolean, DefaultValue: False, Description: Displays linear progress bar
 #DesignerProperty: Key: Readonly, DisplayName: Readonly, FieldType: Boolean, DefaultValue: False, Description: Readonly
@@ -20,6 +21,8 @@
 #DesignerProperty: Key: Clearable, DisplayName: Clearable, FieldType: Boolean, DefaultValue: False, Description: Add input clear functionality. default icon is Material Design Icons mdi-clear
 #DesignerProperty: Key: Color, DisplayName: Color, FieldType: String, DefaultValue: , Description: Applies specified color to the control - it can be the name of material color for example success or purple or css color #033 or rgba255. 0. 0. 0, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
 #DesignerProperty: Key: ColorIntensity, DisplayName: Colorintensity, FieldType: String, DefaultValue: , Description: Colorintensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
+#DesignerProperty: Key: TextColor, DisplayName: TextColor, FieldType: String, DefaultValue: none, Description: Applies specified text color to the control - it can be the name of material color for example success or purple or css color #033 or rgba255. 0. 0. 0, List: accent|amber|black|blue|blue-grey|brown|cyan|deep-orange|deep-purple|error|green|grey|indigo|info|light-blue|light-green|lime|none|orange|pink|primary|purple|red|secondary|success|teal|transparent|warning|white|yellow
+#DesignerProperty: Key: TextColorIntensity, DisplayName: Text Color Intensity, FieldType: String, DefaultValue: normal, Description: Colorintensity, List: accent-1|accent-2|accent-3|accent-4|darken-1|darken-2|darken-3|darken-4|lighten-1|lighten-2|lighten-3|lighten-4|lighten-5|normal
 #DesignerProperty: Key: Counter, DisplayName: Counter, FieldType: Boolean, DefaultValue: False, Description: Creates counter for input length; if no number is specified. it defaults to 25
 #DesignerProperty: Key: CounterSizeString, DisplayName: CounterSizeString, FieldType: String, DefaultValue: , Description: The text displayed when using the counter and show-size props
 #DesignerProperty: Key: CounterString, DisplayName: CounterString, FieldType: String, DefaultValue: , Description: The text displayed when using the counter prop
